@@ -1,0 +1,20 @@
+{
+  "name": "IvanInteractivo",
+  "version": "0.0.0",
+  "description": "Interactivo d3.js ivan yunis",
+  "authors": [
+    "CristianG54o"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "bower_components/",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "d3": "~3.5.3"
+  }
+}
