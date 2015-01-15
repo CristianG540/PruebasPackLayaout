@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+    <link type="text/css"  rel="stylesheet" href="../js/highlight.js/styles/tomorrow-night-bright.css">
+    <script type="text/javascript" src="../js/highlight.js/highlight.pack.js"></script>
+    <style type="text/css">
+
+      body {
+        background-image:url(../img/forcelayout.jpg);
+      }
+
+
+    </style>
+    <script type="text/javascript" src="../js/d3.v3.js"></script>
+    <script type="text/javascript" src="../js/slide.js"></script>
+    <script type="text/javascript">
+      var substeps = ['one', 'two', 'three'];
+
+      function step(cur_step) {
+        d3.select("#" + cur_step).style("display", "inherit")
+
+          if(cur_step == 'code_one') {
+            d3.selectAll("p").style("background-color", "orange")
+          }
+
+      };
+    </script>
+  </head>
+  <body>
+    <h1>What is the D3.js?</h1>
+    <br/><br/>
+    <p id="one" style="display:none;">Data-Driven Documents</p>
+    <p id="two" style="display:none;">Bind data to <i>Selections</i></p>
+    <p id="three" style="display:none;">Use Selections to visualize data</p>
+    <pre>
+    <code id="four" style="display:none;font-size: 70%;">
+      var values = [1,2,3];
+      d3.selectAll("h2")
+        .data(values).enter()
+        .append("h2")
+        .text(function(d) { return d; });
+    </code>
+    </pre>
+  </body>
+</html>

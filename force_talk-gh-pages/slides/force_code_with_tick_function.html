@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+    <link type="text/css"  rel="stylesheet" href="../js/highlight.js/styles/tomorrow.css">
+    <script type="text/javascript" src="../js/highlight.js/highlight.pack.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <script type="text/javascript" src="../js/d3.v3.js"></script>
+    <script type="text/javascript" src="../js/slide.js"></script>
+    <script type="text/javascript">
+      var substeps = ['highlight', 'more'];
+
+      function step(cur_step) {
+        if(cur_step == 'highlight') {
+          $('code').highlight('messWithNodePosition')
+
+        } else if(cur_step == 'more') {
+          $('code').unhighlight('messWithNodePosition')
+          $('code').highlight('d.x ')
+          $('code').highlight('d.y ')
+        }
+      };
+    </script>
+  </head>
+  <body>
+    <h2></h2>
+    <pre>
+      <code class="javascript medium">
+// called for every force 'tick'
+function tick() {
+
+  node.each(messWithNodePosition(params));
+
+  node.attr("cx", function(d) { return d.x; })
+      .attr("cy", function(d) { return d.y; });
+}
+
+function messWithNodePosition(params) {
+  return function(d) {
+    d.x += // modify x pos
+    d.y += // modify y pos
+  };
+}
+      </code>
+    </pre>
+    </body>
+
+    <!--https://developer.mozilla.org/en-US/docs/JavaScript/Reference/Functions_and_function_scope-->
+    <!--In JavaScript, functions are first-class objects, i.e. they are objects and can be manipulated and passed around just like any other object. Specifically, they are Function objects.-->
+</html>

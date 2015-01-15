@@ -1,0 +1,9 @@
+{
+    "jscodehints.detectedExclusions": [
+        "/Users/bebop/Desktop/cristianProj/IvanInteractivo/force_talk-gh-pages/interactive_network_demo/js/libs/modernizr-2.0.6.min.js",
+        "/Users/bebop/Desktop/cristianProj/IvanInteractivo/force_talk-gh-pages/js/highlight.js/highlight.pack.js",
+        "/Users/bebop/Desktop/cristianProj/IvanInteractivo/force_talk-gh-pages/js/underscore-min.js",
+        "/Users/bebop/Desktop/cristianProj/IvanInteractivo/js/testBubbles.js",
+        "/Users/bebop/Desktop/cristianProj/IvanInteractivo/force_talk-gh-pages/remix/js/libs/coffee-script.js"
+    ]
+}

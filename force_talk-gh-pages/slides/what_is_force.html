@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+    <link type="text/css"  rel="stylesheet" href="../js/highlight.js/styles/tomorrow-night-bright.css">
+    <script type="text/javascript" src="../js/highlight.js/highlight.pack.js"></script>
+    <style type="text/css">
+
+      body {
+        background-image:url(../img/forcelayout.jpg);
+      }
+
+
+    </style>
+    <script type="text/javascript" src="../js/d3.v3.js"></script>
+    <script type="text/javascript" src="../js/slide.js"></script>
+    <script type="text/javascript">
+      var substeps = ['one', 'two', 'three', 'four'];
+
+      function step(cur_step) {
+        d3.select("#" + cur_step).style("display", "inherit")
+      };
+    </script>
+  </head>
+  <body>
+    <h1>What is a Force Layout?</h1>
+    <br/><br/>
+    <p id="one" style="display:none;">Aesthetically pleasing network drawing algorithm</p>
+    <p id="two" style="display:none;">Creates a physical simulation</p>
+    <p id="three" style="display:none;">Forces move nodes each iteration</p>
+    <p id="four" style="display:none;">Settles into a stable configuration</p>
+  </body>
+</html>

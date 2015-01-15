@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="../css/style.css"/>
+    <link type="text/css"  rel="stylesheet" href="../js/highlight.js/styles/tomorrow.css">
+    <script type="text/javascript" src="../js/highlight.js/highlight.pack.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    <script type="text/javascript">
+      var substeps = ['highlight','more', 'morer', 'move'];
+
+      function step(cur_step) {
+        if(cur_step == 'highlight') {
+          $('code').highlight('(node1)')
+        } else if(cur_step == 'more') {
+          $('code').unhighlight('(node1)')
+          $('code').highlight('each')
+          $('code').highlight('\'node2\'')
+
+        } else if(cur_step == 'morer') {
+          $('code').unhighlight('each')
+          $('code').unhighlight('\'node2\'')
+          $('code').highlight('too close')
+          $('code').highlight('distance')
+        } else if(cur_step == 'move') {
+          $('code').highlight('move')
+        }
+      };
+    </script>
+
+    <script type="text/javascript" src="../js/d3.v3.js"></script>
+    <script type="text/javascript" src="../js/slide.js"></script>
+  </head>
+  <body>
+    <h2>Collide Pseudocode</h2>
+    <pre>
+      <code class="javascript" style="font-size: 82%;">
+function collide(alpha) {
+  return function(node1) {
+    //for each 'node2', in nodes
+    //  if node1 != node2
+    //    figure out distance between two nodes
+
+    //    if nodes are too close
+    //      move node1 back half
+    //      move node2 back half
+  };
+}
+      </code>
+    </pre>
+  </body>
+</html>
