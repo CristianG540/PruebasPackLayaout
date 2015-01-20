@@ -2,13 +2,12 @@
 /*global d3 */
 var testBubblesMod = (function (window, d3, undefined) {
 
-
     var _private = {
         COLOR           : d3.scale.category20c(),
         FORMAT          : d3.format(',d'),
         data            : '',
-        width           : 960,
-        height          : 510,
+        width           : 1524,
+        height          : 515,
         margin          : { top: 5, right: 0, bottom: 0, left: 0 },
         label           : '',
         node            : '',
@@ -28,6 +27,15 @@ var testBubblesMod = (function (window, d3, undefined) {
         textValue       : function(d){
             return d.className;
         },
+        /**
+         * funcion para definir el tipo de nodo, con esto puedo darle propiedades diferente a cada
+         * nodo y la funcion me permite cambiar el key del data set con facilidad
+         * @param   {Object}   d [[Description]]
+         * @returns {[[Type]]} [[Description]]
+         */
+        nodeType        : function(d){
+            return d.packageName;
+        },
         // constants to control how
         // collision look and act
         COLLISION_PADDING : 4,
@@ -44,10 +52,11 @@ var testBubblesMod = (function (window, d3, undefined) {
         clear           : function(){
             location.replace('#');
         },
+        // this scale will be used to size our bubbles
         rScale          : function(){
             var scope = this;
-            return d3.scale.sqrt()
-                .range([0, scope.maxRadius]);
+            return  d3.scale.sqrt()
+                        .range([0, scope.maxRadius]);
         },
         // The force variable is the force layout controlling the bubbles
         // here we disable gravity and charge as we implement custom versions
@@ -59,7 +68,10 @@ var testBubblesMod = (function (window, d3, undefined) {
                 .gravity(0)
                 .charge(0)
                 .size([scope.width, scope.height])
-                .on('tick', scope.tick);
+                // Aqui llamo la funcion tick desde una funcion anonima, por q si la llamo desde el .on cuando este dentro de la funcion tick el this de la funcion se remplasa por el elemento html en la seleccion del .on
+                .on('tick', function(e){
+                    scope.tick(e, scope);
+                });
 
         },
         // ---
@@ -152,9 +164,9 @@ var testBubblesMod = (function (window, d3, undefined) {
         // - deals with collisions of force nodes
         // - updates visual bubbles to reflect new force node locations
         // ---
-        tick            : function (e) {
-            var scope = this,
-                dampenedAlpha = e.alpha * 0.1;
+        tick            : function (e, scope) {
+
+            var dampenedAlpha = e.alpha * 0.1;
 
             // Most of the work is done by the gravity and collide
             // functions.
@@ -179,10 +191,13 @@ var testBubblesMod = (function (window, d3, undefined) {
             var scope = this;
 
             selection.each(function (d, i){
-
+                debugger;
                 var svg,
                     svgEnter,
                     maxDomainValue;
+                scope.rScale = scope.rScale();
+                scope.force = scope.force();
+
 
                 //first, get the data in the right format
                 scope.data = scope.transformData(d);
@@ -192,15 +207,16 @@ var testBubblesMod = (function (window, d3, undefined) {
                 maxDomainValue = d3.max(scope.data, function(d){
                     return parseInt(d.value);
                 });
+
                 scope.rScale
                     .domain([0, maxDomainValue]);
 
                 // a fancy way to setup svg element
-                svg = d3.select(this).selectAll('svg').data(scope.data);
+                svg = d3.select(this).selectAll('svg').data([scope.data]);
                 svgEnter =  svg.enter().append('svg');
                 svg
                     .attr( 'width', scope.width + scope.margin.left + scope.margin.right )
-                    .attr( 'height', scope.width + scope.margin.top + scope.margin.bottom );
+                    .attr( 'height', scope.height + scope.margin.top + scope.margin.bottom );
 
                 // node will be used to group the bubbles
                 scope.node = svgEnter.append('g')
@@ -221,11 +237,21 @@ var testBubblesMod = (function (window, d3, undefined) {
                 //  the bubbles in svg
 
                 scope.label = d3.select(this).selectAll('#bubble-labels')
-                    .data(scope.data)
+                    .data([scope.data])
                     .enter()
                         .append('div')
                         .attr('id', 'bubble-labels');
 
+                scope.update();
+
+                // see if url includes an id already
+                scope.hashchange();
+
+                // automatically call hashchange when the url has changed
+                d3.select(window)
+                    .on('hashchange', function(){
+                        scope.hashchange();
+                    });
 
             });
         },
@@ -254,7 +280,7 @@ var testBubblesMod = (function (window, d3, undefined) {
         // ---
         // updateNodes creates a new bubble for each node in our dataset
         // ---
-        updateNode  : function(){
+        updateNodes  : function(){
             var scope = this;
             // here we are using the idValue function to uniquely bind our
             // data to the (currently) empty 'bubble-node selection'.
@@ -272,6 +298,9 @@ var testBubblesMod = (function (window, d3, undefined) {
             scope.node.enter()
                 .append('a')
                 .attr('class', 'bubble-node')
+                .attr('id', function(d){
+                    return scope.nodeType(d);
+                })
                 .attr('xlink:href', function(d){
                     return "#" + (encodeURIComponent(scope.idValue(d)));
                 })
@@ -279,7 +308,7 @@ var testBubblesMod = (function (window, d3, undefined) {
                 .call(scope.connectEvents)
                 .append('circle')
                 .attr('r', function(d){
-                    scope.rScale(parseInt(d.value));
+                    return scope.rScale(parseInt(d.value));
                 });
         },
         // ---
@@ -331,7 +360,7 @@ var testBubblesMod = (function (window, d3, undefined) {
             //  styling divs
             scope.label
                 .style('font-size', function(d) {
-                    return Math.max(8, scope.rScale(parseInt(d.value) / 2)) + 'px';
+                    return Math.max(8, scope.rScale(parseInt(d.value) / 4)) + 'px';
                 })
                 .style('width', function(d) {
                     return 2.5 * scope.rScale(parseInt(d.value)) + 'px';
@@ -424,9 +453,9 @@ var testBubblesMod = (function (window, d3, undefined) {
                     return id === scope.idValue(d);
                 });
             if (id.length > 0) {
-                return d3.select("#status").html("<h3>The word <span class=\"active\">" + id + "</span> is now active</h3>");
+                return d3.select("#status").html("<h3>La borbuja <span class=\"active\">" + id + "</span> esta seleccionada</h3>");
             } else {
-                return d3.select("#status").html("<h3>No word is active</h3>");
+                return d3.select("#status").html("<h3>No hay ninguna burbuja seleccionada</h3>");
             }
         }
 
@@ -473,15 +502,75 @@ var testBubblesMod = (function (window, d3, undefined) {
 
 })(window, d3);
 
-
-
+// ---
+// Helper function that simplifies the calling
+// of our chart with it's data and div selector
+// specified
+// ---
 var graphicData = function(selector, data, graphic){
     d3.select(selector)
         .datum(data)
         .call(graphic.runGraphic);
 };
 
+var resources = [
+    {
+        key : "test1",
+        file: "enfermedadesTest.csv",
+        name: "Datos de prueba 1"
+    }
+];
+
 $(function() {
+    var display, key, plot, resource;
+    debugger;
+    // ---
+    // function that is called when
+    // data is loaded
+    // ---
+    display = function(data){
+        graphicData('#vis', data, testBubblesMod);
+    };
+
+    // we are storing the current text in the search component
+    // just to make things easy
+    key = decodeURIComponent(location.search).replace("?", "");
+    resource = resources.filter(function(d) {
+        return d.key === key;
+    })[0];
+
+    // default to the first text if something gets messed up
+    if(!resource){
+        resource = resources[0];
+    }
+
+    // select the current text in the drop-down
+    $("#text-select").val(key);
+
+    // bind change in jitter range slider
+    // to update the plot's jitter
+    d3.select('#text-select')
+        .on('input', function(){
+            testBubblesMod.setJitter(parseFloat(this.output.value));
+        });
+
+    // bind change in drop down to change the
+    // search url and reset the hash url
+    d3.select('#text-select')
+        .on ('change', function(e){
+            key = $(this).val();
+            location.replace("#");
+            location.search = encodeURIComponent(key);
+        });
+
+    // set the book title from the text name
+    d3.select("#book-title").html(resource.name);
+
+    // load our data
+    d3.csv('data/'+resource.file, display);
+
+
+
 
 
 });
