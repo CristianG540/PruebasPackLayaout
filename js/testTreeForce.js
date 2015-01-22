@@ -1,127 +1,76 @@
 /*jshint camelcase: true, debug: true, browser: true, jquery: true*/
 /*global d3 */
 (function () {
+    debugger;
     var width = 960,
-        height = 500,
-        root;
-
-    var force = d3.layout.force()
-        .linkDistance(80)
-        .charge(-120)
-        .gravity(.05)
-        .size([width, height])
-        .on("tick", tick);
+        height = 500;
 
     var svg = d3.select("body").append("svg")
         .attr("width", width)
         .attr("height", height);
 
-    var link = svg.selectAll(".link"),
-        node = svg.selectAll(".node");
+    var force = d3.layout.force()
+        .size([width, height]);
 
-    d3.json("https://gist.githubusercontent.com/mbostock/1093130/raw/9de036e90f1fb108517de13410d26913dd42e913/graph.json", function (error, json) {
-        root = json;
-        update();
-    });
+    d3.csv("data/graph.csv", function (links) {
+        var nodesByName = {};
 
-    function update() {
-        var nodes = flatten(root),
-            links = d3.layout.tree().links(nodes);
+        // Create nodes for each unique source and target.
+        links.forEach(function (link) {
+            link.source = nodeByName(link.source);
+            link.target = nodeByName(link.target);
+        });
 
-        // Restart the force layout.
+        // Extract the array of nodes from the map by name.
+        var nodes = d3.values(nodesByName);
+
+        // Create the link lines.
+        var link = svg.selectAll(".link")
+            .data(links)
+            .enter().append("line")
+            .attr("class", "link");
+
+        // Create the node circles.
+        var node = svg.selectAll(".node")
+            .data(nodes)
+            .enter().append("circle")
+            .attr("class", "node")
+            .attr("r", 4.5)
+            .call(force.drag);
+
+        // Start the force layout.
         force
             .nodes(nodes)
             .links(links)
+            .on("tick", tick)
             .start();
 
-        // Update links.
-        link = link.data(links, function (d) {
-            return d.target.id;
-        });
-
-        link.exit().remove();
-
-        link.enter().insert("line", ".node")
-            .attr("class", "link");
-
-        // Update nodes.
-        node = node.data(nodes, function (d) {
-            return d.id;
-        });
-
-        node.exit().remove();
-
-        var nodeEnter = node.enter().append("g")
-            .attr("class", "node")
-            .on("click", click)
-            .call(force.drag);
-
-        nodeEnter.append("circle")
-            .attr("r", function (d) {
-                return Math.sqrt(d.size) / 10 || 4.5;
-            });
-
-        nodeEnter.append("text")
-            .attr("dy", ".35em")
-            .text(function (d) {
-                return d.name;
-            });
-
-        node.select("circle")
-            .style("fill", color);
-    }
-
-    function tick() {
-        link.attr("x1", function (d) {
-            return d.source.x;
-        })
-            .attr("y1", function (d) {
-                return d.source.y;
+        function tick() {
+            link.attr("x1", function (d) {
+                return d.source.x;
             })
-            .attr("x2", function (d) {
-                return d.target.x;
+                .attr("y1", function (d) {
+                    return d.source.y;
+                })
+                .attr("x2", function (d) {
+                    return d.target.x;
+                })
+                .attr("y2", function (d) {
+                    return d.target.y;
+                });
+
+            node.attr("cx", function (d) {
+                return d.x;
             })
-            .attr("y2", function (d) {
-                return d.target.y;
-            });
-
-        node.attr("transform", function (d) {
-            return "translate(" + d.x + "," + d.y + ")";
-        });
-    }
-
-    function color(d) {
-        return d._children ? "#3182bd" // collapsed package
-            : d.children ? "#c6dbef" // expanded package
-            : "#fd8d3c"; // leaf node
-    }
-
-    // Toggle children on click.
-    function click(d) {
-        if (d3.event.defaultPrevented) return; // ignore drag
-        if (d.children) {
-            d._children = d.children;
-            d.children = null;
-        } else {
-            d.children = d._children;
-            d._children = null;
-        }
-        update();
-    }
-
-    // Returns a list of all nodes under the root.
-    function flatten(root) {
-        var nodes = [],
-            i = 0;
-
-        function recurse(node) {
-            if (node.children) node.children.forEach(recurse);
-            if (!node.id) node.id = ++i;
-            nodes.push(node);
+                .attr("cy", function (d) {
+                    return d.y;
+                });
         }
 
-        recurse(root);
-        return nodes;
-    }
-
+        function nodeByName(name) {
+            return nodesByName[name] || (nodesByName[name] = {
+                name: name
+            });
+        }
+    });
 })();

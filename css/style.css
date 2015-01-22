@@ -54,19 +54,25 @@ header {
   /* fill: #d1e0f3; */ }
 
 /* line 57, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+.bubble-links {
+  stroke: #000;
+  stroke-opacity: 0.6;
+  stroke-width: 2px; }
+
+/* line 64, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #sintoma {
   fill: white; }
 
-/* line 60, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 67, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #enfermedad {
   fill: #fc7950; }
 
-/* line 64, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 71, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-hover {
   /* fill: #b8c7d9; */
   fill: #E8E9E7; }
 
-/* line 69, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 76, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-selected {
   /* fill: #a8c8ee;  */
   fill: #FF524B !important;
@@ -74,11 +80,11 @@ header {
   stroke: #864d4d;
   stroke-width: 1.5px; }
 
-/* line 77, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 84, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .active {
   color: #d6342d; }
 
-/* line 83, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 88, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 a.bubble-label {
   font-family: georgia, "times new roman", times, serif;
   color: inherit;
@@ -89,12 +95,12 @@ a.bubble-label {
   line-height: 1em;
   position: absolute; }
 
-/* line 97, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 100, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-label .bubble-label-value {
   font: 11px sans-serif;
   white-space: nowrap; }
 
-/* line 103, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 106, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 footer p {
   text-align: center;
   padding-top: 20px;

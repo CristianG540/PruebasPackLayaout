@@ -1,0 +1,330 @@
+{
+    "nodes": [
+        {
+            "packageName": "sintoma",
+            "className": "Acné",
+            "value": "12",
+            "name": "Acné"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Acido Urico Alto",
+            "value": "4",
+            "name": "Acido Urico"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "ACV o Derrames",
+            "value": "7",
+            "name": "Derrames"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Aftas",
+            "value": "4",
+            "name": "Aftas"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Agrandamiento de la próstata",
+            "value": "9",
+            "name": "Agrandamiento próstata"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Agrietamiento en la esquina de los labios",
+            "value": "3",
+            "name": "Agrietamiento labios"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Alergia o congestión por el polvo o mohos",
+            "value": "6",
+            "name": "Congestión"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Alergias y Gripas",
+            "value": "6",
+            "name": "Alergias"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Alimentos sin digerir en la deposición",
+            "value": "2",
+            "name": "Alimentos sin digerir"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Alzheimer",
+            "value": "24",
+            "name": "Alzheimer"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Diabetes",
+            "value": "10",
+            "name": "Diabetes"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Amanece cansad@",
+            "value": "23",
+            "name": "Amanece cansado"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Anemia",
+            "value": "8",
+            "name": "Anemia"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Angina de pecho o dolor en el pecho",
+            "value": "13",
+            "name": "Angina"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Mareos",
+            "value": "13",
+            "name": "Mareos"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Ansiedad preocupaciones con facilidad",
+            "value": "21",
+            "name": "Ansiedad"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Antojo de carbohidratos",
+            "value": "3",
+            "name": "Antojos"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Apnea del Sueño",
+            "value": "9",
+            "name": "Apnea del Sueño"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Arritmia cardíaca",
+            "value": "3",
+            "name": "Arritmia"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Artritis Reumatoidea",
+            "value": "14",
+            "name": "Artritis"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Artrosis",
+            "value": "13",
+            "name": "Artrosis"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Asma bronquial",
+            "value": "7",
+            "name": "Asma"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Ataques de estornudos",
+            "value": "6",
+            "name": "Estornudos"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Autismo",
+            "value": "20",
+            "name": "Autismo"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Baja alegría de vivir",
+            "value": "10",
+            "name": "Baja alegría"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Baja capacidad de hacer deporte",
+            "value": "10",
+            "name": "Bajo deporte"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Baja capacidad de trabajo",
+            "value": "10",
+            "name": "Bajo trabajo"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Baja inmunidad",
+            "value": "10",
+            "name": "Baja inmunidad"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Baja presión arterial",
+            "value": "10",
+            "name": "Precion baja"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Baja resistencia",
+            "value": "10",
+            "name": "Baja resistencia"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Bajo deseo sexual",
+            "value": "10",
+            "name": "Bajo deseo sexual"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Bolsas u ojeras debajo de los ojos",
+            "value": "6",
+            "name": "Ojeras"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Caída del cabello",
+            "value": "16",
+            "name": "Caída cabello"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Calambres musculares",
+            "value": "2",
+            "name": "Calambres"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cálculos biliares",
+            "value": "4",
+            "name": "Cálculos biliares"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cálculos renales",
+            "value": "5",
+            "name": "Cálculos renales"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Callos gruesos / resequedad en talones / fisuras",
+            "value": "13",
+            "name": "Callos"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Cambios de humor",
+            "value": "10",
+            "name": "Cambios humor"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Cambios del estado de ánimo",
+            "value": "11",
+            "name": "Cambios de ánimo"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cáncer",
+            "value": "24",
+            "name": "Cáncer"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cataratas",
+            "value": "3",
+            "name": "Cataratas"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Cefalea tensional / dolor atrás de la cabeza",
+            "value": "18",
+            "name": "Cefalea"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Hipertensión Arterial",
+            "value": "23",
+            "name": "Hipertensión"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Ciática",
+            "value": "3",
+            "name": "Ciática"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cirrosis del hígado",
+            "value": "20",
+            "name": "Cirrosis"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cistitis a Repetición",
+            "value": "5",
+            "name": "Cistitis"
+        }
+    ],
+    "links": [
+        {
+            "source": {
+                "className": "Mareos"
+            },
+            "target": {
+                "className": "Artritis Reumatoidea"
+            }
+        },
+        {
+            "source": {
+                "className": "Mareos"
+            },
+            "target": {
+                "className": "Hipertensión Arterial"
+            }
+        },
+        {
+            "source": {
+                "className": "Mareos"
+            },
+            "target": {
+                "className": "Diabetes"
+            }
+        },
+        {
+            "source": {
+                "className": "Caída del cabello"
+            },
+            "target": {
+                "className": "Artritis Reumatoidea"
+            }
+        },
+        {
+            "source": {
+                "className": "Caída del cabello"
+            },
+            "target": {
+                "className": "Hipertensión Arterial"
+            }
+        },
+        {
+            "source": {
+                "className": "Caída del cabello"
+            },
+            "target": {
+                "className": "Diabetes"
+            }
+        }
+    ]
+}

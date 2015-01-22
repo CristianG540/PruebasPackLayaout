@@ -1,44 +1,44 @@
-packageName,className,value
-sintoma,Acné,12
-enfermedad,Acido Urico Alto,4
-enfermedad,ACV o Derrames,7
-sintoma,Aftas,4
-sintoma,Agrandamiento de la próstata,9
-sintoma,Agrietamiento en la esquina de los labios,3
-sintoma,Alergia o congestión por el polvo o mohos,6
-enfermedad,Alergias y Gripas,6
-sintoma,Alimentos sin digerir en la deposición,2
-enfermedad,Alzheimer,24
-sintoma,Amanece cansad@,23
-enfermedad,Anemia,8
-sintoma,Angina de pecho o dolor en el pecho,13
-sintoma,Ansiedad preocupaciones con facilidad,21
-sintoma,Antojo de carbohidratos,3
-enfermedad,Apnea del Sueño,9
-enfermedad,Arritmia cardíaca,3
-enfermedad,Artritis Reumatoidea,14
-enfermedad,Artrosis,13
-enfermedad,Asma bronquial,7
-sintoma,Ataques de estornudos,6
-enfermedad,Autismo,20
-sintoma,Baja alegría de vivir,10
-sintoma,Baja capacidad de hacer deporte,10
-sintoma,Baja capacidad de trabajo,10
-sintoma,Baja inmunidad,10
-sintoma,Baja presión arterial,10
-sintoma,Baja resistencia,10
-sintoma,Bajo deseo sexual,10
-sintoma,Bolsas u ojeras debajo de los ojos,6
-sintoma,Caída del cabello,16
-sintoma,Calambres musculares,2
-enfermedad,Cálculos biliares,4
-enfermedad,Cálculos renales,5
-sintoma,Callos gruesos / resequedad en talones / fisuras,13
-sintoma,Cambios de humor,10
-sintoma,Cambios del estado de ánimo,11
-enfermedad,Cáncer,24
-enfermedad,Cataratas,3
-sintoma,Cefalea tensional / dolor atrás de la cabeza,18
-enfermedad,Ciática,3
-enfermedad,Cirrosis del hígado,20
-enfermedad,Cistitis a Repetición,5
+packageName,className,value,name
+sintoma,Acné,12,Acné
+enfermedad,Acido Urico Alto,4,Acido Urico
+enfermedad,ACV o Derrames,7,Derrames
+sintoma,Aftas,4,Aftas
+sintoma,Agrandamiento de la próstata,9,Agrandamiento próstata
+sintoma,Agrietamiento en la esquina de los labios,3,Agrietamiento labios
+sintoma,Alergia o congestión por el polvo o mohos,6,Congestión
+enfermedad,Alergias y Gripas,6,Alergias
+sintoma,Alimentos sin digerir en la deposición,2,Alimentos sin digerir
+enfermedad,Alzheimer,24,Alzheimer
+sintoma,Amanece cansad@,23,Amanece cansado
+enfermedad,Anemia,8,Anemia
+sintoma,Angina de pecho o dolor en el pecho,13,Angina
+sintoma,Ansiedad preocupaciones con facilidad,21,Ansiedad
+sintoma,Antojo de carbohidratos,3,Antojos
+enfermedad,Apnea del Sueño,9,Apnea del Sueño
+enfermedad,Arritmia cardíaca,3,Arritmia
+enfermedad,Artritis Reumatoidea,14,Artritis
+enfermedad,Artrosis,13,Artrosis
+enfermedad,Asma bronquial,7,Asma
+sintoma,Ataques de estornudos,6,Estornudos
+enfermedad,Autismo,20,Autismo
+sintoma,Baja alegría de vivir,10,Baja alegría
+sintoma,Baja capacidad de hacer deporte,10,Bajo deporte
+sintoma,Baja capacidad de trabajo,10,Bajo trabajo
+sintoma,Baja inmunidad,10,Baja inmunidad
+sintoma,Baja presión arterial,10,Precion baja
+sintoma,Baja resistencia,10,Baja resistencia
+sintoma,Bajo deseo sexual,10,Bajo deseo sexual
+sintoma,Bolsas u ojeras debajo de los ojos,6,Ojeras
+sintoma,Caída del cabello,16,Caída cabello
+sintoma,Calambres musculares,2,Calambres
+enfermedad,Cálculos biliares,4,Cálculos biliares
+enfermedad,Cálculos renales,5,Cálculos renales
+sintoma,Callos gruesos / resequedad en talones / fisuras,13,Callos
+sintoma,Cambios de humor,10,Cambios humor
+sintoma,Cambios del estado de ánimo,11,Cambios de ánimo
+enfermedad,Cáncer,24,Cáncer
+enfermedad,Cataratas,3,Cataratas
+sintoma,Cefalea tensional / dolor atrás de la cabeza,18,Cefalea
+enfermedad,Ciática,3,Ciática
+enfermedad,Cirrosis del hígado,20,Cirrosis
+enfermedad,Cistitis a Repetición,5,Cistitis

@@ -1,16 +1,18 @@
 /*jshint camelcase: true, debug: true, browser: true, jquery: true*/
-/*global d3 */
-var testBubblesMod = (function (window, d3, undefined) {
+/*global d3, _ */
+var testBubblesMod = (function (window, d3, _, undefined) {
 
     var _private = {
         COLOR           : d3.scale.category20c(),
         FORMAT          : d3.format(',d'),
         data            : '',
+        dataLinks       : '',
         width           : 1524,
-        height          : 515,
+        height          : 650,
         margin          : { top: 5, right: 0, bottom: 0, left: 0 },
         label           : '',
         node            : '',
+        links           : '',
         // largest size for our bubbles
         maxRadius       : 65,
         // function to define the 'id' of a data element
@@ -25,7 +27,7 @@ var testBubblesMod = (function (window, d3, undefined) {
         //  again, abstracted to ease migration to
         //  a different dataset if desired
         textValue       : function(d){
-            return d.className;
+            return d.name;
         },
         /**
          * funcion para definir el tipo de nodo, con esto puedo darle propiedades diferente a cada
@@ -38,7 +40,7 @@ var testBubblesMod = (function (window, d3, undefined) {
         },
         // constants to control how
         // collision look and act
-        COLLISION_PADDING : 4,
+        COLLISION_PADDING : 30,
         MIN_COLLISION_RADIUS : 12,
         // variables that can be changed
         // to tweak how the force layout
@@ -150,12 +152,41 @@ var testBubblesMod = (function (window, d3, undefined) {
         // ---
         transformData   : function(rawData){
             rawData.forEach(function(d) {
-                d.count = parseInt(d.count);
+                d.value = parseInt(d.value);
                 return rawData.sort(function() {
                     return 0.5 - Math.random();
                 });
             });
             return rawData;
+        },
+
+        getLinks        : function(links, nodes){
+            var scope = this;
+            /**
+             * Este map esta haciendo un findwhere en el objeto con los nodos, esto me devuelve el nodo al que
+             * hago referencia en el objeto de links ej. en links tengo el key source, si le mando el valor de
+             * source al findWhere este me devuelve el nodo donde el nombre sea el mismo y ya con ese nodo puedo
+             * hacer un indexOf al objeto de nodos y asi saber q posicion tiene ese nodo en el array.
+             * nodo y la funcion me permite cambiar el key del data set con facilidad
+             * @returns {Object} Me devuelve un objeto con la siguiente estructura { 'source' : 0, 'target' : 0 }
+             * donde 'source' tiene el nodo donde se inicia la conexion del link
+             * y 'target' tiene el node con el que se conectara
+             */
+            var linksByIndex = _.map(links, function(link, key, list){
+
+                var originalSrcNode = _.findWhere(nodes, link.source);
+                var originalTrgtNode = _.findWhere(nodes, link.target);
+
+                var linkIndex = {
+                    'source' : _.indexOf(nodes, originalSrcNode),
+                    'target' : _.indexOf(nodes, originalTrgtNode)
+                };
+
+                return linkIndex;
+            });
+
+            return linksByIndex;
+
         },
         // ---
         // tick callback function will be executed for every
@@ -175,6 +206,20 @@ var testBubblesMod = (function (window, d3, undefined) {
                 .each(scope.collide(scope.jitter))
                 .attr('transform', function(d){
                     return 'translate('+d.x+', '+d.y+')';
+                });
+
+            scope.links
+                .attr("x1", function (d) {
+                    return d.source.x;
+                })
+                .attr("y1", function (d) {
+                    return d.source.y;
+                })
+                .attr("x2", function (d) {
+                    return d.target.x;
+                })
+                .attr("y2", function (d) {
+                    return d.target.y;
                 });
 
             // As the labels are created in raw html and not svg, we need
@@ -200,7 +245,9 @@ var testBubblesMod = (function (window, d3, undefined) {
 
 
                 //first, get the data in the right format
-                scope.data = scope.transformData(d);
+                scope.data = scope.transformData(d.nodes);
+
+                scope.dataLinks = d.links;
 
                 // setup the radius scale's domain now that
                 // we have some data
@@ -256,7 +303,8 @@ var testBubblesMod = (function (window, d3, undefined) {
             });
         },
         update  : function(){
-            var scope = this;
+            var scope = this,
+                links = '';
 
             //add a radius to our data nodes that will serve to determine
             //when a collision has occurred. This uses the same scale as
@@ -267,9 +315,12 @@ var testBubblesMod = (function (window, d3, undefined) {
                 d.forceR = Math.max( scope.MIN_COLLISION_RADIUS, scope.rScale( parseInt(d.value) ) );
             });
 
+            links = scope.getLinks(scope.dataLinks, scope.data);
+
             //start up the force layout
             scope.force
                 .nodes(scope.data)
+                .links(links)
                 .start();
 
             // call our update methods to do the creation and layout work
@@ -282,6 +333,16 @@ var testBubblesMod = (function (window, d3, undefined) {
         // ---
         updateNodes  : function(){
             var scope = this;
+
+            scope.links = scope.node.selectAll('.bubble-links')
+                .data(scope.force.links());
+
+            scope.links.exit().remove();
+
+            scope.links.enter()
+                .append('line')
+                .attr('class', 'bubble-links');
+
             // here we are using the idValue function to uniquely bind our
             // data to the (currently) empty 'bubble-node selection'.
             // if you want to use your own data, you just need to modify what
@@ -310,6 +371,10 @@ var testBubblesMod = (function (window, d3, undefined) {
                 .attr('r', function(d){
                     return scope.rScale(parseInt(d.value));
                 });
+
+
+
+
         },
         // ---
         // updateLabels is more involved as we need to deal with getting the sizing
@@ -500,7 +565,7 @@ var testBubblesMod = (function (window, d3, undefined) {
 
     return public;
 
-})(window, d3);
+})(window, d3, _);
 
 // ---
 // Helper function that simplifies the calling
@@ -516,7 +581,7 @@ var graphicData = function(selector, data, graphic){
 var resources = [
     {
         key : "test1",
-        file: "enfermedadesTest.csv",
+        file: "enfermedadesTest.json",
         name: "Datos de prueba 1"
     }
 ];
@@ -567,7 +632,7 @@ $(function() {
     d3.select("#book-title").html(resource.name);
 
     // load our data
-    d3.csv('data/'+resource.file, display);
+    d3.json('data/'+resource.file, display);
 
 
 
