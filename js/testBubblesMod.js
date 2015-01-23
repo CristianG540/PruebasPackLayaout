@@ -7,9 +7,9 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         FORMAT          : d3.format(',d'),
         data            : '',
         dataLinks       : '',
-        width           : 1524,
-        height          : 650,
-        margin          : { top: 5, right: 0, bottom: 0, left: 0 },
+        margin          : { top: 50, right: 50, bottom: 0, left: 50 },
+        width           : 1600,
+        height          : 800,
         label           : '',
         node            : '',
         links           : '',
@@ -88,7 +88,7 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         },
         // constants to control how
         // collision look and act
-        COLLISION_PADDING : 30,
+        COLLISION_PADDING : 14,
         MIN_COLLISION_RADIUS : 12,
         // variables that can be changed
         // to tweak how the force layout
@@ -124,6 +124,8 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         // of gravity and collisions for this visualization
         force           : function(){
             var scope = this;
+
+            // Para un poco mas de info y snnipets de codigo mirar es ta url http://www.coppelia.io/2014/07/an-a-to-z-of-extra-features-for-the-d3-force-layout/
 
             return d3.layout.force()
                 .gravity(0)
@@ -264,9 +266,20 @@ var testBubblesMod = (function (window, d3, _, undefined) {
                 .each(scope.gravity(dampenedAlpha))
                 .each(scope.collide(scope.jitter))
                 .attr('transform', function(d){
+
+                    // Aqui lo que hago es encerrar los nodos en un rectangulo por asi decirlo
+                    // en el siguiente enlace hay mas info http://stackoverflow.com/questions/13488862/bounding-box-in-d3-js
+                    var radius = scope.rScale(parseInt(d.value));
+                    d.x = Math.max(radius, Math.min(scope.width - radius, d.x));
+                    d.y = Math.max(radius, Math.min(scope.height - radius, d.y));
+
                     return 'translate('+d.x+', '+d.y+')';
                 });
 
+                //return scope.rScale(parseInt(d.value));
+
+
+            // Se agregan los links a las graficas 'las lineas de las imagenes jajaja'
             scope.links
                 .attr("x1", function (d) {
                     return d.source.x;
@@ -302,6 +315,9 @@ var testBubblesMod = (function (window, d3, _, undefined) {
                 scope.rScale = scope.rScale();
                 scope.force = scope.force();
 
+                scope.width = 1600 - scope.margin.left - scope.margin.right;
+                scope.height = 800 - scope.margin.top - scope.margin.bottom;
+
 
                 //first, get the data in the right format
                 scope.data = scope.transformData(d.nodes);
@@ -334,6 +350,7 @@ var testBubblesMod = (function (window, d3, _, undefined) {
                     .attr('id', 'bubble-background')
                     .attr('width', scope.width)
                     .attr('height', scope.height)
+                    .style("stroke", "#000")
                     .on('click', function(){
                         scope.clear();
                     });
@@ -382,6 +399,7 @@ var testBubblesMod = (function (window, d3, _, undefined) {
             scope.force
                 .nodes(scope.data)
                 .links(scope.dataLinks)
+                .linkDistance(50)
                 .start();
 
             // call our update methods to do the creation and layout work
@@ -672,6 +690,11 @@ var resources = [
         key : "test1",
         file: "enfermedadesTest.json",
         name: "Datos de prueba 1"
+    },
+    {
+        key : "test2",
+        file: "enfermedadesTest2.json",
+        name: "Datos de prueba 2"
     }
 ];
 

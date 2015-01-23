@@ -2,6 +2,24 @@
     "nodes": [
         {
             "packageName": "sintoma",
+            "className": "Sudoración excesiva",
+            "value": "10",
+            "name": "Sudoración excesiva"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Rubor, oleadas de calor o sofoco",
+            "value": "10",
+            "name": "Sofocos"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Insomnio",
+            "value": "10",
+            "name": "Insomnio"
+        },
+        {
+            "packageName": "sintoma",
             "className": "Acné",
             "value": "12",
             "name": "Acné"
@@ -41,6 +59,18 @@
             "className": "Alergia o congestión por el polvo o mohos",
             "value": "6",
             "name": "Congestión"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Estrés",
+            "value": "10",
+            "name": "Estrés"
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Depresión",
+            "value": "18",
+            "name": "Depresión"
         },
         {
             "packageName": "enfermedad",
@@ -324,6 +354,38 @@
             },
             "target": {
                 "className": "Diabetes"
+            }
+        },
+        {
+            "source": {
+                "className": "Insomnio"
+            },
+            "target": {
+                "className": "Ansiedad preocupaciones con facilidad"
+            }
+        },
+        {
+            "source": {
+                "className": "Insomnio"
+            },
+            "target": {
+                "className": "Estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Insomnio"
+            },
+            "target": {
+                "className": "Depresión"
+            }
+        },
+        {
+            "source": {
+                "className": "Alergia o congestión por el polvo o mohos"
+            },
+            "target": {
+                "className": "Alergias y Gripas"
             }
         }
     ]

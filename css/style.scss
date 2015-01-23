@@ -27,6 +27,14 @@ header {
     user-select: none;
 }
 
+*:focus {
+    outline: 0;
+}
+
+a:focus, textarea:focus, input:focus{
+    outline: 0;
+}
+
 #book-title {
     font-family: $font;
     color: #555;

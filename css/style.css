@@ -1,22 +1,22 @@
-/* line 3, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 3, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 body {
   background-color: #198bb6; }
 
-/* line 8, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 8, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 a, a:visited {
   color: #333; }
 
-/* line 11, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 11, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #container {
   /* padding-top:20px; */
   /* border-left: 2px #ddd solid; */
   /* border-right: 2px #ddd solid; */ }
 
-/* line 17, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 17, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 header {
   padding: 10px; }
 
-/* line 21, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 21, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -25,64 +25,72 @@ header {
   -ms-user-select: none;
   user-select: none; }
 
-/* line 30, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 30, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+*:focus {
+  outline: 0; }
+
+/* line 34, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+a:focus, textarea:focus, input:focus {
+  outline: 0; }
+
+/* line 38, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #book-title {
   font-family: georgia, "times new roman", times, serif;
   color: #555;
   font-size: 2.3em;
   text-align: center; }
 
-/* line 36, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 44, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #text-select {
   float: right;
   margin-right: 10px; }
 
-/* line 41, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 49, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #vis {
   overflow: hidden;
   position: relative; }
 
-/* line 46, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 54, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #status {
   padding: 0 0 20px 20px; }
 
-/* line 49, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 57, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #controls {
   padding: 5px;
   background-color: #eee;
   margin: 10px;
   width: 350px; }
 
-/* line 56, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 64, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #bubble-background {
   fill: none;
   pointer-events: all; }
 
-/* line 61, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 69, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-node {
   /* fill: #d1e0f3; */ }
 
-/* line 66, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 74, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-links {
   stroke: #000;
   stroke-opacity: 0;
   stroke-width: 2px; }
 
-/* line 73, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 81, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #sintoma {
   fill: white; }
 
-/* line 76, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 84, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #enfermedad {
   fill: #fc7950; }
 
-/* line 80, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 88, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-hover {
   /*fill: #E8E9E7;*/
   stroke-width: 2.5px;
   stroke: #000; }
 
-/* line 86, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 94, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-selected {
   /* fill: #a8c8ee;  */
   fill: #FF524B !important;
@@ -90,11 +98,11 @@ header {
   stroke: #864d4d;
   stroke-width: 1.5px; }
 
-/* line 94, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 102, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .active {
   color: #d6342d; }
 
-/* line 98, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 106, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 a.bubble-label {
   font-family: georgia, "times new roman", times, serif;
   color: inherit;
@@ -105,12 +113,12 @@ a.bubble-label {
   line-height: 1em;
   position: absolute; }
 
-/* line 110, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 118, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-label .bubble-label-value {
   font: 11px sans-serif;
   white-space: nowrap; }
 
-/* line 116, I:/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 124, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 footer p {
   text-align: center;
   padding-top: 20px;
