@@ -2,6 +2,48 @@
   "nodes": [
     {
       "packageName": "enfermedad",
+      "className": "Desnutrición",
+      "value": "10",
+      "name": "Desnutrición"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Hipotiroidismo",
+      "value": "10",
+      "name": "Hipotiroidismo"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Sindrome metabólico",
+      "value": "10",
+      "name": "Sindrome metabólico"
+    },
+    {
+      "packageName": "sintoma",
+      "className": "Peso excesivo",
+      "value": "10",
+      "name": "Peso excesivo"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Disfunción endocrina",
+      "value": "10",
+      "name": "Disfunción endocrina"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Disfunción autonómica",
+      "value": "10",
+      "name": "Disfunción autonómica"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Menopausia",
+      "value": "10",
+      "name": "Menopausia"
+    },
+    {
+      "packageName": "enfermedad",
       "className": "Efectos adversos a medicamentos",
       "value": "10",
       "name": "Efectos adversos"
@@ -344,6 +386,78 @@
     }
   ],
   "links": [
+    {
+      "source": {
+        "className": "Peso excesivo"
+      },
+      "target": {
+        "className": "Desnutrición"
+      }
+    },
+    {
+      "source": {
+        "className": "Peso excesivo"
+      },
+      "target": {
+        "className": "Ansiedad preocupaciones con facilidad"
+      }
+    },
+    {
+      "source": {
+        "className": "Peso excesivo"
+      },
+      "target": {
+        "className": "Hipotiroidismo"
+      }
+    },
+    {
+      "source": {
+        "className": "Peso excesivo"
+      },
+      "target": {
+        "className": "Sindrome metabólico"
+      }
+    },
+    {
+      "source": {
+        "className": "Sudoración excesiva"
+      },
+      "target": {
+        "className": "Estrés"
+      }
+    },
+    {
+      "source": {
+        "className": "Sudoración excesiva"
+      },
+      "target": {
+        "className": "Disfunción autonómica"
+      }
+    },
+    {
+      "source": {
+        "className": "Rubor, oleadas de calor o sofoco"
+      },
+      "target": {
+        "className": "Disfunción endocrina"
+      }
+    },
+    {
+      "source": {
+        "className": "Rubor, oleadas de calor o sofoco"
+      },
+      "target": {
+        "className": "Disfunción autonómica"
+      }
+    },
+    {
+      "source": {
+        "className": "Rubor, oleadas de calor o sofoco"
+      },
+      "target": {
+        "className": "Menopausia"
+      }
+    },
     {
       "source": {
         "className": "Mareos"

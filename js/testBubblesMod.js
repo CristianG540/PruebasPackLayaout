@@ -1,4 +1,4 @@
-/*jshint camelcase: true, debug: true, browser: true, jquery: true*/
+/*jshint camelcase: true, debug: true, browser: true, jquery: true, indent: 4*/
 /*global d3, _ */
 var testBubblesMod = (function (window, d3, _, undefined) {
 
@@ -510,7 +510,7 @@ var testBubblesMod = (function (window, d3, _, undefined) {
             //  styling divs
             scope.label
                 .style('font-size', function(d) {
-                    return Math.max(8, scope.rScale(parseInt(d.value) / 4)) + 'px';
+                    return Math.max(8, scope.rScale(parseInt(d.value) / 5)) + 'px';
                 })
                 .style('width', function(d) {
                     return 2.5 * scope.rScale(parseInt(d.value)) + 'px';
