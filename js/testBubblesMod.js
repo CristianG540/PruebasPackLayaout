@@ -13,6 +13,54 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         label           : '',
         node            : '',
         links           : '',
+        //Toggle stores whether the highlighting is on
+        toggle          : 0,
+        countActiveNodes: 0,
+        //Create an array logging what is connected to what
+        linkedByIndex   : {},
+        //This function looks up whether a pair are neighbours
+        neighboring     : function(a, b) {
+            return this.linkedByIndex[a.index + "," + b.index];
+        },
+        connectedNodes  : function(element) {
+            var scope = this,
+                d;
+
+            //if (scope.toggle === 0) {
+                //Reduce the opacity of all but the neighbouring nodes
+                d = d3.select(element).node().__data__;
+                scope.node
+                    .style('opacity', function (o) {
+                        return scope.neighboring(d, o) || scope.neighboring(o, d) ? 1 : 0.1;
+                    });
+
+                scope.label
+                    .style('opacity', function (o) {
+                        return scope.neighboring(d, o) || scope.neighboring(o, d) ? 1 : 0.1;
+                    });
+
+                scope.links
+                    .style('stroke-opacity', function (o) {
+                        return d.index==o.source.index || d.index==o.target.index ? 1 : 0;
+                    });
+
+                //Reduce the op
+
+                scope.toggle = 1;
+            //}
+            /*else {
+                //Put them back to opacity=1
+                scope.node
+                    .style('opacity', 1);
+                scope.label
+                    .style('opacity', 1);
+                scope.links
+                    .style('stroke-opacity', 0);
+
+                scope.toggle = 0;
+            }*/
+
+        },
         // largest size for our bubbles
         maxRadius       : 65,
         // function to define the 'id' of a data element
@@ -52,7 +100,18 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         // clears currently selected bubble
         // ---
         clear           : function(){
+            var scope = this;
             location.replace('#');
+
+            scope.node
+                .style('opacity', 1);
+            scope.label
+                .style('opacity', 1);
+            scope.links
+                .style('stroke-opacity', 0);
+
+            scope.toggle = 0;
+
         },
         // this scale will be used to size our bubbles
         rScale          : function(){
@@ -275,7 +334,9 @@ var testBubblesMod = (function (window, d3, _, undefined) {
                     .attr('id', 'bubble-background')
                     .attr('width', scope.width)
                     .attr('height', scope.height)
-                    .on('click', scope.clear);
+                    .on('click', function(){
+                        scope.clear();
+                    });
 
 
                 // label is the container div for all the labels that sit on top of
@@ -303,8 +364,7 @@ var testBubblesMod = (function (window, d3, _, undefined) {
             });
         },
         update  : function(){
-            var scope = this,
-                links = '';
+            var scope = this;
 
             //add a radius to our data nodes that will serve to determine
             //when a collision has occurred. This uses the same scale as
@@ -315,12 +375,13 @@ var testBubblesMod = (function (window, d3, _, undefined) {
                 d.forceR = Math.max( scope.MIN_COLLISION_RADIUS, scope.rScale( parseInt(d.value) ) );
             });
 
-            links = scope.getLinks(scope.dataLinks, scope.data);
+
+            scope.dataLinks = scope.getLinks(scope.dataLinks, scope.data);
 
             //start up the force layout
             scope.force
                 .nodes(scope.data)
-                .links(links)
+                .links(scope.dataLinks)
                 .start();
 
             // call our update methods to do the creation and layout work
@@ -366,15 +427,20 @@ var testBubblesMod = (function (window, d3, _, undefined) {
                     return "#" + (encodeURIComponent(scope.idValue(d)));
                 })
                 .call(scope.force.drag)
-                .call(scope.connectEvents)
+                .call(scope.connectEvents, scope)
                 .append('circle')
                 .attr('r', function(d){
                     return scope.rScale(parseInt(d.value));
                 });
 
+            //Create an array logging what is connected to what
+            for (var i = 0; i < scope.data.length; i++) {
+                scope.linkedByIndex[i + "," + i] = 1;
+            }
 
-
-
+            scope.dataLinks.forEach(function (d) {
+                scope.linkedByIndex[d.source.index + "," + d.target.index] = 1;
+            });
         },
         // ---
         // updateLabels is more involved as we need to deal with getting the sizing
@@ -398,12 +464,13 @@ var testBubblesMod = (function (window, d3, _, undefined) {
             // is easier to append multiple elements to this selection
             labelEnter = scope.label.enter()
                 .append('a')
-                .attr('class', 'bubble-label')
+                .classed('bubble-label', true)
+                .classed('noselect', true)
                 .attr('href', function(d) {
                     return '#' + (encodeURIComponent(scope.idValue(d)));
                 })
                 .call(scope.force.drag)
-                .call(scope.connectEvents);
+                .call(scope.connectEvents, scope);
 
             labelEnter
                 .append('div')
@@ -466,12 +533,34 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         // ---
         // adds mouse events to element
         // ---
-        connectEvents  : function(d){
-            var scope = this;
+        connectEvents  : function(element, scope){
 
+            // Bueno tal vez el que lea esto o yo mismo me pregunte algun dia,
+            // "OH pero por q coño llamo las funciones de los eventos desde una funcion anonima y no directamente desde el .on"
+            // pues mi estimado lector eso es por que eres una marica, no mentiras solo bromeo, lo llamo desde una funcion anonima
+            // por q si le inserto la funcion al .on directamente cuando este dentro la funcion el 'this' ya no ni los metodos ni los atributos del scope
+            // osea pues no tiene el objeto _private si no q el 'this' se remplaza por el elemento actual donde actual es el elemento al q se le insero la funcion, un circulo o lo q seaA
+            // tons por eso si lo llamo desde una funcion anonima puedo usar el 'this' que me da el .on y el 'scope' de la clase
+
+            element.on("click", function(d){
+                scope.click(d);
+            });
+            element.on("mouseover", function(d){
+                scope.mouseover(d);
+            });
+            element.on("mouseout", function(d){
+                scope.mouseout(d);
+            });
+
+            element.on('dblclick', function(){
+                scope.connectedNodes(this);
+            });
+            /*
             d.on("click", scope.click);
             d.on("mouseover", scope.mouseover);
             d.on("mouseout", scope.mouseout);
+            */
+
         },
         // ---
         // changes clicked bubble by modifying url
@@ -588,7 +677,6 @@ var resources = [
 
 $(function() {
     var display, key, plot, resource;
-    debugger;
     // ---
     // function that is called when
     // data is loaded

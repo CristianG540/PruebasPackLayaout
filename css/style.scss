@@ -18,6 +18,15 @@ header {
     padding: 10px;
 }
 
+.noselect {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 #book-title {
     font-family: $font;
     color: #555;
@@ -56,7 +65,7 @@ header {
 
 .bubble-links {
     stroke: #000;
-    stroke-opacity: .6;
+    stroke-opacity: 0;
     stroke-width: 2px;
 }
 
@@ -69,8 +78,9 @@ header {
 }
 
 .bubble-hover {
-    /* fill: #b8c7d9; */
-    fill: #E8E9E7;
+    /*fill: #E8E9E7;*/
+    stroke-width: 2.5px;
+    stroke: #000;
 }
 
 .bubble-selected {
