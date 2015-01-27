@@ -4,11 +4,46 @@
     <meta charset="UTF-8">
     <title>Interactivo</title>
 
-
+    <style>
+        text {
+            font: 10px sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-    <div id="interactive"></div>
+<body>
+    <div id="container" class="container">
+        <select id="text-select">
+            <option value="test1">Datos de prueba 1</option>
+            <option value="test2">Datos de prueba 2</option>
+            <option value="alice">Alice in Wonderland</option>
+            <option value="gulliver">Gulliver's Travels</option>
+        </select>
+        <header>
+            <h1>Interactivo ivan</h1>
+            <h2 id="book-title"></h2>
+        </header>
+        <div id="main" role="main">
+            <div id="vis"></div>
+            <div id="status"></div>
+            <div id="controls">
+                <h3>Alpha</h3>
+                <form id="jitter" oninput="output.value = (jitter_input.value / 200).toFixed(3)">
+                    <input id="jitter_input" type="range" min="0" max="400" value="100" style="width:240px;height:20px;">
+                    <output name="output" for="input">0.5</output>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script type="text/javascript" src="bower_components/d3/d3.js"></script>
-    <script type="text/javascript" src="js/test.js"></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+<!--    <script type="text/javascript" src="js/testBubbles.js"></script>-->
+    <script type="text/javascript" src="js/testBubblesMod.js"></script>
 </body>
+
+
+
 </html>

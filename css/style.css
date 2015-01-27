@@ -111,14 +111,15 @@ a.bubble-label {
   text-align: center;
   text-decoration: none;
   line-height: 1em;
-  position: absolute; }
+  position: absolute;
+  pointer-events: none; }
 
-/* line 118, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 119, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-label .bubble-label-value {
   font: 11px sans-serif;
   white-space: nowrap; }
 
-/* line 124, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 125, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 footer p {
   text-align: center;
   padding-top: 20px;

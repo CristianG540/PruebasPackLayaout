@@ -112,6 +112,7 @@ a.bubble-label {
     text-decoration: none;
     line-height: 1em;
     position: absolute;
+    pointer-events:none;
 }
 
 .bubble-label {
