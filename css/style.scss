@@ -1,5 +1,14 @@
 $font : georgia, "times new roman", times, serif;
 
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 10px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;}
+.tg .tg-s6z2{text-align:center}
+
+#testLegend {
+    display: none;
+}
+
 body {
     background: {
         color: rgb(25, 139, 182);
@@ -79,10 +88,10 @@ a:focus, textarea:focus, input:focus{
 
 
 #sintoma {
-    fill: rgb(255, 255, 255);
+    fill: #fff;
 }
 #enfermedad {
-    fill: rgb(252, 121, 80);
+    fill: #fc7950;
 }
 
 .bubble-hover {
@@ -91,12 +100,19 @@ a:focus, textarea:focus, input:focus{
     stroke: #000;
 }
 
-.bubble-selected {
+.bubble-selected-enferm{
     /* fill: #a8c8ee;  */
-    fill: #FF524B !important;
+    //fill: #c45d3d !important;
     /* stroke: #6081a3; */
-    stroke: #864d4d;
-    stroke-width: 1.5px;
+    stroke: #414141;
+    stroke-width: 5.5px;
+}
+.bubble-selected-sintom {
+    /* fill: #a8c8ee;  */
+    //fill: #dedede !important;
+    /* stroke: #6081a3; */
+    stroke: #414141;
+    stroke-width: 5.5px;
 }
 
 .active {

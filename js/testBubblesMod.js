@@ -8,14 +8,13 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         data            : '',
         dataLinks       : '',
         margin          : { top: 50, right: 50, bottom: 0, left: 50 },
-        width           : 1600,
-        height          : 800,
+        width           : 800,
+        height          : 600,
         label           : '',
         node            : '',
         links           : '',
         //Toggle stores whether the highlighting is on
         toggle          : 0,
-        toggleOver      : 0,
         activeNodes     : [],
         /**
          * Esta funcion realiza dos acciones diferentes dependiendo de los
@@ -52,39 +51,80 @@ var testBubblesMod = (function (window, d3, _, undefined) {
             var scope = this,
                 d;
 
-            function computeRelations(eval, data){
-                if(eval == 1){
+            function computeRelations(evalRel, data){
+                if(evalRel == 1){
                     scope.calcActiveNodes(data);
                 }
                 if(scope.calcActiveNodes(data, true) !== -1){
-                    eval = 1;
+                    evalRel = 1;
                 }
-                return eval;
+                return evalRel;
             }
 
             d = d3.select(element).node().__data__;
 
             scope.node
+                .transition(500)
                 .style('opacity', function (o) {
-                    var eval = scope.neighboring(d, o) || scope.neighboring(o, d) ? 1 : 0.1;
-                    return computeRelations(eval, o);
+                    var evalRel = scope.neighboring(d, o) || scope.neighboring(o, d) ? 1 : 0.1;
+                    return computeRelations(evalRel, o);
                 });
 
             scope.label
+                .transition(500)
                 .style('opacity', function (o) {
-                    var eval = scope.neighboring(d, o) || scope.neighboring(o, d) ? 1 : 0.1;
-                    return computeRelations(eval, o);;
+                    var evalRel = scope.neighboring(d, o) || scope.neighboring(o, d) ? 1 : 0.1;
+                    return computeRelations(evalRel, o);
                 });
 
             scope.links
+                .transition(500)
                 .style('stroke-opacity', function (o) {
-                    debugger;
-                    var eval = d.index==o.source.index || d.index==o.target.index ? 1 : 0;
-                    return computeRelations(eval, o);
+                    var evalRel = d.index==o.source.index || d.index==o.target.index ? 1 : 0;
+                    return computeRelations(evalRel, o);
                 });
 
             //Reduce the op
             scope.toggle = 1;
+
+        },
+        // Busca el nodo seleccionado en el autocomplete
+        searchNode : function() {
+            var selectedNode,
+                selectedLabel,
+                scope = this,
+                selectedVal = document.getElementById('search').value;
+
+            function resetOpacity(element){
+                element
+                    .transition()
+                    .duration(5000)
+                    .style("opacity", 1);
+            }
+
+            selectedNode = scope.node
+                .filter(function (d, i) {
+                    return d.className != selectedVal;
+                });
+
+            selectedLabel = scope.label
+                .filter(function (d, i) {
+                    return d.className != selectedVal;
+                });
+
+            selectedNode
+                .style("opacity", "0");
+            selectedLabel
+                .style("opacity", "0");
+            scope.links
+                .style("opacity", "0");
+
+            scope.node
+                .call(resetOpacity);
+            scope.label
+                .call(resetOpacity);
+            scope.links
+                .call(resetOpacity);
 
         },
         // largest size for our bubbles
@@ -114,7 +154,7 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         },
         // constants to control how
         // collision look and act
-        COLLISION_PADDING : 14,
+        COLLISION_PADDING : 24,
         MIN_COLLISION_RADIUS : 12,
         // variables that can be changed
         // to tweak how the force layout
@@ -130,10 +170,13 @@ var testBubblesMod = (function (window, d3, _, undefined) {
             location.replace('#');
 
             scope.node
+                .transition(500)
                 .style('opacity', 1);
             scope.label
+                .transition(500)
                 .style('opacity', 1);
             scope.links
+                .transition(500)
                 .style('stroke-opacity', 0);
 
             scope.activeNodes = [];
@@ -335,7 +378,6 @@ var testBubblesMod = (function (window, d3, _, undefined) {
             var scope = this;
 
             selection.each(function (d, i){
-                debugger;
                 var svg,
                     svgEnter,
                     maxDomainValue;
@@ -440,8 +482,11 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         updateNodes  : function(){
             var scope = this;
 
-            scope.links = scope.node.selectAll('.bubble-links')
-                .data(scope.force.links());
+            scope.links = scope.node
+                .append('g')
+                .classed('group-links', true)
+                .selectAll('.bubble-links')
+                    .data(scope.force.links());
 
             scope.links.exit().remove();
 
@@ -625,19 +670,18 @@ var testBubblesMod = (function (window, d3, _, undefined) {
             scope.node
                 .classed("bubble-hover", function(p) {
                     return p === d;
-                })
+                });
 
             scope.node.select('circle')
                 .transition(500)
                 .attr('r', function(p){
-                    var origRad = d3.select(this).attr('r');
+                    var actMargin = scope.rScale(parseInt(p.value));
 
-                    if(p === d && scope.toggleOver === 0){
-
-                        scope.toggleOver = 1;
-                        return origRad * 1.2;
+                    if(p === d){
+                        actMargin = scope.rScale(parseInt(d.value));
+                        return actMargin * 1.2;
                     }
-                    return origRad;
+                    return actMargin;
                 });
         },
         // ---
@@ -651,14 +695,9 @@ var testBubblesMod = (function (window, d3, _, undefined) {
             scope.node.select('circle')
                 .transition(500)
                 .attr('r', function(p){
-                    var origRad = d3.select(this).attr('r');
+                    var actMargin = scope.rScale(parseInt(p.value));
 
-                    if(p === d && scope.toggleOver === 1){
-                        debugger;
-                        scope.toggleOver = 0;
-                        return origRad / 1.2;
-                    }
-                    return origRad;
+                    return actMargin;
                 });
         },
         // ---
@@ -676,8 +715,12 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         updateActive   : function(id) {
             var scope = this;
             scope.node
-                .classed("bubble-selected", function(d) {
-                    return id === scope.idValue(d);
+                .classed("bubble-selected-enferm", function(d) {
+                    return id === scope.idValue(d) && d.packageName === 'enfermedad';
+                })
+                .classed("bubble-selected-sintom", function(d) {
+
+                    return id === scope.idValue(d) && d.packageName === 'sintoma';
                 });
 
             if (id.length > 0) {
@@ -724,85 +767,15 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         getWidth   : function(){
             return _private.width;
         },
+        // ---
+        // Busca el nodo seleccionado en el autocomplete
+        // ---
+        search : function() {
+            _private.searchNode();
+        }
+
     };
 
     return public;
 
 })(window, d3, _);
-
-// ---
-// Helper function that simplifies the calling
-// of our chart with it's data and div selector
-// specified
-// ---
-var graphicData = function(selector, data, graphic){
-    d3.select(selector)
-        .datum(data)
-        .call(graphic.runGraphic);
-};
-
-var resources = [
-    {
-        key : "test1",
-        file: "enfermedadesTest.json",
-        name: "Datos de prueba 1"
-    },
-    {
-        key : "test2",
-        file: "enfermedadesTest2.json",
-        name: "Datos de prueba 2"
-    }
-];
-
-$(function() {
-    var display, key, plot, resource;
-    // ---
-    // function that is called when
-    // data is loaded
-    // ---
-    display = function(data){
-        graphicData('#vis', data, testBubblesMod);
-    };
-
-    // we are storing the current text in the search component
-    // just to make things easy
-    key = decodeURIComponent(location.search).replace("?", "");
-    resource = resources.filter(function(d) {
-        return d.key === key;
-    })[0];
-
-    // default to the first text if something gets messed up
-    if(!resource){
-        resource = resources[0];
-    }
-
-    // select the current text in the drop-down
-    $("#text-select").val(key);
-
-    // bind change in jitter range slider
-    // to update the plot's jitter
-    d3.select('#jitter')
-        .on('input', function(){
-            testBubblesMod.setJitter(parseFloat(this.output.value));
-        });
-
-    // bind change in drop down to change the
-    // search url and reset the hash url
-    d3.select('#text-select')
-        .on('change', function(e){
-            key = $(this).val();
-            location.replace("#");
-            location.search = encodeURIComponent(key);
-        });
-
-    // set the book title from the text name
-    d3.select("#book-title").html(resource.name);
-
-    // load our data
-    d3.json('data/'+resource.file, display);
-
-
-
-
-
-});
