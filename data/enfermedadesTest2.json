@@ -364,7 +364,21 @@
       "packageName": "enfermedad",
       "className": "Hipertensión Arterial",
       "value": "23",
-      "name": "Hipertensión"
+      "name": "Hipertensión",
+      "nodeMoreInfo": {
+        "thathappens": [
+          "Mala suerte",
+          "Come mucho"
+        ],
+        "howToSolveIt": [
+          "Conseguir una pata de conejo",
+          "Dejar de comer tanto"
+        ],
+        "supplements": [
+          "Pata de conejo",
+          "Reductor 3000 pro"
+        ]
+      }
     },
     {
       "packageName": "enfermedad",

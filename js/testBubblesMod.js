@@ -1,6 +1,6 @@
 /*jshint camelcase: true, debug: true, browser: true, jquery: true, indent: 4*/
 /*global d3, _ */
-var testBubblesMod = (function (window, d3, _, undefined) {
+var testBubblesMod = (function (window, d3, _, SidebarMenuEffects, undefined) {
 
     var _private = {
         COLOR           : d3.scale.category20c(),
@@ -8,8 +8,8 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         data            : '',
         dataLinks       : '',
         margin          : { top: 50, right: 50, bottom: 0, left: 50 },
-        width           : 800,
-        height          : 600,
+        width           : 1400,
+        height          : 800,
         label           : '',
         node            : '',
         links           : '',
@@ -104,12 +104,12 @@ var testBubblesMod = (function (window, d3, _, undefined) {
 
             selectedNode = scope.node
                 .filter(function (d, i) {
-                    return d.className != selectedVal;
+                    return scope.idValue(d) != selectedVal;
                 });
 
             selectedLabel = scope.label
                 .filter(function (d, i) {
-                    return d.className != selectedVal;
+                    return scope.idValue(d) != selectedVal;
                 });
 
             selectedNode
@@ -384,8 +384,8 @@ var testBubblesMod = (function (window, d3, _, undefined) {
                 scope.rScale = scope.rScale();
                 scope.force = scope.force();
 
-                scope.width = 1600 - scope.margin.left - scope.margin.right;
-                scope.height = 800 - scope.margin.top - scope.margin.bottom;
+                scope.width = scope.width - scope.margin.left - scope.margin.right;
+                scope.height = scope.height - scope.margin.top - scope.margin.bottom;
 
 
                 //first, get the data in the right format
@@ -664,12 +664,14 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         // hover event
         // ---
         mouseover      : function(d, elem) {
-
             var scope = this;
 
             scope.node
                 .classed("bubble-hover", function(p) {
                     return p === d;
+                })
+                .attr('data-effect', function(p){
+                    return ( p === d && scope.nodeType(d) === 'enfermedad' ) ? 'st-effect-11' : null;
                 });
 
             scope.node.select('circle')
@@ -683,6 +685,8 @@ var testBubblesMod = (function (window, d3, _, undefined) {
                     }
                     return actMargin;
                 });
+
+            SidebarMenuEffects.init();
         },
         // ---
         // remove hover class
@@ -690,7 +694,8 @@ var testBubblesMod = (function (window, d3, _, undefined) {
         mouseout       : function(d) {
             var scope = this;
             scope.node
-                .classed("bubble-hover", false);
+                .classed("bubble-hover", false)
+                .attr('data-effect', null);
 
             scope.node.select('circle')
                 .transition(500)
@@ -716,17 +721,18 @@ var testBubblesMod = (function (window, d3, _, undefined) {
             var scope = this;
             scope.node
                 .classed("bubble-selected-enferm", function(d) {
-                    return id === scope.idValue(d) && d.packageName === 'enfermedad';
+                    return id === scope.idValue(d) && scope.nodeType(d) === 'enfermedad';
                 })
                 .classed("bubble-selected-sintom", function(d) {
-
-                    return id === scope.idValue(d) && d.packageName === 'sintoma';
+                    return id === scope.idValue(d) && scope.nodeType(d) === 'sintoma';
                 });
 
             if (id.length > 0) {
-                return d3.select("#status").html("<h3>La burbuja <span class=\"active\">" + id + "</span> esta seleccionada</h3>");
+                return d3.select("#menu-11 > h2")
+                    .text(id);
             } else {
-                return d3.select("#status").html("<h3>No hay ninguna burbuja seleccionada</h3>");
+                return d3.select("#status")
+                    .html("<h3>No hay ninguna burbuja seleccionada</h3>");
             }
         }
 
@@ -778,4 +784,4 @@ var testBubblesMod = (function (window, d3, _, undefined) {
 
     return public;
 
-})(window, d3, _);
+})(window, d3, _, SidebarMenuEffects);
