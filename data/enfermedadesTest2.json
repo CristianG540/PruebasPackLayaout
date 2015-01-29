@@ -2,6 +2,24 @@
   "nodes": [
     {
       "packageName": "enfermedad",
+      "className": "Hipertiroidismo",
+      "value": "10",
+      "name": "Hipertiroidismo"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Infecciones crónicas",
+      "value": "10",
+      "name": "Infecciones crónicas"
+    },
+    {
+      "packageName": "sintoma",
+      "className": "Pérdida de peso",
+      "value": "10",
+      "name": "Pérdida de peso"
+    },
+    {
+      "packageName": "enfermedad",
       "className": "Desnutrición",
       "value": "10",
       "name": "Desnutrición"
@@ -400,6 +418,38 @@
     }
   ],
   "links": [
+    {
+      "source": {
+        "className": "Pérdida de peso"
+      },
+      "target": {
+        "className": "Cáncer"
+      }
+    },
+    {
+      "source": {
+        "className": "Pérdida de peso"
+      },
+      "target": {
+        "className": "Hipertiroidismo"
+      }
+    },
+    {
+      "source": {
+        "className": "Pérdida de peso"
+      },
+      "target": {
+        "className": "Desnutrición"
+      }
+    },
+    {
+      "source": {
+        "className": "Pérdida de peso"
+      },
+      "target": {
+        "className": "Infecciones crónicas"
+      }
+    },
     {
       "source": {
         "className": "Peso excesivo"

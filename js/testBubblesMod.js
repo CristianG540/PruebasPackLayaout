@@ -730,10 +730,10 @@ var testBubblesMod = (function (window, d3, _, SidebarMenuEffects, undefined) {
             if (id.length > 0) {
                 return d3.select("#menu-11 > h2")
                     .text(id);
-            } else {
+            } /*else {
                 return d3.select("#status")
                     .html("<h3>No hay ninguna burbuja seleccionada</h3>");
-            }
+            }*/
         }
 
     };
