@@ -1,6 +1,36 @@
 {
   "nodes": [
     {
+      "packageName": "sintoma",
+      "className": "Antojos de carbohidratos o dulces",
+      "value": "10",
+      "name": "Antojos de dulce"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Resistencia a la insulina",
+      "value": "10",
+      "name": "Resistencia insulina"
+    },
+    {
+      "packageName": "sintoma",
+      "className": "No puede bajar de peso",
+      "value": "10",
+      "name": "No baja de peso"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Sobreentrenamiento",
+      "value": "10",
+      "name": "Sobre entrenamiento"
+    },
+    {
+      "packageName": "sintoma",
+      "className": "No puede subir de peso",
+      "value": "10",
+      "name": "No sube de peso"
+    },
+    {
       "packageName": "enfermedad",
       "className": "Hipertiroidismo",
       "value": "10",
@@ -418,6 +448,86 @@
     }
   ],
   "links": [
+    {
+      "source": {
+        "className": "Antojos de carbohidratos o dulces"
+      },
+      "target": {
+        "className": "Ansiedad preocupaciones con facilidad"
+      }
+    },
+    {
+      "source": {
+        "className": "Antojos de carbohidratos o dulces"
+      },
+      "target": {
+        "className": "Diabetes"
+      }
+    },
+    {
+      "source": {
+        "className": "Antojos de carbohidratos o dulces"
+      },
+      "target": {
+        "className": "Resistencia a la insulina"
+      }
+    },
+    {
+      "source": {
+        "className": "No puede bajar de peso"
+      },
+      "target": {
+        "className": "Disfunción endocrina"
+      }
+    },
+    {
+      "source": {
+        "className": "No puede bajar de peso"
+      },
+      "target": {
+        "className": "Ansiedad preocupaciones con facilidad"
+      }
+    },
+    {
+      "source": {
+        "className": "No puede bajar de peso"
+      },
+      "target": {
+        "className": "Hipotiroidismo"
+      }
+    },
+    {
+      "source": {
+        "className": "No puede bajar de peso"
+      },
+      "target": {
+        "className": "Resistencia a la insulina"
+      }
+    },
+    {
+      "source": {
+        "className": "No puede subir de peso"
+      },
+      "target": {
+        "className": "Sobreentrenamiento"
+      }
+    },
+    {
+      "source": {
+        "className": "No puede subir de peso"
+      },
+      "target": {
+        "className": "Hipertiroidismo"
+      }
+    },
+    {
+      "source": {
+        "className": "No puede subir de peso"
+      },
+      "target": {
+        "className": "Desnutrición"
+      }
+    },
     {
       "source": {
         "className": "Pérdida de peso"
