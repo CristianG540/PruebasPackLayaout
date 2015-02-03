@@ -1,0 +1,2089 @@
+{
+  "enfermedades": [
+    {
+      "id": 1,
+      "name": "Ansiedad"
+    },
+    {
+      "id": 2,
+      "name": "Estrés"
+    },
+    {
+      "id": 3,
+      "name": "Deficiencias nutricionales"
+    },
+    {
+      "id": 4,
+      "name": "Dolor crónico"
+    },
+    {
+      "id": 5,
+      "name": "Depresión"
+    },
+    {
+      "id": 6,
+      "name": "Hipotensión arterial"
+    },
+    {
+      "id": 7,
+      "name": "vértigo"
+    },
+    {
+      "id": 8,
+      "name": "deshidratación"
+    },
+    {
+      "id": 9,
+      "name": "efectos adversos a medicamentos"
+    },
+    {
+      "id": 10,
+      "name": "Menopausia"
+    },
+    {
+      "id": 11,
+      "name": "Disfunción autonómica"
+    },
+    {
+      "id": 12,
+      "name": "Disfunción endocrina"
+    },
+    {
+      "id": 13,
+      "name": "Disfución autonómica"
+    },
+    {
+      "id": 14,
+      "name": "Sindrome metabólico"
+    },
+    {
+      "id": 15,
+      "name": "Hipotiroidismo"
+    },
+    {
+      "id": 16,
+      "name": "Desnutrición"
+    },
+    {
+      "id": 17,
+      "name": "Infecciones crónicas"
+    },
+    {
+      "id": 18,
+      "name": "Cáncer"
+    },
+    {
+      "id": 19,
+      "name": "Hipertiroidismo"
+    },
+    {
+      "id": 20,
+      "name": "Sobreentrenamiento"
+    },
+    {
+      "id": 21,
+      "name": "Resistencia a la insulina"
+    },
+    {
+      "id": 22,
+      "name": "Disfunciones endocrinas"
+    },
+    {
+      "id": 23,
+      "name": "Diabetes"
+    },
+    {
+      "id": 24,
+      "name": "Cardiopatías"
+    },
+    {
+      "id": 25,
+      "name": "Enfermedad renal crónica"
+    },
+    {
+      "id": 26,
+      "name": "Deficiencia de minerales"
+    },
+    {
+      "id": 27,
+      "name": "Insuficiencia venosa o linfática"
+    },
+    {
+      "id": 28,
+      "name": "Migraña"
+    },
+    {
+      "id": 29,
+      "name": "Deshidratación"
+    },
+    {
+      "id": 30,
+      "name": "sinusitis"
+    },
+    {
+      "id": 31,
+      "name": "estrés"
+    },
+    {
+      "id": 32,
+      "name": "Infecciones"
+    },
+    {
+      "id": 33,
+      "name": "Enfermedades cerebrales"
+    },
+    {
+      "id": 34,
+      "name": "Intolerancia a alimentos"
+    },
+    {
+      "id": 35,
+      "name": "Disfunción mitocondrial"
+    },
+    {
+      "id": 36,
+      "name": "Contracturas musculares"
+    },
+    {
+      "id": 37,
+      "name": "Conjuntivitis"
+    },
+    {
+      "id": 38,
+      "name": "Obstrucción del conducto lacrimonasal"
+    },
+    {
+      "id": 39,
+      "name": "Alergias a alimentos"
+    },
+    {
+      "id": 40,
+      "name": "Conjuntivitis alérgica"
+    },
+    {
+      "id": 41,
+      "name": "Deficiencia de complejo B"
+    },
+    {
+      "id": 42,
+      "name": "Dermatitis seborreica"
+    },
+    {
+      "id": 43,
+      "name": "Alergias"
+    },
+    {
+      "id": 44,
+      "name": "Enfermedad crónica"
+    },
+    {
+      "id": 45,
+      "name": "Insomnio"
+    },
+    {
+      "id": 46,
+      "name": "Otitis"
+    },
+    {
+      "id": 47,
+      "name": "Rinitis"
+    },
+    {
+      "id": 48,
+      "name": "Tapón de cerumen"
+    },
+    {
+      "id": 49,
+      "name": "Disfunción tubaria"
+    },
+    {
+      "id": 50,
+      "name": "Tinitus"
+    },
+    {
+      "id": 51,
+      "name": "Vasculopatía"
+    },
+    {
+      "id": 52,
+      "name": "Sinusitis"
+    },
+    {
+      "id": 53,
+      "name": "Rinitis alérgica"
+    },
+    {
+      "id": 54,
+      "name": "Gingivitis"
+    },
+    {
+      "id": 55,
+      "name": "Fragilidad capilar"
+    },
+    {
+      "id": 56,
+      "name": "Gastritis"
+    },
+    {
+      "id": 57,
+      "name": "Sindrome seco"
+    },
+    {
+      "id": 58,
+      "name": "Obstrucción nasal"
+    },
+    {
+      "id": 59,
+      "name": "Alergia a alimentos"
+    },
+    {
+      "id": 60,
+      "name": "Infección x herpes"
+    },
+    {
+      "id": 61,
+      "name": "Gastritis crónica"
+    },
+    {
+      "id": 62,
+      "name": "Malos hábitos de higiene"
+    },
+    {
+      "id": 63,
+      "name": "Caries"
+    },
+    {
+      "id": 64,
+      "name": "Faringitis"
+    },
+    {
+      "id": 65,
+      "name": "Reflujo gastroesofágico"
+    },
+    {
+      "id": 66,
+      "name": "Amigdalitis"
+    },
+    {
+      "id": 67,
+      "name": "Resfriado común"
+    },
+    {
+      "id": 68,
+      "name": "Costocondritis"
+    },
+    {
+      "id": 69,
+      "name": "Valvulopatías"
+    },
+    {
+      "id": 70,
+      "name": "Anemia"
+    },
+    {
+      "id": 71,
+      "name": "Hipertensión arterial"
+    },
+    {
+      "id": 72,
+      "name": "Insuficiencia venosa"
+    },
+    {
+      "id": 73,
+      "name": "Alergia respiratoria"
+    },
+    {
+      "id": 74,
+      "name": "Laringitis crónica"
+    },
+    {
+      "id": 75,
+      "name": "EPOC"
+    },
+    {
+      "id": 76,
+      "name": "TBC"
+    },
+    {
+      "id": 77,
+      "name": "Tabaquismo"
+    },
+    {
+      "id": 78,
+      "name": "Obesidad"
+    },
+    {
+      "id": 79,
+      "name": "Colon Irritable"
+    },
+    {
+      "id": 80,
+      "name": "Alergia alimentaria"
+    },
+    {
+      "id": 81,
+      "name": "Intolerancia a la lactosa"
+    },
+    {
+      "id": 82,
+      "name": "Insuficiencia de enzimas digestivas"
+    },
+    {
+      "id": 83,
+      "name": "Cistitis"
+    },
+    {
+      "id": 84,
+      "name": "Vaginitis"
+    },
+    {
+      "id": 85,
+      "name": "Colitis"
+    },
+    {
+      "id": 86,
+      "name": "Colon irritable"
+    },
+    {
+      "id": 87,
+      "name": "Colecistitis"
+    },
+    {
+      "id": 88,
+      "name": "Colelitiasis"
+    },
+    {
+      "id": 89,
+      "name": "Hepatopatías"
+    },
+    {
+      "id": 90,
+      "name": "Ulcera gástrica o duodenal"
+    },
+    {
+      "id": 91,
+      "name": "Hernia hiatal"
+    },
+    {
+      "id": 92,
+      "name": "Parasitosis"
+    },
+    {
+      "id": 93,
+      "name": "Ulcera gastrica"
+    },
+    {
+      "id": 94,
+      "name": "Cáncer de estómago o páncreas"
+    },
+    {
+      "id": 95,
+      "name": "Ulcera duodenal"
+    },
+    {
+      "id": 96,
+      "name": "Estreñimiento"
+    },
+    {
+      "id": 97,
+      "name": "Hipoclorhidria"
+    },
+    {
+      "id": 98,
+      "name": "Esofagitis"
+    },
+    {
+      "id": 99,
+      "name": "Hernia histal"
+    },
+    {
+      "id": 100,
+      "name": "Cáncer de estómago"
+    },
+    {
+      "id": 101,
+      "name": "Efectos adversos a medicamentos"
+    },
+    {
+      "id": 102,
+      "name": "Infecciones gastrointestinales"
+    },
+    {
+      "id": 103,
+      "name": "Colecistopatías"
+    },
+    {
+      "id": 104,
+      "name": "Intoxicación alimentaria"
+    },
+    {
+      "id": 105,
+      "name": "Intoxicaciones"
+    },
+    {
+      "id": 106,
+      "name": "Déficit de fibra en la dieta"
+    },
+    {
+      "id": 107,
+      "name": "Parasitismo"
+    },
+    {
+      "id": 108,
+      "name": "Cáncer gastrointestinal"
+    },
+    {
+      "id": 109,
+      "name": "Cancer gastrointestinal"
+    },
+    {
+      "id": 110,
+      "name": "Hemorroides"
+    },
+    {
+      "id": 111,
+      "name": "Malos hábitos alimentarios"
+    },
+    {
+      "id": 112,
+      "name": "Incontinencia urinaria"
+    },
+    {
+      "id": 113,
+      "name": "Prostatismo"
+    },
+    {
+      "id": 114,
+      "name": "Prolapso genital"
+    },
+    {
+      "id": 115,
+      "name": "Infecciones urinarias"
+    },
+    {
+      "id": 116,
+      "name": "Retención de líquidos"
+    },
+    {
+      "id": 117,
+      "name": "Enfermedades de transmisión sexual"
+    },
+    {
+      "id": 118,
+      "name": "Litiasis urinaria"
+    },
+    {
+      "id": 119,
+      "name": "Prostatitis"
+    },
+    {
+      "id": 120,
+      "name": "Disfunciones sexuales"
+    },
+    {
+      "id": 121,
+      "name": "Neuropatías"
+    },
+    {
+      "id": 122,
+      "name": "Disbiosis"
+    },
+    {
+      "id": 123,
+      "name": "Tumores"
+    },
+    {
+      "id": 124,
+      "name": "Disfunción sexual"
+    },
+    {
+      "id": 125,
+      "name": "Sindrome premenstrual"
+    },
+    {
+      "id": 126,
+      "name": "Deficiencia de magnesio o potasio"
+    },
+    {
+      "id": 127,
+      "name": "Fibromialgia"
+    },
+    {
+      "id": 128,
+      "name": "Fatiga crónica"
+    },
+    {
+      "id": 129,
+      "name": "Dsifunciones endocrinas"
+    },
+    {
+      "id": 130,
+      "name": "Malos hábitos posturales"
+    },
+    {
+      "id": 131,
+      "name": "Neuropatías periféricas"
+    },
+    {
+      "id": 132,
+      "name": "Artrosis"
+    },
+    {
+      "id": 133,
+      "name": "Artritis"
+    },
+    {
+      "id": 134,
+      "name": "Tendinitis"
+    },
+    {
+      "id": 135,
+      "name": "Enfermedad autoinmune"
+    },
+    {
+      "id": 136,
+      "name": "Alergias alimentarias"
+    },
+    {
+      "id": 137,
+      "name": "Trauma repetitivo"
+    },
+    {
+      "id": 138,
+      "name": "Neuropatías degenerativas"
+    },
+    {
+      "id": 139,
+      "name": "Sindrome del túnel del carpo"
+    },
+    {
+      "id": 140,
+      "name": "Sindromes convulsivos"
+    },
+    {
+      "id": 141,
+      "name": "Tumores cerebrales"
+    },
+    {
+      "id": 142,
+      "name": "Parkinson"
+    },
+    {
+      "id": 143,
+      "name": "Alzheimer"
+    },
+    {
+      "id": 144,
+      "name": "Encefalopatías crónicas"
+    },
+    {
+      "id": 145,
+      "name": "Rosácea"
+    },
+    {
+      "id": 146,
+      "name": "Dermatitis alérgicas"
+    },
+    {
+      "id": 147,
+      "name": "Enfermedades autoinmunes"
+    },
+    {
+      "id": 148,
+      "name": "Psoriasis"
+    },
+    {
+      "id": 149,
+      "name": "Dermatitis Atópica"
+    },
+    {
+      "id": 150,
+      "name": "Parasitosis cutáneas"
+    },
+    {
+      "id": 151,
+      "name": "Micosis"
+    },
+    {
+      "id": 152,
+      "name": "Vasculitis"
+    },
+    {
+      "id": 153,
+      "name": "Dermatitis actínica"
+    },
+    {
+      "id": 154,
+      "name": "Deficiencia de Niacina"
+    },
+    {
+      "id": 155,
+      "name": "Nevus"
+    },
+    {
+      "id": 156,
+      "name": "Melanoma"
+    },
+    {
+      "id": 157,
+      "name": "Toxicidad x químicos"
+    },
+    {
+      "id": 158,
+      "name": "Deficiencia de zinc"
+    }
+  ],
+  "sintomas": [
+    {
+      "id": "1",
+      "name": "Insomnio"
+    },
+    {
+      "id": "2",
+      "name": "Mareos"
+    },
+    {
+      "id": "3",
+      "name": "Rubor, oleadas de calor o sofoco"
+    },
+    {
+      "id": "4",
+      "name": "Sudoración excesiva"
+    },
+    {
+      "id": "5",
+      "name": "Peso excesivo"
+    },
+    {
+      "id": "6",
+      "name": "Pérdida de peso"
+    },
+    {
+      "id": "7",
+      "name": "No puede subir de peso"
+    },
+    {
+      "id": "8",
+      "name": "No puede bajar de peso"
+    },
+    {
+      "id": "9",
+      "name": "Antojos de carbohidratos o dulces"
+    },
+    {
+      "id": "10",
+      "name": "Retención de agua o líquidos"
+    },
+    {
+      "id": "11",
+      "name": "Dolor de cabeza"
+    },
+    {
+      "id": "12",
+      "name": "Migraña"
+    },
+    {
+      "id": "13",
+      "name": "Cefalea tensional / dolor atrás de la cabeza"
+    },
+    {
+      "id": "14",
+      "name": "Lagrimeo"
+    },
+    {
+      "id": "15",
+      "name": "Picazón en los ojos"
+    },
+    {
+      "id": "16",
+      "name": "Formación de costras o secreción en los ojos"
+    },
+    {
+      "id": "17",
+      "name": "Enrojecimiento del borde de los párpados"
+    },
+    {
+      "id": "18",
+      "name": "Bolsas u ojeras debajo de los ojos"
+    },
+    {
+      "id": "19",
+      "name": "Dolor de oído"
+    },
+    {
+      "id": "20",
+      "name": "Supuración por el oido"
+    },
+    {
+      "id": "21",
+      "name": "Picazón en los oidos"
+    },
+    {
+      "id": "22",
+      "name": "Sensación de oido tapado"
+    },
+    {
+      "id": "23",
+      "name": "Zumbidos o ruidos en los oídos"
+    },
+    {
+      "id": "24",
+      "name": "Mal olor en la nariz"
+    },
+    {
+      "id": "25",
+      "name": "Alergia o congestión por el polvo o mohos"
+    },
+    {
+      "id": "26",
+      "name": "Congestión nasal en el Invierno o por el frio"
+    },
+    {
+      "id": "27",
+      "name": "Ataques de estornudos"
+    },
+    {
+      "id": "28",
+      "name": "Siente goteo de líquido de la nariz hacia la garganta"
+    },
+    {
+      "id": "29",
+      "name": "Sangrado o inflamación de las encías"
+    },
+    {
+      "id": "30",
+      "name": "Sequedad de boca"
+    },
+    {
+      "id": "31",
+      "name": "Agrietamiento en la esquina de los labios"
+    },
+    {
+      "id": "32",
+      "name": "Aftas en las encías o la boca"
+    },
+    {
+      "id": "33",
+      "name": "Herpes labial"
+    },
+    {
+      "id": "34",
+      "name": "Mal aliento"
+    },
+    {
+      "id": "35",
+      "name": "Dolor de garganta"
+    },
+    {
+      "id": "36",
+      "name": "Angina de pecho o dolor en el pecho"
+    },
+    {
+      "id": "37",
+      "name": "Soplo cardíaco"
+    },
+    {
+      "id": "38",
+      "name": "Presión arterial alta o hipertensión"
+    },
+    {
+      "id": "39",
+      "name": "Palpitaciones"
+    },
+    {
+      "id": "40",
+      "name": "Várices"
+    },
+    {
+      "id": "41",
+      "name": "Hinchazón de los tobillos / pies"
+    },
+    {
+      "id": "42",
+      "name": "Tos crónica (más de 15 días)"
+    },
+    {
+      "id": "43",
+      "name": "Respira con dificultad"
+    },
+    {
+      "id": "44",
+      "name": "Le falta o se corta el aliento, aún en reposo"
+    },
+    {
+      "id": "45",
+      "name": "Intolerancia a productos lácteos"
+    },
+    {
+      "id": "46",
+      "name": "Intolerancia a otros alimentos"
+    },
+    {
+      "id": "47",
+      "name": "Dolor abdominal inferior (abajo del ombligo)"
+    },
+    {
+      "id": "48",
+      "name": "Dolor abdominal superior (arriba del ombligo)"
+    },
+    {
+      "id": "49",
+      "name": "Dolor de estómago que aumenta al comer"
+    },
+    {
+      "id": "50",
+      "name": "Dolor de estómago que calma al comer"
+    },
+    {
+      "id": "51",
+      "name": "Parte inferior del abdomen"
+    },
+    {
+      "id": "52",
+      "name": "Parte superior del abdomen"
+    },
+    {
+      "id": "53",
+      "name": "Todo el abdomen"
+    },
+    {
+      "id": "54",
+      "name": "Reflujo de alimentos"
+    },
+    {
+      "id": "55",
+      "name": "Acidez estomacal o ardor en la boca del estómago"
+    },
+    {
+      "id": "56",
+      "name": "Llenura fácil al comer"
+    },
+    {
+      "id": "57",
+      "name": "Náuseas o vómitos"
+    },
+    {
+      "id": "58",
+      "name": "Estreñimiento"
+    },
+    {
+      "id": "59",
+      "name": "Diarrea"
+    },
+    {
+      "id": "60",
+      "name": "Sangre en las heces o deposición"
+    },
+    {
+      "id": "61",
+      "name": "Alimentos sin digerir en la deposición"
+    },
+    {
+      "id": "62",
+      "name": "Moco en la deposición"
+    },
+    {
+      "id": "63",
+      "name": "Flatulencias, gases intestinales"
+    },
+    {
+      "id": "64",
+      "name": "Goteo / incontinencia de orina"
+    },
+    {
+      "id": "65",
+      "name": "Orina con frecuencia"
+    },
+    {
+      "id": "66",
+      "name": "Urgencia para orinar"
+    },
+    {
+      "id": "67",
+      "name": "Dolor / ardor al orinar"
+    },
+    {
+      "id": "68",
+      "name": "Orina de mal olor o turbia"
+    },
+    {
+      "id": "69",
+      "name": "Orinadera en las noches"
+    },
+    {
+      "id": "70",
+      "name": "Hombres:                             Secreción por el pene o infección"
+    },
+    {
+      "id": "71",
+      "name": "Problemas con la eyaculación"
+    },
+    {
+      "id": "72",
+      "name": "Impotencia"
+    },
+    {
+      "id": "73",
+      "name": "Agrandamiento de la próstata"
+    },
+    {
+      "id": "74",
+      "name": "Mujeres:                                                              Flujo vaginal"
+    },
+    {
+      "id": "75",
+      "name": "Olor vaginal"
+    },
+    {
+      "id": "76",
+      "name": "Picazón vaginal"
+    },
+    {
+      "id": "77",
+      "name": "Dolor vaginal"
+    },
+    {
+      "id": "78",
+      "name": "Cólico menstrual"
+    },
+    {
+      "id": "79",
+      "name": "Menstruaciones fuertes o abundantes, con coágulos"
+    },
+    {
+      "id": "80",
+      "name": "Retención de líquidos"
+    },
+    {
+      "id": "81",
+      "name": "Períodos menstruales irregulares"
+    },
+    {
+      "id": "82",
+      "name": "Sensibilidad o tensión en los senos"
+    },
+    {
+      "id": "83",
+      "name": "Cambios del estado de ánimo"
+    },
+    {
+      "id": "84",
+      "name": "Antojo de carbohidratos"
+    },
+    {
+      "id": "85",
+      "name": "Meses que no tiene periodo menstrual"
+    },
+    {
+      "id": "86",
+      "name": "Está en la menopausia"
+    },
+    {
+      "id": "87",
+      "name": "Calambres musculares"
+    },
+    {
+      "id": "88",
+      "name": "Debilidad o fatigabilidad muscular, sensación de cansancio"
+    },
+    {
+      "id": "89",
+      "name": "Amanece cansad@"
+    },
+    {
+      "id": "90",
+      "name": "Dolor en músculos de la nuca, hombros, espalda o cintura"
+    },
+    {
+      "id": "91",
+      "name": "Dolor en músculos de los brazos o piernas"
+    },
+    {
+      "id": "92",
+      "name": "Dolor en las articulaciones"
+    },
+    {
+      "id": "93",
+      "name": "Enrojecimiento de las articulaciones"
+    },
+    {
+      "id": "94",
+      "name": "Rigidez articular o limitación de movimientos por la mañana"
+    },
+    {
+      "id": "95",
+      "name": "Tendones inflamados"
+    },
+    {
+      "id": "96",
+      "name": "Ansiedad, preocupaciones con facilidad"
+    },
+    {
+      "id": "97",
+      "name": "Depresión"
+    },
+    {
+      "id": "98",
+      "name": "Irritabilidad"
+    },
+    {
+      "id": "99",
+      "name": "Cambios de humor"
+    },
+    {
+      "id": "100",
+      "name": "Pensamientos suicidas"
+    },
+    {
+      "id": "101",
+      "name": "Dificultades con la concentración o la memoria"
+    },
+    {
+      "id": "102",
+      "name": "Entumecimiento u hormigueo en manos, pies, otras partes"
+    },
+    {
+      "id": "103",
+      "name": "Corrientazos en brazos o piernas, otras partes"
+    },
+    {
+      "id": "104",
+      "name": "Convulsiones o crisis de ausencia"
+    },
+    {
+      "id": "105",
+      "name": "Temblor o movimientos anormales o involuntarios"
+    },
+    {
+      "id": "106",
+      "name": "Acné"
+    },
+    {
+      "id": "107",
+      "name": "Enrojecimiento de la cara"
+    },
+    {
+      "id": "108",
+      "name": "Eczema o dermatitis"
+    },
+    {
+      "id": "109",
+      "name": "Erupción, salpullido o brotes"
+    },
+    {
+      "id": "110",
+      "name": "Callos gruesos / resequedad en talones / fisuras"
+    },
+    {
+      "id": "111",
+      "name": "Urticaria o rash"
+    },
+    {
+      "id": "112",
+      "name": "Hongos"
+    },
+    {
+      "id": "113",
+      "name": "Moretones con facilidad"
+    },
+    {
+      "id": "114",
+      "name": "Manchas oscuras en la piel"
+    },
+    {
+      "id": "115",
+      "name": "Lunares que cambian de color o de tamaño"
+    },
+    {
+      "id": "116",
+      "name": "Caída del cabello"
+    },
+    {
+      "id": "117",
+      "name": "Sequedad de la piel en general"
+    },
+    {
+      "id": "118",
+      "name": "Uñas quebradizas"
+    },
+    {
+      "id": "119",
+      "name": "Manchas o puntos blancos en las uñas"
+    }
+  ],
+  "links": [
+    {
+      "relationship": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "id": "1"
+    },
+    {
+      "relationship": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "id": "2"
+    },
+    {
+      "relationship": [
+        10,
+        11,
+        12
+      ],
+      "id": "3"
+    },
+    {
+      "relationship": [
+        13,
+        2
+      ],
+      "id": "4"
+    },
+    {
+      "relationship": [
+        14,
+        15,
+        16,
+        1
+      ],
+      "id": "5"
+    },
+    {
+      "relationship": [
+        17,
+        16,
+        18,
+        19
+      ],
+      "id": "6"
+    },
+    {
+      "relationship": [
+        16,
+        19,
+        20
+      ],
+      "id": "7"
+    },
+    {
+      "relationship": [
+        21,
+        15,
+        1,
+        22
+      ],
+      "id": "8"
+    },
+    {
+      "relationship": [
+        21,
+        23,
+        1
+      ],
+      "id": "9"
+    },
+    {
+      "relationship": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "id": "10"
+    },
+    {
+      "relationship": [
+        28,
+        29,
+        30,
+        31,
+        32,
+        33
+      ],
+      "id": "11"
+    },
+    {
+      "relationship": [
+        34,
+        35,
+        2
+      ],
+      "id": "12"
+    },
+    {
+      "relationship": [
+        2,
+        36,
+        1
+      ],
+      "id": "13"
+    },
+    {
+      "relationship": [
+        37,
+        38
+      ],
+      "id": "14"
+    },
+    {
+      "relationship": [
+        39,
+        40
+      ],
+      "id": "15"
+    },
+    {
+      "relationship": [
+        37
+      ],
+      "id": "16"
+    },
+    {
+      "relationship": [
+        41,
+        42
+      ],
+      "id": "17"
+    },
+    {
+      "relationship": [
+        43,
+        44
+      ],
+      "id": "18"
+    },
+    {
+      "relationship": [
+        46
+      ],
+      "id": "19"
+    },
+    {
+      "relationship": [
+        46
+      ],
+      "id": "20"
+    },
+    {
+      "relationship": [
+        46,
+        43
+      ],
+      "id": "21"
+    },
+    {
+      "relationship": [
+        47,
+        48,
+        49
+      ],
+      "id": "22"
+    },
+    {
+      "relationship": [
+        50,
+        47,
+        51
+      ],
+      "id": "23"
+    },
+    {
+      "relationship": [
+        52
+      ],
+      "id": "24"
+    },
+    {
+      "relationship": [
+        53
+      ],
+      "id": "25"
+    },
+    {
+      "relationship": [
+        53
+      ],
+      "id": "26"
+    },
+    {
+      "relationship": [
+        53
+      ],
+      "id": "27"
+    },
+    {
+      "relationship": [
+        53
+      ],
+      "id": "28"
+    },
+    {
+      "relationship": [
+        54,
+        55
+      ],
+      "id": "29"
+    },
+    {
+      "relationship": [
+        29,
+        56,
+        57,
+        58
+      ],
+      "id": "30"
+    },
+    {
+      "relationship": [
+        32,
+        41
+      ],
+      "id": "31"
+    },
+    {
+      "relationship": [
+        32,
+        59
+      ],
+      "id": "32"
+    },
+    {
+      "relationship": [
+        60
+      ],
+      "id": "33"
+    },
+    {
+      "relationship": [
+        54,
+        61,
+        62,
+        63,
+        64,
+        65
+      ],
+      "id": "34"
+    },
+    {
+      "relationship": [
+        64,
+        66,
+        67
+      ],
+      "id": "35"
+    },
+    {
+      "relationship": [
+        68,
+        24
+      ],
+      "id": "36"
+    },
+    {
+      "relationship": [
+        69,
+        70
+      ],
+      "id": "37"
+    },
+    {
+      "relationship": [
+        71,
+        25,
+        14
+      ],
+      "id": "38"
+    },
+    {
+      "relationship": [
+        24,
+        2,
+        3,
+        19,
+        11
+      ],
+      "id": "39"
+    },
+    {
+      "relationship": [
+        72
+      ],
+      "id": "40"
+    },
+    {
+      "relationship": [
+        24,
+        25,
+        26,
+        27
+      ],
+      "id": "41"
+    },
+    {
+      "relationship": [
+        73,
+        65,
+        74,
+        75,
+        76,
+        18,
+        77,
+        48
+      ],
+      "id": "42"
+    },
+    {
+      "relationship": [
+        24,
+        75,
+        58,
+        73,
+        78,
+        70
+      ],
+      "id": "43"
+    },
+    {
+      "relationship": [
+        24,
+        75
+      ],
+      "id": "44"
+    },
+    {
+      "relationship": [
+        79,
+        80,
+        81
+      ],
+      "id": "45"
+    },
+    {
+      "relationship": [
+        79,
+        80,
+        61,
+        82
+      ],
+      "id": "46"
+    },
+    {
+      "relationship": [
+        83,
+        84,
+        85,
+        86
+      ],
+      "id": "47"
+    },
+    {
+      "relationship": [
+        56,
+        87,
+        88,
+        86,
+        89,
+        90,
+        91,
+        92
+      ],
+      "id": "48"
+    },
+    {
+      "relationship": [
+        56,
+        93,
+        94,
+        65
+      ],
+      "id": "49"
+    },
+    {
+      "relationship": [
+        56,
+        95
+      ],
+      "id": "50"
+    },
+    {
+      "relationship": [
+        79,
+        96
+      ],
+      "id": "51"
+    },
+    {
+      "relationship": [
+        56,
+        86
+      ],
+      "id": "52"
+    },
+    {
+      "relationship": [
+        56,
+        86,
+        59
+      ],
+      "id": "53"
+    },
+    {
+      "relationship": [
+        65,
+        91,
+        97
+      ],
+      "id": "54"
+    },
+    {
+      "relationship": [
+        56,
+        98,
+        99,
+        100,
+        101
+      ],
+      "id": "55"
+    },
+    {
+      "relationship": [
+        56
+      ],
+      "id": "56"
+    },
+    {
+      "relationship": [
+        102,
+        56,
+        103,
+        104,
+        1,
+        105,
+        101
+      ],
+      "id": "57"
+    },
+    {
+      "relationship": [
+        29,
+        106,
+        86,
+        9,
+        107
+      ],
+      "id": "58"
+    },
+    {
+      "relationship": [
+        102,
+        86,
+        56,
+        108,
+        104,
+        92
+      ],
+      "id": "59"
+    },
+    {
+      "relationship": [
+        102,
+        92,
+        109,
+        9,
+        110
+      ],
+      "id": "60"
+    },
+    {
+      "relationship": [
+        79,
+        82,
+        61
+      ],
+      "id": "61"
+    },
+    {
+      "relationship": [
+        102,
+        92,
+        109
+      ],
+      "id": "62"
+    },
+    {
+      "relationship": [
+        79,
+        82,
+        61,
+        111
+      ],
+      "id": "63"
+    },
+    {
+      "relationship": [
+        112,
+        32,
+        113,
+        114,
+        11
+      ],
+      "id": "64"
+    },
+    {
+      "relationship": [
+        115,
+        23,
+        25,
+        9,
+        116,
+        113
+      ],
+      "id": "65"
+    },
+    {
+      "relationship": [
+        115,
+        113,
+        112,
+        11
+      ],
+      "id": "66"
+    },
+    {
+      "relationship": [
+        115,
+        117,
+        84
+      ],
+      "id": "67"
+    },
+    {
+      "relationship": [
+        115,
+        118
+      ],
+      "id": "68"
+    },
+    {
+      "relationship": [
+        71,
+        116,
+        101,
+        115
+      ],
+      "id": "69"
+    },
+    {
+      "relationship": [
+        117,
+        119
+      ],
+      "id": "70"
+    },
+    {
+      "relationship": [
+        120,
+        23,
+        1,
+        31
+      ],
+      "id": "71"
+    },
+    {
+      "relationship": [
+        120,
+        23,
+        1,
+        31,
+        101,
+        121
+      ],
+      "id": "72"
+    },
+    {
+      "relationship": [
+        113
+      ],
+      "id": "73"
+    },
+    {
+      "relationship": [
+        84,
+        122,
+        117
+      ],
+      "id": "74"
+    },
+    {
+      "relationship": [
+        84,
+        117
+      ],
+      "id": "75"
+    },
+    {
+      "relationship": [
+        84,
+        43
+      ],
+      "id": "76"
+    },
+    {
+      "relationship": [
+        84,
+        123,
+        124,
+        114
+      ],
+      "id": "77"
+    },
+    {
+      "relationship": [
+        125
+      ],
+      "id": "78"
+    },
+    {
+      "relationship": [
+        125
+      ],
+      "id": "79"
+    },
+    {
+      "relationship": [
+        125
+      ],
+      "id": "80"
+    },
+    {
+      "relationship": [
+        125
+      ],
+      "id": "81"
+    },
+    {
+      "relationship": [
+        125
+      ],
+      "id": "82"
+    },
+    {
+      "relationship": [
+        125
+      ],
+      "id": "83"
+    },
+    {
+      "relationship": [
+        125
+      ],
+      "id": "84"
+    },
+    {
+      "relationship": [
+        125
+      ],
+      "id": "85"
+    },
+    {
+      "relationship": [
+        10
+      ],
+      "id": "86"
+    },
+    {
+      "relationship": [
+        126,
+        20
+      ],
+      "id": "87"
+    },
+    {
+      "relationship": [
+        127,
+        128,
+        3,
+        22
+      ],
+      "id": "88"
+    },
+    {
+      "relationship": [
+        127,
+        128,
+        3,
+        129
+      ],
+      "id": "89"
+    },
+    {
+      "relationship": [
+        127,
+        128,
+        3,
+        130,
+        131,
+        101
+      ],
+      "id": "90"
+    },
+    {
+      "relationship": [
+        127,
+        128,
+        3,
+        130,
+        131,
+        101
+      ],
+      "id": "91"
+    },
+    {
+      "relationship": [
+        132,
+        133,
+        134,
+        135,
+        136,
+        101
+      ],
+      "id": "92"
+    },
+    {
+      "relationship": [
+        133
+      ],
+      "id": "93"
+    },
+    {
+      "relationship": [
+        133,
+        135,
+        136
+      ],
+      "id": "94"
+    },
+    {
+      "relationship": [
+        134,
+        135,
+        137
+      ],
+      "id": "95"
+    },
+    {
+      "relationship": [
+        2,
+        1,
+        3,
+        22,
+        101
+      ],
+      "id": "96"
+    },
+    {
+      "relationship": [
+        2,
+        5,
+        3,
+        22,
+        101
+      ],
+      "id": "97"
+    },
+    {
+      "relationship": [
+        2,
+        5,
+        3,
+        22,
+        4,
+        101
+      ],
+      "id": "98"
+    },
+    {
+      "relationship": [
+        2,
+        5,
+        3,
+        22,
+        4,
+        101
+      ],
+      "id": "99"
+    },
+    {
+      "relationship": [
+        5,
+        138,
+        101
+      ],
+      "id": "100"
+    },
+    {
+      "relationship": [
+        2,
+        5,
+        3,
+        22,
+        1,
+        101
+      ],
+      "id": "101"
+    },
+    {
+      "relationship": [
+        3,
+        139,
+        131
+      ],
+      "id": "102"
+    },
+    {
+      "relationship": [
+        3,
+        139,
+        131
+      ],
+      "id": "103"
+    },
+    {
+      "relationship": [
+        140,
+        141
+      ],
+      "id": "104"
+    },
+    {
+      "relationship": [
+        142,
+        143,
+        144
+      ],
+      "id": "105"
+    },
+    {
+      "relationship": [
+        3,
+        22
+      ],
+      "id": "106"
+    },
+    {
+      "relationship": [
+        145,
+        146,
+        42,
+        1,
+        147
+      ],
+      "id": "107"
+    },
+    {
+      "relationship": [
+        148,
+        149,
+        43,
+        135,
+        101
+      ],
+      "id": "108"
+    },
+    {
+      "relationship": [
+        43,
+        135,
+        101,
+        32,
+        150
+      ],
+      "id": "109"
+    },
+    {
+      "relationship": [
+        15,
+        41
+      ],
+      "id": "110"
+    },
+    {
+      "relationship": [
+        43,
+        135,
+        101,
+        32
+      ],
+      "id": "111"
+    },
+    {
+      "relationship": [
+        151
+      ],
+      "id": "112"
+    },
+    {
+      "relationship": [
+        55,
+        152,
+        135,
+        9
+      ],
+      "id": "113"
+    },
+    {
+      "relationship": [
+        153,
+        22,
+        101,
+        154
+      ],
+      "id": "114"
+    },
+    {
+      "relationship": [
+        155,
+        156
+      ],
+      "id": "115"
+    },
+    {
+      "relationship": [
+        15,
+        3,
+        101,
+        22
+      ],
+      "id": "116"
+    },
+    {
+      "relationship": [
+        15,
+        3,
+        157
+      ],
+      "id": "117"
+    },
+    {
+      "relationship": [
+        15,
+        3,
+        157
+      ],
+      "id": "118"
+    },
+    {
+      "relationship": [
+        158
+      ],
+      "id": "119"
+    }
+  ]
+}

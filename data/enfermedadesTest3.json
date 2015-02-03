@@ -1,0 +1,4969 @@
+{
+    "nodes": [
+        {
+            "packageName": "enfermedad",
+            "className": "Ansiedad",
+            "value": "10",
+            "name": "Ansiedad",
+            "id": 1
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Estrés",
+            "value": "10",
+            "name": "Estrés",
+            "id": 2
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Deficiencias nutricionales",
+            "value": "10",
+            "name": "Deficiencias nutricionales",
+            "id": 3
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Dolor crónico",
+            "value": "10",
+            "name": "Dolor crónico",
+            "id": 4
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Depresión",
+            "value": "10",
+            "name": "Depresión",
+            "id": 5
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Hipotensión arterial",
+            "value": "10",
+            "name": "Hipotensión arterial",
+            "id": 6
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "vértigo",
+            "value": "10",
+            "name": "vértigo",
+            "id": 7
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "deshidratación",
+            "value": "10",
+            "name": "deshidratación",
+            "id": 8
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "efectos adversos a medicamentos",
+            "value": "10",
+            "name": "efectos adversos a medicamentos",
+            "id": 9
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Menopausia",
+            "value": "10",
+            "name": "Menopausia",
+            "id": 10
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Disfunción autonómica",
+            "value": "10",
+            "name": "Disfunción autonómica",
+            "id": 11
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Disfunción endocrina",
+            "value": "10",
+            "name": "Disfunción endocrina",
+            "id": 12
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Disfución autonómica",
+            "value": "10",
+            "name": "Disfución autonómica",
+            "id": 13
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Sindrome metabólico",
+            "value": "10",
+            "name": "Sindrome metabólico",
+            "id": 14
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Hipotiroidismo",
+            "value": "10",
+            "name": "Hipotiroidismo",
+            "id": 15
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Desnutrición",
+            "value": "10",
+            "name": "Desnutrición",
+            "id": 16
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Infecciones crónicas",
+            "value": "10",
+            "name": "Infecciones crónicas",
+            "id": 17
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cáncer",
+            "value": "10",
+            "name": "Cáncer",
+            "id": 18
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Hipertiroidismo",
+            "value": "10",
+            "name": "Hipertiroidismo",
+            "id": 19
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Sobreentrenamiento",
+            "value": "10",
+            "name": "Sobreentrenamiento",
+            "id": 20
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Resistencia a la insulina",
+            "value": "10",
+            "name": "Resistencia a la insulina",
+            "id": 21
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Disfunciones endocrinas",
+            "value": "10",
+            "name": "Disfunciones endocrinas",
+            "id": 22
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Diabetes",
+            "value": "10",
+            "name": "Diabetes",
+            "id": 23
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cardiopatías",
+            "value": "10",
+            "name": "Cardiopatías",
+            "id": 24
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Enfermedad renal crónica",
+            "value": "10",
+            "name": "Enfermedad renal crónica",
+            "id": 25
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Deficiencia de minerales",
+            "value": "10",
+            "name": "Deficiencia de minerales",
+            "id": 26
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Insuficiencia venosa o linfática",
+            "value": "10",
+            "name": "Insuficiencia venosa o linfática",
+            "id": 27
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Migraña",
+            "value": "10",
+            "name": "Migraña",
+            "id": 28
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Deshidratación",
+            "value": "10",
+            "name": "Deshidratación",
+            "id": 29
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "sinusitis",
+            "value": "10",
+            "name": "sinusitis",
+            "id": 30
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "estrés",
+            "value": "10",
+            "name": "estrés",
+            "id": 31
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Infecciones",
+            "value": "10",
+            "name": "Infecciones",
+            "id": 32
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Enfermedades cerebrales",
+            "value": "10",
+            "name": "Enfermedades cerebrales",
+            "id": 33
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Intolerancia a alimentos",
+            "value": "10",
+            "name": "Intolerancia a alimentos",
+            "id": 34
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Disfunción mitocondrial",
+            "value": "10",
+            "name": "Disfunción mitocondrial",
+            "id": 35
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Contracturas musculares",
+            "value": "10",
+            "name": "Contracturas musculares",
+            "id": 36
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Conjuntivitis",
+            "value": "10",
+            "name": "Conjuntivitis",
+            "id": 37
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Obstrucción del conducto lacrimonasal",
+            "value": "10",
+            "name": "Obstrucción del conducto lacrimonasal",
+            "id": 38
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Alergias a alimentos",
+            "value": "10",
+            "name": "Alergias a alimentos",
+            "id": 39
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Conjuntivitis alérgica",
+            "value": "10",
+            "name": "Conjuntivitis alérgica",
+            "id": 40
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Deficiencia de complejo B",
+            "value": "10",
+            "name": "Deficiencia de complejo B",
+            "id": 41
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Dermatitis seborreica",
+            "value": "10",
+            "name": "Dermatitis seborreica",
+            "id": 42
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Alergias",
+            "value": "10",
+            "name": "Alergias",
+            "id": 43
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Enfermedad crónica",
+            "value": "10",
+            "name": "Enfermedad crónica",
+            "id": 44
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Insomnio",
+            "value": "10",
+            "name": "Insomnio",
+            "id": 45
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Otitis",
+            "value": "10",
+            "name": "Otitis",
+            "id": 46
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Rinitis",
+            "value": "10",
+            "name": "Rinitis",
+            "id": 47
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Tapón de cerumen",
+            "value": "10",
+            "name": "Tapón de cerumen",
+            "id": 48
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Disfunción tubaria",
+            "value": "10",
+            "name": "Disfunción tubaria",
+            "id": 49
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Tinitus",
+            "value": "10",
+            "name": "Tinitus",
+            "id": 50
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Vasculopatía",
+            "value": "10",
+            "name": "Vasculopatía",
+            "id": 51
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Sinusitis",
+            "value": "10",
+            "name": "Sinusitis",
+            "id": 52
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Rinitis alérgica",
+            "value": "10",
+            "name": "Rinitis alérgica",
+            "id": 53
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Gingivitis",
+            "value": "10",
+            "name": "Gingivitis",
+            "id": 54
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Fragilidad capilar",
+            "value": "10",
+            "name": "Fragilidad capilar",
+            "id": 55
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Gastritis",
+            "value": "10",
+            "name": "Gastritis",
+            "id": 56
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Sindrome seco",
+            "value": "10",
+            "name": "Sindrome seco",
+            "id": 57
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Obstrucción nasal",
+            "value": "10",
+            "name": "Obstrucción nasal",
+            "id": 58
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Alergia a alimentos",
+            "value": "10",
+            "name": "Alergia a alimentos",
+            "id": 59
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Infección x herpes",
+            "value": "10",
+            "name": "Infección x herpes",
+            "id": 60
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Gastritis crónica",
+            "value": "10",
+            "name": "Gastritis crónica",
+            "id": 61
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Malos hábitos de higiene",
+            "value": "10",
+            "name": "Malos hábitos de higiene",
+            "id": 62
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Caries",
+            "value": "10",
+            "name": "Caries",
+            "id": 63
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Faringitis",
+            "value": "10",
+            "name": "Faringitis",
+            "id": 64
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Reflujo gastroesofágico",
+            "value": "10",
+            "name": "Reflujo gastroesofágico",
+            "id": 65
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Amigdalitis",
+            "value": "10",
+            "name": "Amigdalitis",
+            "id": 66
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Resfriado común",
+            "value": "10",
+            "name": "Resfriado común",
+            "id": 67
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Costocondritis",
+            "value": "10",
+            "name": "Costocondritis",
+            "id": 68
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Valvulopatías",
+            "value": "10",
+            "name": "Valvulopatías",
+            "id": 69
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Anemia",
+            "value": "10",
+            "name": "Anemia",
+            "id": 70
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Hipertensión arterial",
+            "value": "10",
+            "name": "Hipertensión arterial",
+            "id": 71
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Insuficiencia venosa",
+            "value": "10",
+            "name": "Insuficiencia venosa",
+            "id": 72
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Alergia respiratoria",
+            "value": "10",
+            "name": "Alergia respiratoria",
+            "id": 73
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Laringitis crónica",
+            "value": "10",
+            "name": "Laringitis crónica",
+            "id": 74
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "EPOC",
+            "value": "10",
+            "name": "EPOC",
+            "id": 75
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "TBC",
+            "value": "10",
+            "name": "TBC",
+            "id": 76
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Tabaquismo",
+            "value": "10",
+            "name": "Tabaquismo",
+            "id": 77
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Obesidad",
+            "value": "10",
+            "name": "Obesidad",
+            "id": 78
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Colon Irritable",
+            "value": "10",
+            "name": "Colon Irritable",
+            "id": 79
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Alergia alimentaria",
+            "value": "10",
+            "name": "Alergia alimentaria",
+            "id": 80
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Intolerancia a la lactosa",
+            "value": "10",
+            "name": "Intolerancia a la lactosa",
+            "id": 81
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Insuficiencia de enzimas digestivas",
+            "value": "10",
+            "name": "Insuficiencia de enzimas digestivas",
+            "id": 82
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cistitis",
+            "value": "10",
+            "name": "Cistitis",
+            "id": 83
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Vaginitis",
+            "value": "10",
+            "name": "Vaginitis",
+            "id": 84
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Colitis",
+            "value": "10",
+            "name": "Colitis",
+            "id": 85
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Colon irritable",
+            "value": "10",
+            "name": "Colon irritable",
+            "id": 86
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Colecistitis",
+            "value": "10",
+            "name": "Colecistitis",
+            "id": 87
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Colelitiasis",
+            "value": "10",
+            "name": "Colelitiasis",
+            "id": 88
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Hepatopatías",
+            "value": "10",
+            "name": "Hepatopatías",
+            "id": 89
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Ulcera gástrica o duodenal",
+            "value": "10",
+            "name": "Ulcera gástrica o duodenal",
+            "id": 90
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Hernia hiatal",
+            "value": "10",
+            "name": "Hernia hiatal",
+            "id": 91
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Parasitosis",
+            "value": "10",
+            "name": "Parasitosis",
+            "id": 92
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Ulcera gastrica",
+            "value": "10",
+            "name": "Ulcera gastrica",
+            "id": 93
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cáncer de estómago o páncreas",
+            "value": "10",
+            "name": "Cáncer de estómago o páncreas",
+            "id": 94
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Ulcera duodenal",
+            "value": "10",
+            "name": "Ulcera duodenal",
+            "id": 95
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Estreñimiento",
+            "value": "10",
+            "name": "Estreñimiento",
+            "id": 96
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Hipoclorhidria",
+            "value": "10",
+            "name": "Hipoclorhidria",
+            "id": 97
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Esofagitis",
+            "value": "10",
+            "name": "Esofagitis",
+            "id": 98
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Hernia histal",
+            "value": "10",
+            "name": "Hernia histal",
+            "id": 99
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cáncer de estómago",
+            "value": "10",
+            "name": "Cáncer de estómago",
+            "id": 100
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Efectos adversos a medicamentos",
+            "value": "10",
+            "name": "Efectos adversos a medicamentos",
+            "id": 101
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Infecciones gastrointestinales",
+            "value": "10",
+            "name": "Infecciones gastrointestinales",
+            "id": 102
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Colecistopatías",
+            "value": "10",
+            "name": "Colecistopatías",
+            "id": 103
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Intoxicación alimentaria",
+            "value": "10",
+            "name": "Intoxicación alimentaria",
+            "id": 104
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Intoxicaciones",
+            "value": "10",
+            "name": "Intoxicaciones",
+            "id": 105
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Déficit de fibra en la dieta",
+            "value": "10",
+            "name": "Déficit de fibra en la dieta",
+            "id": 106
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Parasitismo",
+            "value": "10",
+            "name": "Parasitismo",
+            "id": 107
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cáncer gastrointestinal",
+            "value": "10",
+            "name": "Cáncer gastrointestinal",
+            "id": 108
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Cancer gastrointestinal",
+            "value": "10",
+            "name": "Cancer gastrointestinal",
+            "id": 109
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Hemorroides",
+            "value": "10",
+            "name": "Hemorroides",
+            "id": 110
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Malos hábitos alimentarios",
+            "value": "10",
+            "name": "Malos hábitos alimentarios",
+            "id": 111
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Incontinencia urinaria",
+            "value": "10",
+            "name": "Incontinencia urinaria",
+            "id": 112
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Prostatismo",
+            "value": "10",
+            "name": "Prostatismo",
+            "id": 113
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Prolapso genital",
+            "value": "10",
+            "name": "Prolapso genital",
+            "id": 114
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Infecciones urinarias",
+            "value": "10",
+            "name": "Infecciones urinarias",
+            "id": 115
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Retención de líquidos",
+            "value": "10",
+            "name": "Retención de líquidos",
+            "id": 116
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Enfermedades de transmisión sexual",
+            "value": "10",
+            "name": "Enfermedades de transmisión sexual",
+            "id": 117
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Litiasis urinaria",
+            "value": "10",
+            "name": "Litiasis urinaria",
+            "id": 118
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Prostatitis",
+            "value": "10",
+            "name": "Prostatitis",
+            "id": 119
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Disfunciones sexuales",
+            "value": "10",
+            "name": "Disfunciones sexuales",
+            "id": 120
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Neuropatías",
+            "value": "10",
+            "name": "Neuropatías",
+            "id": 121
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Disbiosis",
+            "value": "10",
+            "name": "Disbiosis",
+            "id": 122
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Tumores",
+            "value": "10",
+            "name": "Tumores",
+            "id": 123
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Disfunción sexual",
+            "value": "10",
+            "name": "Disfunción sexual",
+            "id": 124
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Sindrome premenstrual",
+            "value": "10",
+            "name": "Sindrome premenstrual",
+            "id": 125
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Deficiencia de magnesio o potasio",
+            "value": "10",
+            "name": "Deficiencia de magnesio o potasio",
+            "id": 126
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Fibromialgia",
+            "value": "10",
+            "name": "Fibromialgia",
+            "id": 127
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Fatiga crónica",
+            "value": "10",
+            "name": "Fatiga crónica",
+            "id": 128
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Dsifunciones endocrinas",
+            "value": "10",
+            "name": "Dsifunciones endocrinas",
+            "id": 129
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Malos hábitos posturales",
+            "value": "10",
+            "name": "Malos hábitos posturales",
+            "id": 130
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Neuropatías periféricas",
+            "value": "10",
+            "name": "Neuropatías periféricas",
+            "id": 131
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Artrosis",
+            "value": "10",
+            "name": "Artrosis",
+            "id": 132
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Artritis",
+            "value": "10",
+            "name": "Artritis",
+            "id": 133
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Tendinitis",
+            "value": "10",
+            "name": "Tendinitis",
+            "id": 134
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Enfermedad autoinmune",
+            "value": "10",
+            "name": "Enfermedad autoinmune",
+            "id": 135
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Alergias alimentarias",
+            "value": "10",
+            "name": "Alergias alimentarias",
+            "id": 136
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Trauma repetitivo",
+            "value": "10",
+            "name": "Trauma repetitivo",
+            "id": 137
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Neuropatías degenerativas",
+            "value": "10",
+            "name": "Neuropatías degenerativas",
+            "id": 138
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Sindrome del túnel del carpo",
+            "value": "10",
+            "name": "Sindrome del túnel del carpo",
+            "id": 139
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Sindromes convulsivos",
+            "value": "10",
+            "name": "Sindromes convulsivos",
+            "id": 140
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Tumores cerebrales",
+            "value": "10",
+            "name": "Tumores cerebrales",
+            "id": 141
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Parkinson",
+            "value": "10",
+            "name": "Parkinson",
+            "id": 142
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Alzheimer",
+            "value": "10",
+            "name": "Alzheimer",
+            "id": 143
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Encefalopatías crónicas",
+            "value": "10",
+            "name": "Encefalopatías crónicas",
+            "id": 144
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Rosácea",
+            "value": "10",
+            "name": "Rosácea",
+            "id": 145
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Dermatitis alérgicas",
+            "value": "10",
+            "name": "Dermatitis alérgicas",
+            "id": 146
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Enfermedades autoinmunes",
+            "value": "10",
+            "name": "Enfermedades autoinmunes",
+            "id": 147
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Psoriasis",
+            "value": "10",
+            "name": "Psoriasis",
+            "id": 148
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Dermatitis Atópica",
+            "value": "10",
+            "name": "Dermatitis Atópica",
+            "id": 149
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Parasitosis cutáneas",
+            "value": "10",
+            "name": "Parasitosis cutáneas",
+            "id": 150
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Micosis",
+            "value": "10",
+            "name": "Micosis",
+            "id": 151
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Vasculitis",
+            "value": "10",
+            "name": "Vasculitis",
+            "id": 152
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Dermatitis actínica",
+            "value": "10",
+            "name": "Dermatitis actínica",
+            "id": 153
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Deficiencia de Niacina",
+            "value": "10",
+            "name": "Deficiencia de Niacina",
+            "id": 154
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Nevus",
+            "value": "10",
+            "name": "Nevus",
+            "id": 155
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Melanoma",
+            "value": "10",
+            "name": "Melanoma",
+            "id": 156
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Toxicidad x químicos",
+            "value": "10",
+            "name": "Toxicidad x químicos",
+            "id": 157
+        },
+        {
+            "packageName": "enfermedad",
+            "className": "Deficiencia de zinc",
+            "value": "10",
+            "name": "Deficiencia de zinc",
+            "id": 158
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Insomnio",
+            "value": "10",
+            "name": "Insomnio",
+            "id": "1"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Mareos",
+            "value": "10",
+            "name": "Mareos",
+            "id": "2"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Rubor, oleadas de calor o sofoco",
+            "value": "10",
+            "name": "Rubor, oleadas de calor o sofoco",
+            "id": "3"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Sudoración excesiva",
+            "value": "10",
+            "name": "Sudoración excesiva",
+            "id": "4"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Peso excesivo",
+            "value": "10",
+            "name": "Peso excesivo",
+            "id": "5"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Pérdida de peso",
+            "value": "10",
+            "name": "Pérdida de peso",
+            "id": "6"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "No puede subir de peso",
+            "value": "10",
+            "name": "No puede subir de peso",
+            "id": "7"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "No puede bajar de peso",
+            "value": "10",
+            "name": "No puede bajar de peso",
+            "id": "8"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Antojos de carbohidratos o dulces",
+            "value": "10",
+            "name": "Antojos de carbohidratos o dulces",
+            "id": "9"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Retención de agua o líquidos",
+            "value": "10",
+            "name": "Retención de agua o líquidos",
+            "id": "10"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dolor de cabeza",
+            "value": "10",
+            "name": "Dolor de cabeza",
+            "id": "11"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Migraña",
+            "value": "10",
+            "name": "Migraña",
+            "id": "12"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Cefalea tensional / dolor atrás de la cabeza",
+            "value": "10",
+            "name": "Cefalea tensional / dolor atrás de la cabeza",
+            "id": "13"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Lagrimeo",
+            "value": "10",
+            "name": "Lagrimeo",
+            "id": "14"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Picazón en los ojos",
+            "value": "10",
+            "name": "Picazón en los ojos",
+            "id": "15"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Formación de costras o secreción en los ojos",
+            "value": "10",
+            "name": "Formación de costras o secreción en los ojos",
+            "id": "16"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Enrojecimiento del borde de los párpados",
+            "value": "10",
+            "name": "Enrojecimiento del borde de los párpados",
+            "id": "17"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Bolsas u ojeras debajo de los ojos",
+            "value": "10",
+            "name": "Bolsas u ojeras debajo de los ojos",
+            "id": "18"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dolor de oído",
+            "value": "10",
+            "name": "Dolor de oído",
+            "id": "19"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Supuración por el oido",
+            "value": "10",
+            "name": "Supuración por el oido",
+            "id": "20"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Picazón en los oidos",
+            "value": "10",
+            "name": "Picazón en los oidos",
+            "id": "21"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Sensación de oido tapado",
+            "value": "10",
+            "name": "Sensación de oido tapado",
+            "id": "22"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Zumbidos o ruidos en los oídos",
+            "value": "10",
+            "name": "Zumbidos o ruidos en los oídos",
+            "id": "23"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Mal olor en la nariz",
+            "value": "10",
+            "name": "Mal olor en la nariz",
+            "id": "24"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Alergia o congestión por el polvo o mohos",
+            "value": "10",
+            "name": "Alergia o congestión por el polvo o mohos",
+            "id": "25"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Congestión nasal en el Invierno o por el frio",
+            "value": "10",
+            "name": "Congestión nasal en el Invierno o por el frio",
+            "id": "26"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Ataques de estornudos",
+            "value": "10",
+            "name": "Ataques de estornudos",
+            "id": "27"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Siente goteo de líquido de la nariz hacia la garganta",
+            "value": "10",
+            "name": "Siente goteo de líquido de la nariz hacia la garganta",
+            "id": "28"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Sangrado o inflamación de las encías",
+            "value": "10",
+            "name": "Sangrado o inflamación de las encías",
+            "id": "29"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Sequedad de boca",
+            "value": "10",
+            "name": "Sequedad de boca",
+            "id": "30"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Agrietamiento en la esquina de los labios",
+            "value": "10",
+            "name": "Agrietamiento en la esquina de los labios",
+            "id": "31"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Aftas en las encías o la boca",
+            "value": "10",
+            "name": "Aftas en las encías o la boca",
+            "id": "32"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Herpes labial",
+            "value": "10",
+            "name": "Herpes labial",
+            "id": "33"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Mal aliento",
+            "value": "10",
+            "name": "Mal aliento",
+            "id": "34"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dolor de garganta",
+            "value": "10",
+            "name": "Dolor de garganta",
+            "id": "35"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Angina de pecho o dolor en el pecho",
+            "value": "10",
+            "name": "Angina de pecho o dolor en el pecho",
+            "id": "36"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Soplo cardíaco",
+            "value": "10",
+            "name": "Soplo cardíaco",
+            "id": "37"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Presión arterial alta o hipertensión",
+            "value": "10",
+            "name": "Presión arterial alta o hipertensión",
+            "id": "38"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Palpitaciones",
+            "value": "10",
+            "name": "Palpitaciones",
+            "id": "39"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Várices",
+            "value": "10",
+            "name": "Várices",
+            "id": "40"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Hinchazón de los tobillos / pies",
+            "value": "10",
+            "name": "Hinchazón de los tobillos / pies",
+            "id": "41"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Tos crónica (más de 15 días)",
+            "value": "10",
+            "name": "Tos crónica (más de 15 días)",
+            "id": "42"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Respira con dificultad",
+            "value": "10",
+            "name": "Respira con dificultad",
+            "id": "43"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Le falta o se corta el aliento, aún en reposo",
+            "value": "10",
+            "name": "Le falta o se corta el aliento, aún en reposo",
+            "id": "44"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Intolerancia a productos lácteos",
+            "value": "10",
+            "name": "Intolerancia a productos lácteos",
+            "id": "45"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Intolerancia a otros alimentos",
+            "value": "10",
+            "name": "Intolerancia a otros alimentos",
+            "id": "46"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dolor abdominal inferior (abajo del ombligo)",
+            "value": "10",
+            "name": "Dolor abdominal inferior (abajo del ombligo)",
+            "id": "47"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dolor abdominal superior (arriba del ombligo)",
+            "value": "10",
+            "name": "Dolor abdominal superior (arriba del ombligo)",
+            "id": "48"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dolor de estómago que aumenta al comer",
+            "value": "10",
+            "name": "Dolor de estómago que aumenta al comer",
+            "id": "49"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dolor de estómago que calma al comer",
+            "value": "10",
+            "name": "Dolor de estómago que calma al comer",
+            "id": "50"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Parte inferior del abdomen",
+            "value": "10",
+            "name": "Parte inferior del abdomen",
+            "id": "51"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Parte superior del abdomen",
+            "value": "10",
+            "name": "Parte superior del abdomen",
+            "id": "52"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Todo el abdomen",
+            "value": "10",
+            "name": "Todo el abdomen",
+            "id": "53"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Reflujo de alimentos",
+            "value": "10",
+            "name": "Reflujo de alimentos",
+            "id": "54"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Acidez estomacal o ardor en la boca del estómago",
+            "value": "10",
+            "name": "Acidez estomacal o ardor en la boca del estómago",
+            "id": "55"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Llenura fácil al comer",
+            "value": "10",
+            "name": "Llenura fácil al comer",
+            "id": "56"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Náuseas o vómitos",
+            "value": "10",
+            "name": "Náuseas o vómitos",
+            "id": "57"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Estreñimiento",
+            "value": "10",
+            "name": "Estreñimiento",
+            "id": "58"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Diarrea",
+            "value": "10",
+            "name": "Diarrea",
+            "id": "59"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Sangre en las heces o deposición",
+            "value": "10",
+            "name": "Sangre en las heces o deposición",
+            "id": "60"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Alimentos sin digerir en la deposición",
+            "value": "10",
+            "name": "Alimentos sin digerir en la deposición",
+            "id": "61"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Moco en la deposición",
+            "value": "10",
+            "name": "Moco en la deposición",
+            "id": "62"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Flatulencias, gases intestinales",
+            "value": "10",
+            "name": "Flatulencias, gases intestinales",
+            "id": "63"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Goteo / incontinencia de orina",
+            "value": "10",
+            "name": "Goteo / incontinencia de orina",
+            "id": "64"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Orina con frecuencia",
+            "value": "10",
+            "name": "Orina con frecuencia",
+            "id": "65"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Urgencia para orinar",
+            "value": "10",
+            "name": "Urgencia para orinar",
+            "id": "66"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dolor / ardor al orinar",
+            "value": "10",
+            "name": "Dolor / ardor al orinar",
+            "id": "67"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Orina de mal olor o turbia",
+            "value": "10",
+            "name": "Orina de mal olor o turbia",
+            "id": "68"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Orinadera en las noches",
+            "value": "10",
+            "name": "Orinadera en las noches",
+            "id": "69"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Hombres:                             Secreción por el pene o infección",
+            "value": "10",
+            "name": "Hombres:                             Secreción por el pene o infección",
+            "id": "70"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Problemas con la eyaculación",
+            "value": "10",
+            "name": "Problemas con la eyaculación",
+            "id": "71"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Impotencia",
+            "value": "10",
+            "name": "Impotencia",
+            "id": "72"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Agrandamiento de la próstata",
+            "value": "10",
+            "name": "Agrandamiento de la próstata",
+            "id": "73"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Mujeres:                                                              Flujo vaginal",
+            "value": "10",
+            "name": "Mujeres:                                                              Flujo vaginal",
+            "id": "74"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Olor vaginal",
+            "value": "10",
+            "name": "Olor vaginal",
+            "id": "75"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Picazón vaginal",
+            "value": "10",
+            "name": "Picazón vaginal",
+            "id": "76"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dolor vaginal",
+            "value": "10",
+            "name": "Dolor vaginal",
+            "id": "77"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Cólico menstrual",
+            "value": "10",
+            "name": "Cólico menstrual",
+            "id": "78"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Menstruaciones fuertes o abundantes, con coágulos",
+            "value": "10",
+            "name": "Menstruaciones fuertes o abundantes, con coágulos",
+            "id": "79"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Retención de líquidos",
+            "value": "10",
+            "name": "Retención de líquidos",
+            "id": "80"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Períodos menstruales irregulares",
+            "value": "10",
+            "name": "Períodos menstruales irregulares",
+            "id": "81"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Sensibilidad o tensión en los senos",
+            "value": "10",
+            "name": "Sensibilidad o tensión en los senos",
+            "id": "82"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Cambios del estado de ánimo",
+            "value": "10",
+            "name": "Cambios del estado de ánimo",
+            "id": "83"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Antojo de carbohidratos",
+            "value": "10",
+            "name": "Antojo de carbohidratos",
+            "id": "84"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Meses que no tiene periodo menstrual",
+            "value": "10",
+            "name": "Meses que no tiene periodo menstrual",
+            "id": "85"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Está en la menopausia",
+            "value": "10",
+            "name": "Está en la menopausia",
+            "id": "86"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Calambres musculares",
+            "value": "10",
+            "name": "Calambres musculares",
+            "id": "87"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Debilidad o fatigabilidad muscular, sensación de cansancio",
+            "value": "10",
+            "name": "Debilidad o fatigabilidad muscular, sensación de cansancio",
+            "id": "88"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Amanece cansad@",
+            "value": "10",
+            "name": "Amanece cansad@",
+            "id": "89"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dolor en músculos de la nuca, hombros, espalda o cintura",
+            "value": "10",
+            "name": "Dolor en músculos de la nuca, hombros, espalda o cintura",
+            "id": "90"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dolor en músculos de los brazos o piernas",
+            "value": "10",
+            "name": "Dolor en músculos de los brazos o piernas",
+            "id": "91"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dolor en las articulaciones",
+            "value": "10",
+            "name": "Dolor en las articulaciones",
+            "id": "92"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Enrojecimiento de las articulaciones",
+            "value": "10",
+            "name": "Enrojecimiento de las articulaciones",
+            "id": "93"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Rigidez articular o limitación de movimientos por la mañana",
+            "value": "10",
+            "name": "Rigidez articular o limitación de movimientos por la mañana",
+            "id": "94"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Tendones inflamados",
+            "value": "10",
+            "name": "Tendones inflamados",
+            "id": "95"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Ansiedad, preocupaciones con facilidad",
+            "value": "10",
+            "name": "Ansiedad, preocupaciones con facilidad",
+            "id": "96"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Depresión",
+            "value": "10",
+            "name": "Depresión",
+            "id": "97"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Irritabilidad",
+            "value": "10",
+            "name": "Irritabilidad",
+            "id": "98"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Cambios de humor",
+            "value": "10",
+            "name": "Cambios de humor",
+            "id": "99"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Pensamientos suicidas",
+            "value": "10",
+            "name": "Pensamientos suicidas",
+            "id": "100"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Dificultades con la concentración o la memoria",
+            "value": "10",
+            "name": "Dificultades con la concentración o la memoria",
+            "id": "101"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Entumecimiento u hormigueo en manos, pies, otras partes",
+            "value": "10",
+            "name": "Entumecimiento u hormigueo en manos, pies, otras partes",
+            "id": "102"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Corrientazos en brazos o piernas, otras partes",
+            "value": "10",
+            "name": "Corrientazos en brazos o piernas, otras partes",
+            "id": "103"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Convulsiones o crisis de ausencia",
+            "value": "10",
+            "name": "Convulsiones o crisis de ausencia",
+            "id": "104"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Temblor o movimientos anormales o involuntarios",
+            "value": "10",
+            "name": "Temblor o movimientos anormales o involuntarios",
+            "id": "105"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Acné",
+            "value": "10",
+            "name": "Acné",
+            "id": "106"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Enrojecimiento de la cara",
+            "value": "10",
+            "name": "Enrojecimiento de la cara",
+            "id": "107"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Eczema o dermatitis",
+            "value": "10",
+            "name": "Eczema o dermatitis",
+            "id": "108"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Erupción, salpullido o brotes",
+            "value": "10",
+            "name": "Erupción, salpullido o brotes",
+            "id": "109"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Callos gruesos / resequedad en talones / fisuras",
+            "value": "10",
+            "name": "Callos gruesos / resequedad en talones / fisuras",
+            "id": "110"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Urticaria o rash",
+            "value": "10",
+            "name": "Urticaria o rash",
+            "id": "111"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Hongos",
+            "value": "10",
+            "name": "Hongos",
+            "id": "112"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Moretones con facilidad",
+            "value": "10",
+            "name": "Moretones con facilidad",
+            "id": "113"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Manchas oscuras en la piel",
+            "value": "10",
+            "name": "Manchas oscuras en la piel",
+            "id": "114"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Lunares que cambian de color o de tamaño",
+            "value": "10",
+            "name": "Lunares que cambian de color o de tamaño",
+            "id": "115"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Caída del cabello",
+            "value": "10",
+            "name": "Caída del cabello",
+            "id": "116"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Sequedad de la piel en general",
+            "value": "10",
+            "name": "Sequedad de la piel en general",
+            "id": "117"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Uñas quebradizas",
+            "value": "10",
+            "name": "Uñas quebradizas",
+            "id": "118"
+        },
+        {
+            "packageName": "sintoma",
+            "className": "Manchas o puntos blancos en las uñas",
+            "value": "10",
+            "name": "Manchas o puntos blancos en las uñas",
+            "id": "119"
+        }
+    ],
+    "links": [
+        {
+            "source": {
+                "className": "Insomnio"
+            },
+            "target": {
+                "className": "Ansiedad"
+            }
+        },
+        {
+            "source": {
+                "className": "Insomnio"
+            },
+            "target": {
+                "className": "Estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Insomnio"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Insomnio"
+            },
+            "target": {
+                "className": "Dolor crónico"
+            }
+        },
+        {
+            "source": {
+                "className": "Insomnio"
+            },
+            "target": {
+                "className": "Depresión"
+            }
+        },
+        {
+            "source": {
+                "className": "Mareos"
+            },
+            "target": {
+                "className": "Hipotensión arterial"
+            }
+        },
+        {
+            "source": {
+                "className": "Mareos"
+            },
+            "target": {
+                "className": "vértigo"
+            }
+        },
+        {
+            "source": {
+                "className": "Mareos"
+            },
+            "target": {
+                "className": "deshidratación"
+            }
+        },
+        {
+            "source": {
+                "className": "Mareos"
+            },
+            "target": {
+                "className": "efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Rubor, oleadas de calor o sofoco"
+            },
+            "target": {
+                "className": "Menopausia"
+            }
+        },
+        {
+            "source": {
+                "className": "Rubor, oleadas de calor o sofoco"
+            },
+            "target": {
+                "className": "Disfunción autonómica"
+            }
+        },
+        {
+            "source": {
+                "className": "Rubor, oleadas de calor o sofoco"
+            },
+            "target": {
+                "className": "Disfunción endocrina"
+            }
+        },
+        {
+            "source": {
+                "className": "Sudoración excesiva"
+            },
+            "target": {
+                "className": "Disfución autonómica"
+            }
+        },
+        {
+            "source": {
+                "className": "Sudoración excesiva"
+            },
+            "target": {
+                "className": "Estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Peso excesivo"
+            },
+            "target": {
+                "className": "Sindrome metabólico"
+            }
+        },
+        {
+            "source": {
+                "className": "Peso excesivo"
+            },
+            "target": {
+                "className": "Hipotiroidismo"
+            }
+        },
+        {
+            "source": {
+                "className": "Peso excesivo"
+            },
+            "target": {
+                "className": "Desnutrición"
+            }
+        },
+        {
+            "source": {
+                "className": "Peso excesivo"
+            },
+            "target": {
+                "className": "Ansiedad"
+            }
+        },
+        {
+            "source": {
+                "className": "Pérdida de peso"
+            },
+            "target": {
+                "className": "Infecciones crónicas"
+            }
+        },
+        {
+            "source": {
+                "className": "Pérdida de peso"
+            },
+            "target": {
+                "className": "Desnutrición"
+            }
+        },
+        {
+            "source": {
+                "className": "Pérdida de peso"
+            },
+            "target": {
+                "className": "Cáncer"
+            }
+        },
+        {
+            "source": {
+                "className": "Pérdida de peso"
+            },
+            "target": {
+                "className": "Hipertiroidismo"
+            }
+        },
+        {
+            "source": {
+                "className": "No puede subir de peso"
+            },
+            "target": {
+                "className": "Desnutrición"
+            }
+        },
+        {
+            "source": {
+                "className": "No puede subir de peso"
+            },
+            "target": {
+                "className": "Hipertiroidismo"
+            }
+        },
+        {
+            "source": {
+                "className": "No puede subir de peso"
+            },
+            "target": {
+                "className": "Sobreentrenamiento"
+            }
+        },
+        {
+            "source": {
+                "className": "No puede bajar de peso"
+            },
+            "target": {
+                "className": "Resistencia a la insulina"
+            }
+        },
+        {
+            "source": {
+                "className": "No puede bajar de peso"
+            },
+            "target": {
+                "className": "Hipotiroidismo"
+            }
+        },
+        {
+            "source": {
+                "className": "No puede bajar de peso"
+            },
+            "target": {
+                "className": "Ansiedad"
+            }
+        },
+        {
+            "source": {
+                "className": "No puede bajar de peso"
+            },
+            "target": {
+                "className": "Disfunciones endocrinas"
+            }
+        },
+        {
+            "source": {
+                "className": "Antojos de carbohidratos o dulces"
+            },
+            "target": {
+                "className": "Resistencia a la insulina"
+            }
+        },
+        {
+            "source": {
+                "className": "Antojos de carbohidratos o dulces"
+            },
+            "target": {
+                "className": "Diabetes"
+            }
+        },
+        {
+            "source": {
+                "className": "Antojos de carbohidratos o dulces"
+            },
+            "target": {
+                "className": "Ansiedad"
+            }
+        },
+        {
+            "source": {
+                "className": "Retención de agua o líquidos"
+            },
+            "target": {
+                "className": "Cardiopatías"
+            }
+        },
+        {
+            "source": {
+                "className": "Retención de agua o líquidos"
+            },
+            "target": {
+                "className": "Enfermedad renal crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Retención de agua o líquidos"
+            },
+            "target": {
+                "className": "Deficiencia de minerales"
+            }
+        },
+        {
+            "source": {
+                "className": "Retención de agua o líquidos"
+            },
+            "target": {
+                "className": "Insuficiencia venosa o linfática"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de cabeza"
+            },
+            "target": {
+                "className": "Migraña"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de cabeza"
+            },
+            "target": {
+                "className": "Deshidratación"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de cabeza"
+            },
+            "target": {
+                "className": "sinusitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de cabeza"
+            },
+            "target": {
+                "className": "estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de cabeza"
+            },
+            "target": {
+                "className": "Infecciones"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de cabeza"
+            },
+            "target": {
+                "className": "Enfermedades cerebrales"
+            }
+        },
+        {
+            "source": {
+                "className": "Migraña"
+            },
+            "target": {
+                "className": "Intolerancia a alimentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Migraña"
+            },
+            "target": {
+                "className": "Disfunción mitocondrial"
+            }
+        },
+        {
+            "source": {
+                "className": "Migraña"
+            },
+            "target": {
+                "className": "Estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Cefalea tensional / dolor atrás de la cabeza"
+            },
+            "target": {
+                "className": "Estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Cefalea tensional / dolor atrás de la cabeza"
+            },
+            "target": {
+                "className": "Contracturas musculares"
+            }
+        },
+        {
+            "source": {
+                "className": "Cefalea tensional / dolor atrás de la cabeza"
+            },
+            "target": {
+                "className": "Ansiedad"
+            }
+        },
+        {
+            "source": {
+                "className": "Lagrimeo"
+            },
+            "target": {
+                "className": "Conjuntivitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Lagrimeo"
+            },
+            "target": {
+                "className": "Obstrucción del conducto lacrimonasal"
+            }
+        },
+        {
+            "source": {
+                "className": "Picazón en los ojos"
+            },
+            "target": {
+                "className": "Alergias a alimentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Picazón en los ojos"
+            },
+            "target": {
+                "className": "Conjuntivitis alérgica"
+            }
+        },
+        {
+            "source": {
+                "className": "Formación de costras o secreción en los ojos"
+            },
+            "target": {
+                "className": "Conjuntivitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Enrojecimiento del borde de los párpados"
+            },
+            "target": {
+                "className": "Deficiencia de complejo B"
+            }
+        },
+        {
+            "source": {
+                "className": "Enrojecimiento del borde de los párpados"
+            },
+            "target": {
+                "className": "Dermatitis seborreica"
+            }
+        },
+        {
+            "source": {
+                "className": "Bolsas u ojeras debajo de los ojos"
+            },
+            "target": {
+                "className": "Alergias"
+            }
+        },
+        {
+            "source": {
+                "className": "Bolsas u ojeras debajo de los ojos"
+            },
+            "target": {
+                "className": "Enfermedad crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de oído"
+            },
+            "target": {
+                "className": "Otitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Supuración por el oido"
+            },
+            "target": {
+                "className": "Otitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Picazón en los oidos"
+            },
+            "target": {
+                "className": "Otitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Picazón en los oidos"
+            },
+            "target": {
+                "className": "Alergias"
+            }
+        },
+        {
+            "source": {
+                "className": "Sensación de oido tapado"
+            },
+            "target": {
+                "className": "Rinitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Sensación de oido tapado"
+            },
+            "target": {
+                "className": "Tapón de cerumen"
+            }
+        },
+        {
+            "source": {
+                "className": "Sensación de oido tapado"
+            },
+            "target": {
+                "className": "Disfunción tubaria"
+            }
+        },
+        {
+            "source": {
+                "className": "Zumbidos o ruidos en los oídos"
+            },
+            "target": {
+                "className": "Tinitus"
+            }
+        },
+        {
+            "source": {
+                "className": "Zumbidos o ruidos en los oídos"
+            },
+            "target": {
+                "className": "Rinitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Zumbidos o ruidos en los oídos"
+            },
+            "target": {
+                "className": "Vasculopatía"
+            }
+        },
+        {
+            "source": {
+                "className": "Mal olor en la nariz"
+            },
+            "target": {
+                "className": "Sinusitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Alergia o congestión por el polvo o mohos"
+            },
+            "target": {
+                "className": "Rinitis alérgica"
+            }
+        },
+        {
+            "source": {
+                "className": "Congestión nasal en el Invierno o por el frio"
+            },
+            "target": {
+                "className": "Rinitis alérgica"
+            }
+        },
+        {
+            "source": {
+                "className": "Ataques de estornudos"
+            },
+            "target": {
+                "className": "Rinitis alérgica"
+            }
+        },
+        {
+            "source": {
+                "className": "Siente goteo de líquido de la nariz hacia la garganta"
+            },
+            "target": {
+                "className": "Rinitis alérgica"
+            }
+        },
+        {
+            "source": {
+                "className": "Sangrado o inflamación de las encías"
+            },
+            "target": {
+                "className": "Gingivitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Sangrado o inflamación de las encías"
+            },
+            "target": {
+                "className": "Fragilidad capilar"
+            }
+        },
+        {
+            "source": {
+                "className": "Sequedad de boca"
+            },
+            "target": {
+                "className": "Deshidratación"
+            }
+        },
+        {
+            "source": {
+                "className": "Sequedad de boca"
+            },
+            "target": {
+                "className": "Gastritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Sequedad de boca"
+            },
+            "target": {
+                "className": "Sindrome seco"
+            }
+        },
+        {
+            "source": {
+                "className": "Sequedad de boca"
+            },
+            "target": {
+                "className": "Obstrucción nasal"
+            }
+        },
+        {
+            "source": {
+                "className": "Agrietamiento en la esquina de los labios"
+            },
+            "target": {
+                "className": "Infecciones"
+            }
+        },
+        {
+            "source": {
+                "className": "Agrietamiento en la esquina de los labios"
+            },
+            "target": {
+                "className": "Deficiencia de complejo B"
+            }
+        },
+        {
+            "source": {
+                "className": "Aftas en las encías o la boca"
+            },
+            "target": {
+                "className": "Infecciones"
+            }
+        },
+        {
+            "source": {
+                "className": "Aftas en las encías o la boca"
+            },
+            "target": {
+                "className": "Alergia a alimentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Herpes labial"
+            },
+            "target": {
+                "className": "Infección x herpes"
+            }
+        },
+        {
+            "source": {
+                "className": "Mal aliento"
+            },
+            "target": {
+                "className": "Gingivitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Mal aliento"
+            },
+            "target": {
+                "className": "Gastritis crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Mal aliento"
+            },
+            "target": {
+                "className": "Malos hábitos de higiene"
+            }
+        },
+        {
+            "source": {
+                "className": "Mal aliento"
+            },
+            "target": {
+                "className": "Caries"
+            }
+        },
+        {
+            "source": {
+                "className": "Mal aliento"
+            },
+            "target": {
+                "className": "Faringitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Mal aliento"
+            },
+            "target": {
+                "className": "Reflujo gastroesofágico"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de garganta"
+            },
+            "target": {
+                "className": "Faringitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de garganta"
+            },
+            "target": {
+                "className": "Amigdalitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de garganta"
+            },
+            "target": {
+                "className": "Resfriado común"
+            }
+        },
+        {
+            "source": {
+                "className": "Angina de pecho o dolor en el pecho"
+            },
+            "target": {
+                "className": "Costocondritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Angina de pecho o dolor en el pecho"
+            },
+            "target": {
+                "className": "Cardiopatías"
+            }
+        },
+        {
+            "source": {
+                "className": "Soplo cardíaco"
+            },
+            "target": {
+                "className": "Valvulopatías"
+            }
+        },
+        {
+            "source": {
+                "className": "Soplo cardíaco"
+            },
+            "target": {
+                "className": "Anemia"
+            }
+        },
+        {
+            "source": {
+                "className": "Presión arterial alta o hipertensión"
+            },
+            "target": {
+                "className": "Hipertensión arterial"
+            }
+        },
+        {
+            "source": {
+                "className": "Presión arterial alta o hipertensión"
+            },
+            "target": {
+                "className": "Enfermedad renal crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Presión arterial alta o hipertensión"
+            },
+            "target": {
+                "className": "Sindrome metabólico"
+            }
+        },
+        {
+            "source": {
+                "className": "Palpitaciones"
+            },
+            "target": {
+                "className": "Cardiopatías"
+            }
+        },
+        {
+            "source": {
+                "className": "Palpitaciones"
+            },
+            "target": {
+                "className": "Estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Palpitaciones"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Palpitaciones"
+            },
+            "target": {
+                "className": "Hipertiroidismo"
+            }
+        },
+        {
+            "source": {
+                "className": "Palpitaciones"
+            },
+            "target": {
+                "className": "Disfunción autonómica"
+            }
+        },
+        {
+            "source": {
+                "className": "Várices"
+            },
+            "target": {
+                "className": "Insuficiencia venosa"
+            }
+        },
+        {
+            "source": {
+                "className": "Hinchazón de los tobillos / pies"
+            },
+            "target": {
+                "className": "Cardiopatías"
+            }
+        },
+        {
+            "source": {
+                "className": "Hinchazón de los tobillos / pies"
+            },
+            "target": {
+                "className": "Enfermedad renal crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Hinchazón de los tobillos / pies"
+            },
+            "target": {
+                "className": "Deficiencia de minerales"
+            }
+        },
+        {
+            "source": {
+                "className": "Hinchazón de los tobillos / pies"
+            },
+            "target": {
+                "className": "Insuficiencia venosa o linfática"
+            }
+        },
+        {
+            "source": {
+                "className": "Tos crónica (más de 15 días)"
+            },
+            "target": {
+                "className": "Alergia respiratoria"
+            }
+        },
+        {
+            "source": {
+                "className": "Tos crónica (más de 15 días)"
+            },
+            "target": {
+                "className": "Reflujo gastroesofágico"
+            }
+        },
+        {
+            "source": {
+                "className": "Tos crónica (más de 15 días)"
+            },
+            "target": {
+                "className": "Laringitis crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Tos crónica (más de 15 días)"
+            },
+            "target": {
+                "className": "EPOC"
+            }
+        },
+        {
+            "source": {
+                "className": "Tos crónica (más de 15 días)"
+            },
+            "target": {
+                "className": "TBC"
+            }
+        },
+        {
+            "source": {
+                "className": "Tos crónica (más de 15 días)"
+            },
+            "target": {
+                "className": "Cáncer"
+            }
+        },
+        {
+            "source": {
+                "className": "Tos crónica (más de 15 días)"
+            },
+            "target": {
+                "className": "Tabaquismo"
+            }
+        },
+        {
+            "source": {
+                "className": "Tos crónica (más de 15 días)"
+            },
+            "target": {
+                "className": "Tapón de cerumen"
+            }
+        },
+        {
+            "source": {
+                "className": "Respira con dificultad"
+            },
+            "target": {
+                "className": "Cardiopatías"
+            }
+        },
+        {
+            "source": {
+                "className": "Respira con dificultad"
+            },
+            "target": {
+                "className": "EPOC"
+            }
+        },
+        {
+            "source": {
+                "className": "Respira con dificultad"
+            },
+            "target": {
+                "className": "Obstrucción nasal"
+            }
+        },
+        {
+            "source": {
+                "className": "Respira con dificultad"
+            },
+            "target": {
+                "className": "Alergia respiratoria"
+            }
+        },
+        {
+            "source": {
+                "className": "Respira con dificultad"
+            },
+            "target": {
+                "className": "Obesidad"
+            }
+        },
+        {
+            "source": {
+                "className": "Respira con dificultad"
+            },
+            "target": {
+                "className": "Anemia"
+            }
+        },
+        {
+            "source": {
+                "className": "Le falta o se corta el aliento, aún en reposo"
+            },
+            "target": {
+                "className": "Cardiopatías"
+            }
+        },
+        {
+            "source": {
+                "className": "Le falta o se corta el aliento, aún en reposo"
+            },
+            "target": {
+                "className": "EPOC"
+            }
+        },
+        {
+            "source": {
+                "className": "Intolerancia a productos lácteos"
+            },
+            "target": {
+                "className": "Colon Irritable"
+            }
+        },
+        {
+            "source": {
+                "className": "Intolerancia a productos lácteos"
+            },
+            "target": {
+                "className": "Alergia alimentaria"
+            }
+        },
+        {
+            "source": {
+                "className": "Intolerancia a productos lácteos"
+            },
+            "target": {
+                "className": "Intolerancia a la lactosa"
+            }
+        },
+        {
+            "source": {
+                "className": "Intolerancia a otros alimentos"
+            },
+            "target": {
+                "className": "Colon Irritable"
+            }
+        },
+        {
+            "source": {
+                "className": "Intolerancia a otros alimentos"
+            },
+            "target": {
+                "className": "Alergia alimentaria"
+            }
+        },
+        {
+            "source": {
+                "className": "Intolerancia a otros alimentos"
+            },
+            "target": {
+                "className": "Gastritis crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Intolerancia a otros alimentos"
+            },
+            "target": {
+                "className": "Insuficiencia de enzimas digestivas"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor abdominal inferior (abajo del ombligo)"
+            },
+            "target": {
+                "className": "Cistitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor abdominal inferior (abajo del ombligo)"
+            },
+            "target": {
+                "className": "Vaginitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor abdominal inferior (abajo del ombligo)"
+            },
+            "target": {
+                "className": "Colitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor abdominal inferior (abajo del ombligo)"
+            },
+            "target": {
+                "className": "Colon irritable"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor abdominal superior (arriba del ombligo)"
+            },
+            "target": {
+                "className": "Gastritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor abdominal superior (arriba del ombligo)"
+            },
+            "target": {
+                "className": "Colecistitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor abdominal superior (arriba del ombligo)"
+            },
+            "target": {
+                "className": "Colelitiasis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor abdominal superior (arriba del ombligo)"
+            },
+            "target": {
+                "className": "Colon irritable"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor abdominal superior (arriba del ombligo)"
+            },
+            "target": {
+                "className": "Hepatopatías"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor abdominal superior (arriba del ombligo)"
+            },
+            "target": {
+                "className": "Ulcera gástrica o duodenal"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor abdominal superior (arriba del ombligo)"
+            },
+            "target": {
+                "className": "Hernia hiatal"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor abdominal superior (arriba del ombligo)"
+            },
+            "target": {
+                "className": "Parasitosis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de estómago que aumenta al comer"
+            },
+            "target": {
+                "className": "Gastritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de estómago que aumenta al comer"
+            },
+            "target": {
+                "className": "Ulcera gastrica"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de estómago que aumenta al comer"
+            },
+            "target": {
+                "className": "Cáncer de estómago o páncreas"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de estómago que aumenta al comer"
+            },
+            "target": {
+                "className": "Reflujo gastroesofágico"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de estómago que calma al comer"
+            },
+            "target": {
+                "className": "Gastritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor de estómago que calma al comer"
+            },
+            "target": {
+                "className": "Ulcera duodenal"
+            }
+        },
+        {
+            "source": {
+                "className": "Parte inferior del abdomen"
+            },
+            "target": {
+                "className": "Colon Irritable"
+            }
+        },
+        {
+            "source": {
+                "className": "Parte inferior del abdomen"
+            },
+            "target": {
+                "className": "Estreñimiento"
+            }
+        },
+        {
+            "source": {
+                "className": "Parte superior del abdomen"
+            },
+            "target": {
+                "className": "Gastritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Parte superior del abdomen"
+            },
+            "target": {
+                "className": "Colon irritable"
+            }
+        },
+        {
+            "source": {
+                "className": "Todo el abdomen"
+            },
+            "target": {
+                "className": "Gastritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Todo el abdomen"
+            },
+            "target": {
+                "className": "Colon irritable"
+            }
+        },
+        {
+            "source": {
+                "className": "Todo el abdomen"
+            },
+            "target": {
+                "className": "Alergia a alimentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Reflujo de alimentos"
+            },
+            "target": {
+                "className": "Reflujo gastroesofágico"
+            }
+        },
+        {
+            "source": {
+                "className": "Reflujo de alimentos"
+            },
+            "target": {
+                "className": "Hernia hiatal"
+            }
+        },
+        {
+            "source": {
+                "className": "Reflujo de alimentos"
+            },
+            "target": {
+                "className": "Hipoclorhidria"
+            }
+        },
+        {
+            "source": {
+                "className": "Acidez estomacal o ardor en la boca del estómago"
+            },
+            "target": {
+                "className": "Gastritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Acidez estomacal o ardor en la boca del estómago"
+            },
+            "target": {
+                "className": "Esofagitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Acidez estomacal o ardor en la boca del estómago"
+            },
+            "target": {
+                "className": "Hernia histal"
+            }
+        },
+        {
+            "source": {
+                "className": "Acidez estomacal o ardor en la boca del estómago"
+            },
+            "target": {
+                "className": "Cáncer de estómago"
+            }
+        },
+        {
+            "source": {
+                "className": "Acidez estomacal o ardor en la boca del estómago"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Llenura fácil al comer"
+            },
+            "target": {
+                "className": "Gastritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Náuseas o vómitos"
+            },
+            "target": {
+                "className": "Infecciones gastrointestinales"
+            }
+        },
+        {
+            "source": {
+                "className": "Náuseas o vómitos"
+            },
+            "target": {
+                "className": "Gastritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Náuseas o vómitos"
+            },
+            "target": {
+                "className": "Colecistopatías"
+            }
+        },
+        {
+            "source": {
+                "className": "Náuseas o vómitos"
+            },
+            "target": {
+                "className": "Intoxicación alimentaria"
+            }
+        },
+        {
+            "source": {
+                "className": "Náuseas o vómitos"
+            },
+            "target": {
+                "className": "Ansiedad"
+            }
+        },
+        {
+            "source": {
+                "className": "Náuseas o vómitos"
+            },
+            "target": {
+                "className": "Intoxicaciones"
+            }
+        },
+        {
+            "source": {
+                "className": "Náuseas o vómitos"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Estreñimiento"
+            },
+            "target": {
+                "className": "Deshidratación"
+            }
+        },
+        {
+            "source": {
+                "className": "Estreñimiento"
+            },
+            "target": {
+                "className": "Déficit de fibra en la dieta"
+            }
+        },
+        {
+            "source": {
+                "className": "Estreñimiento"
+            },
+            "target": {
+                "className": "Colon irritable"
+            }
+        },
+        {
+            "source": {
+                "className": "Estreñimiento"
+            },
+            "target": {
+                "className": "efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Estreñimiento"
+            },
+            "target": {
+                "className": "Parasitismo"
+            }
+        },
+        {
+            "source": {
+                "className": "Diarrea"
+            },
+            "target": {
+                "className": "Infecciones gastrointestinales"
+            }
+        },
+        {
+            "source": {
+                "className": "Diarrea"
+            },
+            "target": {
+                "className": "Colon irritable"
+            }
+        },
+        {
+            "source": {
+                "className": "Diarrea"
+            },
+            "target": {
+                "className": "Gastritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Diarrea"
+            },
+            "target": {
+                "className": "Cáncer gastrointestinal"
+            }
+        },
+        {
+            "source": {
+                "className": "Diarrea"
+            },
+            "target": {
+                "className": "Intoxicación alimentaria"
+            }
+        },
+        {
+            "source": {
+                "className": "Diarrea"
+            },
+            "target": {
+                "className": "Parasitosis"
+            }
+        },
+        {
+            "source": {
+                "className": "Sangre en las heces o deposición"
+            },
+            "target": {
+                "className": "Infecciones gastrointestinales"
+            }
+        },
+        {
+            "source": {
+                "className": "Sangre en las heces o deposición"
+            },
+            "target": {
+                "className": "Parasitosis"
+            }
+        },
+        {
+            "source": {
+                "className": "Sangre en las heces o deposición"
+            },
+            "target": {
+                "className": "Cancer gastrointestinal"
+            }
+        },
+        {
+            "source": {
+                "className": "Sangre en las heces o deposición"
+            },
+            "target": {
+                "className": "efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Sangre en las heces o deposición"
+            },
+            "target": {
+                "className": "Hemorroides"
+            }
+        },
+        {
+            "source": {
+                "className": "Alimentos sin digerir en la deposición"
+            },
+            "target": {
+                "className": "Colon Irritable"
+            }
+        },
+        {
+            "source": {
+                "className": "Alimentos sin digerir en la deposición"
+            },
+            "target": {
+                "className": "Insuficiencia de enzimas digestivas"
+            }
+        },
+        {
+            "source": {
+                "className": "Alimentos sin digerir en la deposición"
+            },
+            "target": {
+                "className": "Gastritis crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Moco en la deposición"
+            },
+            "target": {
+                "className": "Infecciones gastrointestinales"
+            }
+        },
+        {
+            "source": {
+                "className": "Moco en la deposición"
+            },
+            "target": {
+                "className": "Parasitosis"
+            }
+        },
+        {
+            "source": {
+                "className": "Moco en la deposición"
+            },
+            "target": {
+                "className": "Cancer gastrointestinal"
+            }
+        },
+        {
+            "source": {
+                "className": "Flatulencias, gases intestinales"
+            },
+            "target": {
+                "className": "Colon Irritable"
+            }
+        },
+        {
+            "source": {
+                "className": "Flatulencias, gases intestinales"
+            },
+            "target": {
+                "className": "Insuficiencia de enzimas digestivas"
+            }
+        },
+        {
+            "source": {
+                "className": "Flatulencias, gases intestinales"
+            },
+            "target": {
+                "className": "Gastritis crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Flatulencias, gases intestinales"
+            },
+            "target": {
+                "className": "Malos hábitos alimentarios"
+            }
+        },
+        {
+            "source": {
+                "className": "Goteo / incontinencia de orina"
+            },
+            "target": {
+                "className": "Incontinencia urinaria"
+            }
+        },
+        {
+            "source": {
+                "className": "Goteo / incontinencia de orina"
+            },
+            "target": {
+                "className": "Infecciones"
+            }
+        },
+        {
+            "source": {
+                "className": "Goteo / incontinencia de orina"
+            },
+            "target": {
+                "className": "Prostatismo"
+            }
+        },
+        {
+            "source": {
+                "className": "Goteo / incontinencia de orina"
+            },
+            "target": {
+                "className": "Prolapso genital"
+            }
+        },
+        {
+            "source": {
+                "className": "Goteo / incontinencia de orina"
+            },
+            "target": {
+                "className": "Disfunción autonómica"
+            }
+        },
+        {
+            "source": {
+                "className": "Orina con frecuencia"
+            },
+            "target": {
+                "className": "Infecciones urinarias"
+            }
+        },
+        {
+            "source": {
+                "className": "Orina con frecuencia"
+            },
+            "target": {
+                "className": "Diabetes"
+            }
+        },
+        {
+            "source": {
+                "className": "Orina con frecuencia"
+            },
+            "target": {
+                "className": "Enfermedad renal crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Orina con frecuencia"
+            },
+            "target": {
+                "className": "efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Orina con frecuencia"
+            },
+            "target": {
+                "className": "Retención de líquidos"
+            }
+        },
+        {
+            "source": {
+                "className": "Orina con frecuencia"
+            },
+            "target": {
+                "className": "Prostatismo"
+            }
+        },
+        {
+            "source": {
+                "className": "Urgencia para orinar"
+            },
+            "target": {
+                "className": "Infecciones urinarias"
+            }
+        },
+        {
+            "source": {
+                "className": "Urgencia para orinar"
+            },
+            "target": {
+                "className": "Prostatismo"
+            }
+        },
+        {
+            "source": {
+                "className": "Urgencia para orinar"
+            },
+            "target": {
+                "className": "Incontinencia urinaria"
+            }
+        },
+        {
+            "source": {
+                "className": "Urgencia para orinar"
+            },
+            "target": {
+                "className": "Disfunción autonómica"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor / ardor al orinar"
+            },
+            "target": {
+                "className": "Infecciones urinarias"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor / ardor al orinar"
+            },
+            "target": {
+                "className": "Enfermedades de transmisión sexual"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor / ardor al orinar"
+            },
+            "target": {
+                "className": "Vaginitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Orina de mal olor o turbia"
+            },
+            "target": {
+                "className": "Infecciones urinarias"
+            }
+        },
+        {
+            "source": {
+                "className": "Orina de mal olor o turbia"
+            },
+            "target": {
+                "className": "Litiasis urinaria"
+            }
+        },
+        {
+            "source": {
+                "className": "Orinadera en las noches"
+            },
+            "target": {
+                "className": "Hipertensión arterial"
+            }
+        },
+        {
+            "source": {
+                "className": "Orinadera en las noches"
+            },
+            "target": {
+                "className": "Retención de líquidos"
+            }
+        },
+        {
+            "source": {
+                "className": "Orinadera en las noches"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Orinadera en las noches"
+            },
+            "target": {
+                "className": "Infecciones urinarias"
+            }
+        },
+        {
+            "source": {
+                "className": "Hombres:                             Secreción por el pene o infección"
+            },
+            "target": {
+                "className": "Enfermedades de transmisión sexual"
+            }
+        },
+        {
+            "source": {
+                "className": "Hombres:                             Secreción por el pene o infección"
+            },
+            "target": {
+                "className": "Prostatitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Problemas con la eyaculación"
+            },
+            "target": {
+                "className": "Disfunciones sexuales"
+            }
+        },
+        {
+            "source": {
+                "className": "Problemas con la eyaculación"
+            },
+            "target": {
+                "className": "Diabetes"
+            }
+        },
+        {
+            "source": {
+                "className": "Problemas con la eyaculación"
+            },
+            "target": {
+                "className": "Ansiedad"
+            }
+        },
+        {
+            "source": {
+                "className": "Problemas con la eyaculación"
+            },
+            "target": {
+                "className": "estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Impotencia"
+            },
+            "target": {
+                "className": "Disfunciones sexuales"
+            }
+        },
+        {
+            "source": {
+                "className": "Impotencia"
+            },
+            "target": {
+                "className": "Diabetes"
+            }
+        },
+        {
+            "source": {
+                "className": "Impotencia"
+            },
+            "target": {
+                "className": "Ansiedad"
+            }
+        },
+        {
+            "source": {
+                "className": "Impotencia"
+            },
+            "target": {
+                "className": "estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Impotencia"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Impotencia"
+            },
+            "target": {
+                "className": "Neuropatías"
+            }
+        },
+        {
+            "source": {
+                "className": "Agrandamiento de la próstata"
+            },
+            "target": {
+                "className": "Prostatismo"
+            }
+        },
+        {
+            "source": {
+                "className": "Mujeres:                                                              Flujo vaginal"
+            },
+            "target": {
+                "className": "Vaginitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Mujeres:                                                              Flujo vaginal"
+            },
+            "target": {
+                "className": "Disbiosis"
+            }
+        },
+        {
+            "source": {
+                "className": "Mujeres:                                                              Flujo vaginal"
+            },
+            "target": {
+                "className": "Enfermedades de transmisión sexual"
+            }
+        },
+        {
+            "source": {
+                "className": "Olor vaginal"
+            },
+            "target": {
+                "className": "Vaginitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Olor vaginal"
+            },
+            "target": {
+                "className": "Enfermedades de transmisión sexual"
+            }
+        },
+        {
+            "source": {
+                "className": "Picazón vaginal"
+            },
+            "target": {
+                "className": "Vaginitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Picazón vaginal"
+            },
+            "target": {
+                "className": "Alergias"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor vaginal"
+            },
+            "target": {
+                "className": "Vaginitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor vaginal"
+            },
+            "target": {
+                "className": "Tumores"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor vaginal"
+            },
+            "target": {
+                "className": "Disfunción sexual"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor vaginal"
+            },
+            "target": {
+                "className": "Prolapso genital"
+            }
+        },
+        {
+            "source": {
+                "className": "Cólico menstrual"
+            },
+            "target": {
+                "className": "Sindrome premenstrual"
+            }
+        },
+        {
+            "source": {
+                "className": "Menstruaciones fuertes o abundantes, con coágulos"
+            },
+            "target": {
+                "className": "Sindrome premenstrual"
+            }
+        },
+        {
+            "source": {
+                "className": "Retención de líquidos"
+            },
+            "target": {
+                "className": "Sindrome premenstrual"
+            }
+        },
+        {
+            "source": {
+                "className": "Períodos menstruales irregulares"
+            },
+            "target": {
+                "className": "Sindrome premenstrual"
+            }
+        },
+        {
+            "source": {
+                "className": "Sensibilidad o tensión en los senos"
+            },
+            "target": {
+                "className": "Sindrome premenstrual"
+            }
+        },
+        {
+            "source": {
+                "className": "Cambios del estado de ánimo"
+            },
+            "target": {
+                "className": "Sindrome premenstrual"
+            }
+        },
+        {
+            "source": {
+                "className": "Antojo de carbohidratos"
+            },
+            "target": {
+                "className": "Sindrome premenstrual"
+            }
+        },
+        {
+            "source": {
+                "className": "Meses que no tiene periodo menstrual"
+            },
+            "target": {
+                "className": "Sindrome premenstrual"
+            }
+        },
+        {
+            "source": {
+                "className": "Está en la menopausia"
+            },
+            "target": {
+                "className": "Menopausia"
+            }
+        },
+        {
+            "source": {
+                "className": "Calambres musculares"
+            },
+            "target": {
+                "className": "Deficiencia de magnesio o potasio"
+            }
+        },
+        {
+            "source": {
+                "className": "Calambres musculares"
+            },
+            "target": {
+                "className": "Sobreentrenamiento"
+            }
+        },
+        {
+            "source": {
+                "className": "Debilidad o fatigabilidad muscular, sensación de cansancio"
+            },
+            "target": {
+                "className": "Fibromialgia"
+            }
+        },
+        {
+            "source": {
+                "className": "Debilidad o fatigabilidad muscular, sensación de cansancio"
+            },
+            "target": {
+                "className": "Fatiga crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Debilidad o fatigabilidad muscular, sensación de cansancio"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Debilidad o fatigabilidad muscular, sensación de cansancio"
+            },
+            "target": {
+                "className": "Disfunciones endocrinas"
+            }
+        },
+        {
+            "source": {
+                "className": "Amanece cansad@"
+            },
+            "target": {
+                "className": "Fibromialgia"
+            }
+        },
+        {
+            "source": {
+                "className": "Amanece cansad@"
+            },
+            "target": {
+                "className": "Fatiga crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Amanece cansad@"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Amanece cansad@"
+            },
+            "target": {
+                "className": "Dsifunciones endocrinas"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en músculos de la nuca, hombros, espalda o cintura"
+            },
+            "target": {
+                "className": "Fibromialgia"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en músculos de la nuca, hombros, espalda o cintura"
+            },
+            "target": {
+                "className": "Fatiga crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en músculos de la nuca, hombros, espalda o cintura"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en músculos de la nuca, hombros, espalda o cintura"
+            },
+            "target": {
+                "className": "Malos hábitos posturales"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en músculos de la nuca, hombros, espalda o cintura"
+            },
+            "target": {
+                "className": "Neuropatías periféricas"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en músculos de la nuca, hombros, espalda o cintura"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en músculos de los brazos o piernas"
+            },
+            "target": {
+                "className": "Fibromialgia"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en músculos de los brazos o piernas"
+            },
+            "target": {
+                "className": "Fatiga crónica"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en músculos de los brazos o piernas"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en músculos de los brazos o piernas"
+            },
+            "target": {
+                "className": "Malos hábitos posturales"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en músculos de los brazos o piernas"
+            },
+            "target": {
+                "className": "Neuropatías periféricas"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en músculos de los brazos o piernas"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en las articulaciones"
+            },
+            "target": {
+                "className": "Artrosis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en las articulaciones"
+            },
+            "target": {
+                "className": "Artritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en las articulaciones"
+            },
+            "target": {
+                "className": "Tendinitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en las articulaciones"
+            },
+            "target": {
+                "className": "Enfermedad autoinmune"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en las articulaciones"
+            },
+            "target": {
+                "className": "Alergias alimentarias"
+            }
+        },
+        {
+            "source": {
+                "className": "Dolor en las articulaciones"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Enrojecimiento de las articulaciones"
+            },
+            "target": {
+                "className": "Artritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Rigidez articular o limitación de movimientos por la mañana"
+            },
+            "target": {
+                "className": "Artritis"
+            }
+        },
+        {
+            "source": {
+                "className": "Rigidez articular o limitación de movimientos por la mañana"
+            },
+            "target": {
+                "className": "Enfermedad autoinmune"
+            }
+        },
+        {
+            "source": {
+                "className": "Rigidez articular o limitación de movimientos por la mañana"
+            },
+            "target": {
+                "className": "Alergias alimentarias"
+            }
+        },
+        {
+            "source": {
+                "className": "Tendones inflamados"
+            },
+            "target": {
+                "className": "Tendinitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Tendones inflamados"
+            },
+            "target": {
+                "className": "Enfermedad autoinmune"
+            }
+        },
+        {
+            "source": {
+                "className": "Tendones inflamados"
+            },
+            "target": {
+                "className": "Trauma repetitivo"
+            }
+        },
+        {
+            "source": {
+                "className": "Ansiedad, preocupaciones con facilidad"
+            },
+            "target": {
+                "className": "Estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Ansiedad, preocupaciones con facilidad"
+            },
+            "target": {
+                "className": "Ansiedad"
+            }
+        },
+        {
+            "source": {
+                "className": "Ansiedad, preocupaciones con facilidad"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Ansiedad, preocupaciones con facilidad"
+            },
+            "target": {
+                "className": "Disfunciones endocrinas"
+            }
+        },
+        {
+            "source": {
+                "className": "Ansiedad, preocupaciones con facilidad"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Depresión"
+            },
+            "target": {
+                "className": "Estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Depresión"
+            },
+            "target": {
+                "className": "Depresión"
+            }
+        },
+        {
+            "source": {
+                "className": "Depresión"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Depresión"
+            },
+            "target": {
+                "className": "Disfunciones endocrinas"
+            }
+        },
+        {
+            "source": {
+                "className": "Depresión"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Irritabilidad"
+            },
+            "target": {
+                "className": "Estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Irritabilidad"
+            },
+            "target": {
+                "className": "Depresión"
+            }
+        },
+        {
+            "source": {
+                "className": "Irritabilidad"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Irritabilidad"
+            },
+            "target": {
+                "className": "Disfunciones endocrinas"
+            }
+        },
+        {
+            "source": {
+                "className": "Irritabilidad"
+            },
+            "target": {
+                "className": "Dolor crónico"
+            }
+        },
+        {
+            "source": {
+                "className": "Irritabilidad"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Cambios de humor"
+            },
+            "target": {
+                "className": "Estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Cambios de humor"
+            },
+            "target": {
+                "className": "Depresión"
+            }
+        },
+        {
+            "source": {
+                "className": "Cambios de humor"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Cambios de humor"
+            },
+            "target": {
+                "className": "Disfunciones endocrinas"
+            }
+        },
+        {
+            "source": {
+                "className": "Cambios de humor"
+            },
+            "target": {
+                "className": "Dolor crónico"
+            }
+        },
+        {
+            "source": {
+                "className": "Cambios de humor"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Pensamientos suicidas"
+            },
+            "target": {
+                "className": "Depresión"
+            }
+        },
+        {
+            "source": {
+                "className": "Pensamientos suicidas"
+            },
+            "target": {
+                "className": "Neuropatías degenerativas"
+            }
+        },
+        {
+            "source": {
+                "className": "Pensamientos suicidas"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Dificultades con la concentración o la memoria"
+            },
+            "target": {
+                "className": "Estrés"
+            }
+        },
+        {
+            "source": {
+                "className": "Dificultades con la concentración o la memoria"
+            },
+            "target": {
+                "className": "Depresión"
+            }
+        },
+        {
+            "source": {
+                "className": "Dificultades con la concentración o la memoria"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Dificultades con la concentración o la memoria"
+            },
+            "target": {
+                "className": "Disfunciones endocrinas"
+            }
+        },
+        {
+            "source": {
+                "className": "Dificultades con la concentración o la memoria"
+            },
+            "target": {
+                "className": "Ansiedad"
+            }
+        },
+        {
+            "source": {
+                "className": "Dificultades con la concentración o la memoria"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Entumecimiento u hormigueo en manos, pies, otras partes"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Entumecimiento u hormigueo en manos, pies, otras partes"
+            },
+            "target": {
+                "className": "Sindrome del túnel del carpo"
+            }
+        },
+        {
+            "source": {
+                "className": "Entumecimiento u hormigueo en manos, pies, otras partes"
+            },
+            "target": {
+                "className": "Neuropatías periféricas"
+            }
+        },
+        {
+            "source": {
+                "className": "Corrientazos en brazos o piernas, otras partes"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Corrientazos en brazos o piernas, otras partes"
+            },
+            "target": {
+                "className": "Sindrome del túnel del carpo"
+            }
+        },
+        {
+            "source": {
+                "className": "Corrientazos en brazos o piernas, otras partes"
+            },
+            "target": {
+                "className": "Neuropatías periféricas"
+            }
+        },
+        {
+            "source": {
+                "className": "Convulsiones o crisis de ausencia"
+            },
+            "target": {
+                "className": "Sindromes convulsivos"
+            }
+        },
+        {
+            "source": {
+                "className": "Convulsiones o crisis de ausencia"
+            },
+            "target": {
+                "className": "Tumores cerebrales"
+            }
+        },
+        {
+            "source": {
+                "className": "Temblor o movimientos anormales o involuntarios"
+            },
+            "target": {
+                "className": "Parkinson"
+            }
+        },
+        {
+            "source": {
+                "className": "Temblor o movimientos anormales o involuntarios"
+            },
+            "target": {
+                "className": "Alzheimer"
+            }
+        },
+        {
+            "source": {
+                "className": "Temblor o movimientos anormales o involuntarios"
+            },
+            "target": {
+                "className": "Encefalopatías crónicas"
+            }
+        },
+        {
+            "source": {
+                "className": "Acné"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Acné"
+            },
+            "target": {
+                "className": "Disfunciones endocrinas"
+            }
+        },
+        {
+            "source": {
+                "className": "Enrojecimiento de la cara"
+            },
+            "target": {
+                "className": "Rosácea"
+            }
+        },
+        {
+            "source": {
+                "className": "Enrojecimiento de la cara"
+            },
+            "target": {
+                "className": "Dermatitis alérgicas"
+            }
+        },
+        {
+            "source": {
+                "className": "Enrojecimiento de la cara"
+            },
+            "target": {
+                "className": "Dermatitis seborreica"
+            }
+        },
+        {
+            "source": {
+                "className": "Enrojecimiento de la cara"
+            },
+            "target": {
+                "className": "Ansiedad"
+            }
+        },
+        {
+            "source": {
+                "className": "Enrojecimiento de la cara"
+            },
+            "target": {
+                "className": "Enfermedades autoinmunes"
+            }
+        },
+        {
+            "source": {
+                "className": "Eczema o dermatitis"
+            },
+            "target": {
+                "className": "Psoriasis"
+            }
+        },
+        {
+            "source": {
+                "className": "Eczema o dermatitis"
+            },
+            "target": {
+                "className": "Dermatitis Atópica"
+            }
+        },
+        {
+            "source": {
+                "className": "Eczema o dermatitis"
+            },
+            "target": {
+                "className": "Alergias"
+            }
+        },
+        {
+            "source": {
+                "className": "Eczema o dermatitis"
+            },
+            "target": {
+                "className": "Enfermedad autoinmune"
+            }
+        },
+        {
+            "source": {
+                "className": "Eczema o dermatitis"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Erupción, salpullido o brotes"
+            },
+            "target": {
+                "className": "Alergias"
+            }
+        },
+        {
+            "source": {
+                "className": "Erupción, salpullido o brotes"
+            },
+            "target": {
+                "className": "Enfermedad autoinmune"
+            }
+        },
+        {
+            "source": {
+                "className": "Erupción, salpullido o brotes"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Erupción, salpullido o brotes"
+            },
+            "target": {
+                "className": "Infecciones"
+            }
+        },
+        {
+            "source": {
+                "className": "Erupción, salpullido o brotes"
+            },
+            "target": {
+                "className": "Parasitosis cutáneas"
+            }
+        },
+        {
+            "source": {
+                "className": "Callos gruesos / resequedad en talones / fisuras"
+            },
+            "target": {
+                "className": "Hipotiroidismo"
+            }
+        },
+        {
+            "source": {
+                "className": "Callos gruesos / resequedad en talones / fisuras"
+            },
+            "target": {
+                "className": "Deficiencia de complejo B"
+            }
+        },
+        {
+            "source": {
+                "className": "Urticaria o rash"
+            },
+            "target": {
+                "className": "Alergias"
+            }
+        },
+        {
+            "source": {
+                "className": "Urticaria o rash"
+            },
+            "target": {
+                "className": "Enfermedad autoinmune"
+            }
+        },
+        {
+            "source": {
+                "className": "Urticaria o rash"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Urticaria o rash"
+            },
+            "target": {
+                "className": "Infecciones"
+            }
+        },
+        {
+            "source": {
+                "className": "Hongos"
+            },
+            "target": {
+                "className": "Micosis"
+            }
+        },
+        {
+            "source": {
+                "className": "Moretones con facilidad"
+            },
+            "target": {
+                "className": "Fragilidad capilar"
+            }
+        },
+        {
+            "source": {
+                "className": "Moretones con facilidad"
+            },
+            "target": {
+                "className": "Vasculitis"
+            }
+        },
+        {
+            "source": {
+                "className": "Moretones con facilidad"
+            },
+            "target": {
+                "className": "Enfermedad autoinmune"
+            }
+        },
+        {
+            "source": {
+                "className": "Moretones con facilidad"
+            },
+            "target": {
+                "className": "efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Manchas oscuras en la piel"
+            },
+            "target": {
+                "className": "Dermatitis actínica"
+            }
+        },
+        {
+            "source": {
+                "className": "Manchas oscuras en la piel"
+            },
+            "target": {
+                "className": "Disfunciones endocrinas"
+            }
+        },
+        {
+            "source": {
+                "className": "Manchas oscuras en la piel"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Manchas oscuras en la piel"
+            },
+            "target": {
+                "className": "Deficiencia de Niacina"
+            }
+        },
+        {
+            "source": {
+                "className": "Lunares que cambian de color o de tamaño"
+            },
+            "target": {
+                "className": "Nevus"
+            }
+        },
+        {
+            "source": {
+                "className": "Lunares que cambian de color o de tamaño"
+            },
+            "target": {
+                "className": "Melanoma"
+            }
+        },
+        {
+            "source": {
+                "className": "Caída del cabello"
+            },
+            "target": {
+                "className": "Hipotiroidismo"
+            }
+        },
+        {
+            "source": {
+                "className": "Caída del cabello"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Caída del cabello"
+            },
+            "target": {
+                "className": "Efectos adversos a medicamentos"
+            }
+        },
+        {
+            "source": {
+                "className": "Caída del cabello"
+            },
+            "target": {
+                "className": "Disfunciones endocrinas"
+            }
+        },
+        {
+            "source": {
+                "className": "Sequedad de la piel en general"
+            },
+            "target": {
+                "className": "Hipotiroidismo"
+            }
+        },
+        {
+            "source": {
+                "className": "Sequedad de la piel en general"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Sequedad de la piel en general"
+            },
+            "target": {
+                "className": "Toxicidad x químicos"
+            }
+        },
+        {
+            "source": {
+                "className": "Uñas quebradizas"
+            },
+            "target": {
+                "className": "Hipotiroidismo"
+            }
+        },
+        {
+            "source": {
+                "className": "Uñas quebradizas"
+            },
+            "target": {
+                "className": "Deficiencias nutricionales"
+            }
+        },
+        {
+            "source": {
+                "className": "Uñas quebradizas"
+            },
+            "target": {
+                "className": "Toxicidad x químicos"
+            }
+        },
+        {
+            "source": {
+                "className": "Manchas o puntos blancos en las uñas"
+            },
+            "target": {
+                "className": "Deficiencia de zinc"
+            }
+        }
+    ]
+}

@@ -1,6 +1,84 @@
 {
   "nodes": [
     {
+      "packageName": "enfermedad",
+      "className": "Contracturas musculares",
+      "value": "10",
+      "name": "Contracturas musculares"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Disfunción mitocondrial",
+      "value": "10",
+      "name": "Disfunción mitocondrial"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Intolerancia a alimentos",
+      "value": "10",
+      "name": "Intolerancia alimentos"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Enfermedades cerebrales",
+      "value": "10",
+      "name": "Enfermedad cerebral"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Infecciones",
+      "value": "10",
+      "name": "Infecciones"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Sinusitis",
+      "value": "10",
+      "name": "Sinusitis"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Migraña",
+      "value": "10",
+      "name": "Migraña"
+    },
+    {
+      "packageName": "sintoma",
+      "className": "Dolor de cabeza",
+      "value": "10",
+      "name": "Dolor de cabeza"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Insuficiencia venosa o linfática",
+      "value": "10",
+      "name": "Insuficiencia venosa"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Deficiencia de minerales",
+      "value": "10",
+      "name": "Deficiencia minerales"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Cardiopatías",
+      "value": "10",
+      "name": "Cardiopatías"
+    },
+    {
+      "packageName": "enfermedad",
+      "className": "Enfermedad renal crónica",
+      "value": "10",
+      "name": "Enfermedad renal"
+    },
+    {
+      "packageName": "sintoma",
+      "className": "Retención de agua o líquidos",
+      "value": "10",
+      "name": "Retención de líquidos"
+    },
+    {
       "packageName": "sintoma",
       "className": "Antojos de carbohidratos o dulces",
       "value": "10",
@@ -448,6 +526,134 @@
     }
   ],
   "links": [
+    {
+      "source": {
+        "className": "Cefalea tensional / dolor atrás de la cabeza"
+      },
+      "target": {
+        "className": "Ansiedad preocupaciones con facilidad"
+      }
+    },
+    {
+      "source": {
+        "className": "Cefalea tensional / dolor atrás de la cabeza"
+      },
+      "target": {
+        "className": "Contracturas musculares"
+      }
+    },
+    {
+      "source": {
+        "className": "Cefalea tensional / dolor atrás de la cabeza"
+      },
+      "target": {
+        "className": "Estrés"
+      }
+    },
+    {
+      "source": {
+        "className": "Migraña"
+      },
+      "target": {
+        "className": "Estrés"
+      }
+    },
+    {
+      "source": {
+        "className": "Migraña"
+      },
+      "target": {
+        "className": "Disfunción mitocondrial"
+      }
+    },
+    {
+      "source": {
+        "className": "Migraña"
+      },
+      "target": {
+        "className": "Intolerancia a alimentos"
+      }
+    },
+    {
+      "source": {
+        "className": "Dolor de cabeza"
+      },
+      "target": {
+        "className": "Enfermedades cerebrales"
+      }
+    },
+    {
+      "source": {
+        "className": "Dolor de cabeza"
+      },
+      "target": {
+        "className": "Infecciones"
+      }
+    },
+    {
+      "source": {
+        "className": "Dolor de cabeza"
+      },
+      "target": {
+        "className": "Estrés"
+      }
+    },
+    {
+      "source": {
+        "className": "Dolor de cabeza"
+      },
+      "target": {
+        "className": "Sinusitis"
+      }
+    },
+    {
+      "source": {
+        "className": "Dolor de cabeza"
+      },
+      "target": {
+        "className": "Deshidratación"
+      }
+    },
+    {
+      "source": {
+        "className": "Dolor de cabeza"
+      },
+      "target": {
+        "className": "Migraña"
+      }
+    },
+    {
+      "source": {
+        "className": "Retención de agua o líquidos"
+      },
+      "target": {
+        "className": "Insuficiencia venosa o linfática"
+      }
+    },
+    {
+      "source": {
+        "className": "Retención de agua o líquidos"
+      },
+      "target": {
+        "className": "Deficiencia de minerales"
+      }
+    },
+    {
+      "source": {
+        "className": "Retención de agua o líquidos"
+      },
+      "target": {
+        "className": "Enfermedad renal crónica"
+      }
+    },
+    {
+      "source": {
+        "className": "Retención de agua o líquidos"
+      },
+      "target": {
+        "className": "Cardiopatías"
+      }
+    },
     {
       "source": {
         "className": "Antojos de carbohidratos o dulces"

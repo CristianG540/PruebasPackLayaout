@@ -9,7 +9,7 @@ var testBubblesMod = (function (window, d3, _, SidebarMenuEffects, undefined) {
         dataLinks       : '',
         margin          : { top: 50, right: 50, bottom: 0, left: 50 },
         width           : 1400,
-        height          : 800,
+        height          : 700,
         label           : '',
         node            : '',
         links           : '',
@@ -419,7 +419,7 @@ var testBubblesMod = (function (window, d3, _, SidebarMenuEffects, undefined) {
                     .attr('id', 'bubble-background')
                     .attr('width', scope.width)
                     .attr('height', scope.height)
-                    .style("stroke", "#000")
+                    //.style("stroke", "#000")
                     .on('click', function(){
                         scope.clear();
                     });
@@ -556,6 +556,12 @@ var testBubblesMod = (function (window, d3, _, SidebarMenuEffects, undefined) {
                 .append('a')
                 .classed('bubble-label', true)
                 .classed('noselect', true)
+                .classed('bubble-label-sintom', function(d){
+                    return ( scope.nodeType(d) === 'sintoma' );
+                })
+                .classed('bubble-label-enferm', function(d){
+                    return ( scope.nodeType(d) === 'enfermedad' );
+                })
                 .attr('href', function(d) {
                     return '#' + (encodeURIComponent(scope.idValue(d)));
                 })
@@ -582,7 +588,7 @@ var testBubblesMod = (function (window, d3, _, SidebarMenuEffects, undefined) {
             //  styling divs
             scope.label
                 .style('font-size', function(d) {
-                    return Math.max(8, scope.rScale(parseInt(d.value) / 5)) + 'px';
+                    return Math.max(8, scope.rScale(parseInt(d.value) / 6)) + 'px';
                 })
                 .style('width', function(d) {
                     return 2.5 * scope.rScale(parseInt(d.value)) + 'px';

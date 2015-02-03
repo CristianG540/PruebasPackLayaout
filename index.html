@@ -1,167 +1,202 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-	<head>
 
-	    <style>
-            text {
-                font: 10px sans-serif;
-            }
-        </style>
+<head>
 
-        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
-        <!--<link rel="stylesheet" href="css/reset.css">-->
-        <link rel="stylesheet" href="css/style.css">
-		<link rel="stylesheet" type="text/css" href="css/sidebar/normalize.css" />
-		<link rel="stylesheet" type="text/css" href="css/sidebar/icons.css" />
-		<link rel="stylesheet" type="text/css" href="css/sidebar/component.css" />
-		<script src="js/vendor/modernizr.custom.js"></script>
-	</head>
-	<body>
-		<div id="st-container" class="st-container">
+    <style>
+        text {
+            font: 10px sans-serif;
+        }
+    </style>
 
-			<nav class="st-menu st-effect-11" id="menu-11">
-				<h2 class="icon icon-lab">Sidebar</h2>
-				<ul>
-					<li><a class="icon icon-data" href="#">Como solucionarla</a></li>
-					<li><a class="icon icon-data" href="#">Por que ocurre</a></li>
-					<li><a class="icon icon-data" href="#">Suplementos</a></li>
-				</ul>
-			</nav>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+    <!--<link rel="stylesheet" href="css/reset.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/sidebar/normalize.css" />
+    <link rel="stylesheet" type="text/css" href="css/sidebar/icons.css" />
+    <link rel="stylesheet" type="text/css" href="css/sidebar/component.css" />
+    <script src="js/vendor/modernizr.custom.js"></script>
+</head>
 
-			<!-- content push wrapper -->
-			<div class="st-pusher">
-				<div class="st-content"><!-- this is the wrapper for the content -->
-					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
-						<!-- Top Navigation -->
-						<!--<header class="codrops-header">
+<body>
+    <div id="st-container" class="st-container">
+
+        <nav class="st-menu st-effect-11" id="menu-11">
+            <h2 class="icon icon-lab">Sidebar</h2>
+            <ul>
+                <li><a class="icon icon-data" href="#">Como solucionarla</a>
+                </li>
+                <li><a class="icon icon-data" href="#">Por que ocurre</a>
+                </li>
+                <li><a class="icon icon-data" href="#">Suplementos</a>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- content push wrapper -->
+        <div class="st-pusher">
+            <div class="st-content">
+                <!-- this is the wrapper for the content -->
+                <div class="st-content-inner">
+                    <!-- extra div for emulating position:fixed of the menu -->
+                    <!-- Top Navigation -->
+                    <!--<header class="codrops-header">
 							<h1>Interactivo ivan</h1>
 						</header>-->
-						<div class="main clearfix">
+                    <div id="master">
+                        <div class="header">
+                            <div class="boat"></div>
+                            <div class="sun"></div>
+                            <div class="blueWave"></div>
+                            <div class="greenWave"></div>
+                        </div>
+                        <div class="container">
+
+
+                            <div class="main clearfix">
                                 <select id="text-select">
                                     <option value="test1">Datos de prueba 1</option>
                                     <option value="test2">Datos de prueba 2</option>
-                                    <option value="alice">Alice in Wonderland</option>
+                                    <option value="test3">Alice in Wonderland</option>
                                     <option value="gulliver">Gulliver's Travels</option>
                                 </select>
                                 <div class="ui-widget">
                                     <input id="search">
                                     <button id="search-button" type="button">Search</button>
                                 </div>
-						</div><!-- /main -->
-						<div id="main-interactive">
-                            <div id="vis"></div>
-                            <div id="status"></div>
-                            <div id="controls">
-                                <h3>Alpha</h3>
-                                <form id="jitter" oninput="output.value = (jitter_input.value / 200).toFixed(3)">
-                                    <input id="jitter_input" type="range" min="0" max="400" value="100" style="width:240px;height:20px;">
-                                    <output name="output" for="input">0.5</output>
-                                </form>
+                            </div>
+                            <!-- /main -->
+                            <div id="main-interactive">
+                                <div id="vis"></div>
+                                <div id="status"></div>
+                                <div id="controls" style="display:none">
+                                    <h3>Alpha</h3>
+                                    <form id="jitter" oninput="output.value = (jitter_input.value / 200).toFixed(3)">
+                                        <input id="jitter_input" type="range" min="0" max="400" value="100" style="width:240px;height:20px;">
+                                        <output name="output" for="input">0.5</output>
+                                    </form>
+                                </div>
+
                             </div>
 
+
                         </div>
-					</div><!-- /st-content-inner -->
-				</div><!-- /st-content -->
-			</div><!-- /st-pusher -->
-		</div><!-- /st-container -->
-		<script src="js/vendor/classie.js"></script>
-		<script src="js/vendor/sidebarEffects.js"></script>
-		<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
-        <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
-        <script type='text/javascript' src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"> </script>
-        <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
-        <script type="text/javascript" src="js/testBubblesMod.js"></script>
+                    </div>
 
-        <script>
-            // ---
-            // Helper function that simplifies the calling
-            // of our chart with it's data and div selector
-            // specified
-            // ---
-            var graphicData = function(selector, data, graphic){
-                d3.select(selector)
-                    .datum(data)
-                    .call(graphic.runGraphic);
-            };
+                </div>
+                <!-- /st-content-inner -->
+            </div>
+            <!-- /st-content -->
+        </div>
+        <!-- /st-pusher -->
+    </div>
+    <!-- /st-container -->
+    <script src="js/vendor/classie.js"></script>
+    <script src="js/vendor/sidebarEffects.js"></script>
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <script type="text/javascript" src="bower_components/jquery/dist/jquery.js"></script>
+    <script type='text/javascript' src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js">
+    </script>
+    <script type="text/javascript" src="bower_components/underscore/underscore-min.js"></script>
+    <script type="text/javascript" src="js/testBubblesMod.js"></script>
+    <script type="text/javascript" src="js/testBubblesMod.js"></script>
 
-            var resources = [
-                {
-                    key : "test1",
-                    file: "enfermedadesTest.json",
-                    name: "Datos de prueba 1"
-                },
-                {
-                    key : "test2",
-                    file: "enfermedadesTest2.json",
-                    name: "Datos de prueba 2"
-                }
+    <script>
+        // ---
+        // Helper function that simplifies the calling
+        // of our chart with it's data and div selector
+        // specified
+        // ---
+        var graphicData = function (selector, data, graphic) {
+            d3.select(selector)
+                .datum(data)
+                .call(graphic.runGraphic);
+        };
+
+        var resources = [
+            {
+                key: "test1",
+                file: "enfermedadesTest.json",
+                name: "Datos de prueba 1"
+            },
+            {
+                key: "test2",
+                file: "enfermedadesTest2.json",
+                name: "Datos de prueba 2"
+            },
+            {
+                key: "test3",
+                file: "enfermedadesTest3.json",
+                name: "Datos de prueba 3"
+            }
             ];
 
-            $(function() {
-                var display, key, plot, resource;
-                // ---
-                // function that is called when
-                // data is loaded
-                // ---
-                display = function(data){
-                    var optArray = [];
+        $(function () {
+            var display, key, plot, resource;
+            // ---
+            // function that is called when
+            // data is loaded
+            // ---
+            display = function (data) {
+                var optArray = [];
 
-                    graphicData('#vis', data, testBubblesMod);
+                graphicData('#vis', data, testBubblesMod);
 
-                    for (var i = 0; i < data.nodes.length - 1; i++) {
-                        optArray.push(data.nodes[i].className);
-                    }
-                    optArray = optArray.sort();
-
-                    $("#search").autocomplete({
-                        source: optArray
-                    });
-                };
-
-                // we are storing the current text in the search component
-                // just to make things easy
-                key = decodeURIComponent(location.search).replace("?", "");
-                resource = resources.filter(function(d) {
-                    return d.key === key;
-                })[0];
-
-                // default to the first text if something gets messed up
-                if(!resource){
-                    resource = resources[0];
+                for (var i = 0; i < data.nodes.length - 1; i++) {
+                    optArray.push(data.nodes[i].className);
                 }
+                optArray = optArray.sort();
 
-                // select the current text in the drop-down
-                $("#text-select").val(key);
+                $("#search").autocomplete({
+                    source: optArray
+                });
+            };
 
-                // bind change in jitter range slider
-                // to update the plot's jitter
-                d3.select('#jitter')
-                    .on('input', function(){
-                        testBubblesMod.setJitter(parseFloat(this.output.value));
-                    });
+            // we are storing the current text in the search component
+            // just to make things easy
+            key = decodeURIComponent(location.search).replace("?", "");
+            resource = resources.filter(function (d) {
+                return d.key === key;
+            })[0];
 
-                // bind change in drop down to change the
-                // search url and reset the hash url
-                d3.select('#text-select')
-                    .on('change', function(e){
-                        key = $(this).val();
-                        location.replace("#");
-                        location.search = encodeURIComponent(key);
-                    });
+            // default to the first text if something gets messed up
+            if (!resource) {
+                resource = resources[0];
+            }
 
-                d3.select('#search-button')
-                    .on('click', function(e){
-                        testBubblesMod.search();
-                    });
+            // select the current text in the drop-down
+            $("#text-select").val(key);
 
-                // set the book title from the text name
-                d3.select("#book-title").html(resource.name);
+            // bind change in jitter range slider
+            // to update the plot's jitter
+            d3.select('#jitter')
+                .on('input', function () {
+                    testBubblesMod.setJitter(parseFloat(this.output.value));
+                });
 
-                // load our data
-                d3.json('data/'+resource.file, display);
+            // bind change in drop down to change the
+            // search url and reset the hash url
+            d3.select('#text-select')
+                .on('change', function (e) {
+                    key = $(this).val();
+                    location.replace("#");
+                    location.search = encodeURIComponent(key);
+                });
 
-            });
+            d3.select('#search-button')
+                .on('click', function (e) {
+                    testBubblesMod.search();
+                });
 
-        </script>
-	</body>
+            // set the book title from the text name
+            d3.select("#book-title").html(resource.name);
+
+            // load our data
+            d3.json('data/' + resource.file, display);
+
+        });
+    </script>
+</body>
+
 </html>

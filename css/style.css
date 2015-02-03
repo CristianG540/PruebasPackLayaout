@@ -1,13 +1,9 @@
 /* line 3, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 body {
-  background-color: #198bb6; }
-
-/* line 8, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
-a, a:visited {
-  color: #333; }
+  background-color: #248cb5; }
 
 /* line 11, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
-#container {
+a, #container {
   /* padding-top:20px; */
   /* border-left: 2px #ddd solid; */
   /* border-right: 2px #ddd solid; */ }
@@ -16,7 +12,218 @@ a, a:visited {
 header {
   padding: 10px; }
 
-/* line 21, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 25, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+.header {
+  position: relative;
+  height: 150px;
+  width: 100%;
+  background-color: #feeeae;
+  overflow: hidden; }
+
+/* line 32, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+.blueWave {
+  background: url(../images/ola_front_2x.png);
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  bottom: -10px;
+  background-size: 45px;
+  z-index: 2;
+  -webkit-animation: blueWave linear 4s infinite;
+  -moz-animation: blueWave linear 4s infinite;
+  -o-animation: blueWave linear 4s infinite;
+  animation: blueWave linear 4s infinite; }
+
+@-webkit-keyframes blueWave {
+  /* line 48, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  0% {
+    -webkit-transform: translateX(0px);
+    bottom: -10px; }
+
+  /* line 49, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  35% {
+    -webkit-transform: translateX(15px); }
+
+  /* line 50, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  50% {
+    bottom: -16px; }
+
+  /* line 51, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  70% {
+    -webkit-transform: translateX(0deg); }
+
+  /* line 52, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  100% {
+    -webkit-transform: translateX(-15deg);
+    bottom: -10px; } }
+
+@keyframes blueWave {
+  /* line 55, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  0% {
+    transform: translateX(0px);
+    bottom: -10px; }
+
+  /* line 56, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  35% {
+    transform: translateX(15px); }
+
+  /* line 57, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  50% {
+    bottom: -16px; }
+
+  /* line 58, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  70% {
+    transform: translateX(0deg); }
+
+  /* line 59, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  100% {
+    transform: translateX(-15deg);
+    bottom: -10px; } }
+
+/* line 62, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+.boat {
+  background: url(../images/Barco_2x.png) no-repeat;
+  position: absolute;
+  z-index: 1;
+  width: 150px;
+  height: 127px;
+  left: 25px;
+  bottom: 5px;
+  background-size: 150px;
+  -webkit-transition: 120s linear;
+  -moz-transition: 120s linear;
+  -o-transition: 120s linear;
+  -webkit-animation: boat linear 4s infinite;
+  -moz-animation: boat linear 4s infinite;
+  -o-animation: boat linear 4s infinite;
+  animation: boat linear 4s infinite; }
+
+@-webkit-keyframes boat {
+  /* line 82, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  0% {
+    -webkit-transform: rotateZ(0deg);
+    bottom: 0px; }
+
+  /* line 83, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  25% {
+    -webkit-transform: rotateZ(5deg); }
+
+  /* line 84, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  50% {
+    -webkit-transform: rotateZ(0deg);
+    bottom: -18px; }
+
+  /* line 85, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  75% {
+    -webkit-transform: rotateZ(-5deg); }
+
+  /* line 86, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  100% {
+    -webkit-transform: rotateZ(0deg);
+    bottom: 0px; } }
+
+@keyframes boat {
+  /* line 89, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  0% {
+    transform: rotateZ(0deg);
+    bottom: 0px; }
+
+  /* line 90, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  25% {
+    transform: rotateZ(5deg); }
+
+  /* line 91, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  50% {
+    transform: rotateZ(0deg);
+    bottom: -18px; }
+
+  /* line 92, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  75% {
+    transform: rotateZ(-5deg); }
+
+  /* line 93, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  100% {
+    transform: rotateZ(0deg);
+    bottom: 0px; } }
+
+/* line 96, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+.sun {
+  background: url(../images/Sol_2x.png) no-repeat;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  width: 250px;
+  height: 115px;
+  background-size: 250px; }
+
+/* line 105, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+.greenWave {
+  background: url(../images/Ola_back_2x.png);
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  bottom: -10px;
+  background-size: 45px;
+  z-index: 0;
+  left: -23px;
+  -webkit-animation: greenWave linear 4s infinite;
+  -moz-animation: greenWave linear 4s infinite;
+  -o-animation: greenWave linear 4s infinite;
+  animation: greenWave linear 4s infinite; }
+
+@-webkit-keyframes greenWave {
+  /* line 120, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  0% {
+    -webkit-transform: translateX(0px);
+    bottom: -10px; }
+
+  /* line 121, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  35% {
+    -webkit-transform: translateX(5px); }
+
+  /* line 122, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  50% {
+    bottom: -16px; }
+
+  /* line 123, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  70% {
+    -webkit-transform: translateX(0deg); }
+
+  /* line 124, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  100% {
+    -webkit-transform: translateX(-5deg);
+    bottom: -10px; } }
+
+@keyframes greenWave {
+  /* line 128, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  0% {
+    transform: translateX(0px);
+    bottom: -10px; }
+
+  /* line 129, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  35% {
+    transform: translateX(5px); }
+
+  /* line 130, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  50% {
+    bottom: -16px; }
+
+  /* line 131, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  70% {
+    transform: translateX(0deg); }
+
+  /* line 132, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+  100% {
+    transform: translateX(-5deg);
+    bottom: -10px; } }
+
+/* line 134, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+.container {
+  position: relative;
+  height: 100%;
+  width: 100%; }
+
+/* line 144, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .noselect {
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -25,93 +232,92 @@ header {
   -ms-user-select: none;
   user-select: none; }
 
-/* line 30, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 153, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 *:focus {
   outline: 0; }
 
-/* line 34, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 157, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 a:focus, textarea:focus, input:focus {
   outline: 0 !important; }
 
-/* line 38, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 161, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #book-title {
   font-family: georgia, "times new roman", times, serif;
   color: #555;
   font-size: 2.3em;
   text-align: center; }
 
-/* line 44, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 167, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #text-select {
   float: right;
   margin-right: 10px; }
 
-/* line 49, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 172, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #vis {
   overflow: hidden;
   position: relative; }
 
-/* line 54, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 177, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #status {
   padding: 0 0 20px 20px; }
 
-/* line 57, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 180, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #controls {
   padding: 5px;
   background-color: #eee;
   margin: 10px;
   width: 350px; }
 
-/* line 64, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 187, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #bubble-background {
   fill: none;
   pointer-events: all; }
 
-/* line 69, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 192, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-node {
   /* fill: #d1e0f3; */ }
 
-/* line 74, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 197, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-links {
   stroke: #000;
   stroke-opacity: 0;
   stroke-width: 2px; }
 
-/* line 81, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 204, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #sintoma {
   fill: #fff; }
 
-/* line 84, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 207, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 #enfermedad {
   fill: #fc7950; }
 
-/* line 88, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 211, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-hover {
   /*fill: #E8E9E7;*/
   stroke-width: 2.5px;
   stroke: #000; }
 
-/* line 94, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 217, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-selected-enferm {
   /* fill: #a8c8ee;  */
   /* stroke: #6081a3; */
   stroke: #414141;
   stroke-width: 5.5px; }
 
-/* line 101, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 224, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-selected-sintom {
   /* fill: #a8c8ee;  */
   /* stroke: #6081a3; */
   stroke: #414141;
   stroke-width: 5.5px; }
 
-/* line 109, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 232, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .active {
   color: #d6342d; }
 
-/* line 113, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 236, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 a.bubble-label {
   font-family: georgia, "times new roman", times, serif;
-  color: inherit;
   cursor: pointer;
   display: block;
   text-align: center;
@@ -120,7 +326,15 @@ a.bubble-label {
   position: absolute;
   pointer-events: none; }
 
-/* line 126, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+/* line 248, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+.bubble-label-sintom {
+  color: #999; }
+
+/* line 252, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
+.bubble-label-enferm {
+  color: #fff; }
+
+/* line 258, /Volumes/ADATA HV620/Desarrollo y trabajo/cristianProj/IvanInteractivo/css/style.scss */
 .bubble-label .bubble-label-value {
   font: 11px sans-serif;
   white-space: nowrap; }
